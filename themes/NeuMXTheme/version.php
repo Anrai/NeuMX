@@ -11,13 +11,13 @@
 
 $dom = ZLanguage::getThemeDomain('BlankTheme');
 
-$themeversion['name']           = 'BlankTheme';
-$themeversion['displayname']    = __('BlankTheme', $dom);
-$themeversion['description']    = __('Theme development framework for Zikula', $dom);
-$themeversion['version']        = '1.3';
+$themeversion['name']           = 'NeuMXTheme';
+$themeversion['displayname']    = __('NeuMX Theme', $dom);
+$themeversion['description']    = __('Default NeuMX Theme', $dom);
+$themeversion['version']        = '0.1';
 
-$themeversion['author']         = 'BlankTheme Team';
-$themeversion['contact']        = 'http://www.blanktheme.org';
+$themeversion['author']         = 'Sergio Enrique Vargas';
+$themeversion['contact']        = 'http://www.neumx.com';
 $themeversion['admin']          = 1;
 $themeversion['user']           = 1;
 $themeversion['system']         = 0;
