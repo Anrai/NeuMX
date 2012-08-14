@@ -26,8 +26,19 @@ $ZConfig['System']['system.chmod_dir'] = 0777;  // The default chmod for new dir
 // This is the definition for the default Zikula system database.
 // It must be named 'default'
 // ----------------------------------------------------------------------
-$services_json = json_decode(getenv("VCAP_SERVICES"),true);
-$mysql_config = $services_json["mysql-5.1"][0]["credentials"];
+$mysql_config = array();
+if (getenv("VCAP_SERVICES"))
+{
+	$services_json = json_decode(getenv("VCAP_SERVICES"),true);
+	$mysql_config = $services_json["mysql-5.1"][0]["credentials"];
+}
+else
+{
+	$mysql_config["hostname"] = getenv("MYSQL_DB_HOST");
+	$mysql_config["username"] = getenv("MYSQL_USERNAME");
+	$mysql_config["password"] = getenv("MYSQL_PASSWORD");
+	$mysql_config["name"] = getenv("MYSQL_DB_NAME");
+}
 
 $ZConfig['DBInfo']['databases']['default']['host'] = $mysql_config["hostname"];
 $ZConfig['DBInfo']['databases']['default']['user'] = $mysql_config["username"];
