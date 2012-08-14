@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 <?php
 /**
  * Copyright Zikula Foundation 2009 - Zikula Application Framework
@@ -159,6 +158,3 @@ switch (true)
 
 Zikula_View_Theme::getInstance()->themefooter();
 System::shutdown();
-=======
-<?php echo "Hello world!"; ?>
->>>>>>> c0fb119a623ca9148906f734c0119e5826a87255
