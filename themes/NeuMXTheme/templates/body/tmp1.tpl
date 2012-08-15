@@ -692,7 +692,7 @@
 												<div class="recent-from recent-last"><h4 class="main-title">Recent Videos</h4><div class="recent-content">			<div class="flexslider fslider_widget">
 			<ul id="etrecentvideoswidget-2" class="slides">
 																		<li class="slide recent-video" style="width: 100%; float: left; margin-right: -100%; display: none; ">
-												<div class="fluid-width-video-wrapper" style="padding-top: 65.32258064516128%; "><iframe src="./NeuMXTheme_files/I9sTWh54AAw.htm" frameborder="0" allowfullscreen="" style=""></iframe></div>											</li>
+												<div class="fluid-width-video-wrapper" style="padding-top: 65.32258064516128%; "></div>											</li>
 																					<li class="slide recent-video" style="width: 100%; float: left; margin-right: -100%; display: none; ">
 												<div class="fluid-width-video-wrapper" style="padding-top: 65.32258064516128%; "><object style=""><param name="movie" value="http://www.youtube.com/v/n9spVobX63g?version=3"><param name="allowFullScreen" value="true"><param name="allowscriptaccess" value="always"><embed wmode="transparent" src="http://www.youtube.com/v/n9spVobX63g?version=3" type="application/x-shockwave-flash" width="248" height="162" allowscriptaccess="always" allowfullscreen="true"><param name="wmode" value="transparent"></object></div>											</li>
 																					<li class="slide recent-video" style="width: 100%; float: left; margin-right: -100%; display: list-item; ">
