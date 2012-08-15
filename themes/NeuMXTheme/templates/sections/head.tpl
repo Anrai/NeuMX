@@ -88,7 +88,7 @@
             h2.featured-title a { color: #fff !important; }
             .main-title { color: #48423F !important; }
     </style>
-    <link id="droid_sans" href="{$themepath}/style/tmp/css(2)" rel="stylesheet" type="text/css" />
+    <link id="droid_sans" href="{$themepath}/style/tmp/css(2).css" rel="stylesheet" type="text/css" />
     <style type="text/css">body { font-family: 'Droid Sans', Arial, sans-serif !important;  }</style><style type="text/css">body {  }</style>
     <style type="text/css">.recentcomments a{display:inline !important;padding:0 !important;margin:0 !important;}</style>
     <style type="text/css">
