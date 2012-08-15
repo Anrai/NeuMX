@@ -760,27 +760,28 @@
 		</div> <!-- end #footer-bottom -->
 	</div> <!-- end #footer -->
 
-	<script src="./NeuMXTheme_files/superfish.js" type="text/javascript"></script>
-<script src="./NeuMXTheme_files/custom.js" type="text/javascript"></script>	     
+<script src="javascript/tmp/superfish.js" type="text/javascript"></script>
+<script src="javascript/tmp/custom.js" type="text/javascript"></script>	     
 <script type="text/javascript"> 
 	var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
 	document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
-</script><script src="./NeuMXTheme_files/ga.js" type="text/javascript"></script> 
+</script>
+<script src="javascript/tmp/ga.js" type="text/javascript"></script> 
 <script type="text/javascript"> 
 	var pageTracker = _gat._getTracker("UA-5205247-2");
 	pageTracker._trackPageview();
 </script> 
  
-<script type="text/javascript" src="./NeuMXTheme_files/jquery.easing.1.3.js"></script>
-<script type="text/javascript" src="./NeuMXTheme_files/colorpicker.js"></script>
-<script type="text/javascript" src="./NeuMXTheme_files/eye.js"></script>
-<script type="text/javascript" src="./NeuMXTheme_files/jquery.cookie.js"></script>
-<script type="text/javascript" src="./NeuMXTheme_files/et_control_panel.js"></script>
-<script type="text/javascript" src="./NeuMXTheme_files/jquery.fitvids.js"></script>
-<script type="text/javascript" src="./NeuMXTheme_files/jquery.flexslider-min.js"></script>
-<script type="text/javascript" src="./NeuMXTheme_files/et_flexslider.js"></script>
-<script type="text/javascript" src="./NeuMXTheme_files/jquery.fancybox-1.3.4.pack.js"></script>
-<script type="text/javascript" src="./NeuMXTheme_files/et-ptemplates-frontend.js"></script>
+<script src="javascript/tmp/jquery.easing.1.3.js"></script>
+<script src="javascript/tmp/colorpicker.js"></script>
+<script src="javascript/tmp/eye.js"></script>
+<script src="javascript/tmp/jquery.cookie.js"></script>
+<script src="javascript/tmp/et_control_panel.js"></script>
+<script src="javascript/tmp/jquery.fitvids.js"></script>
+<script src="javascript/tmp/jquery.flexslider-min.js"></script>
+<script src="javascript/tmp/et_flexslider.js"></script>
+<script src="javascript/tmp/jquery.fancybox-1.3.4.pack.js"></script>
+<script src="javascript/tmp/et-ptemplates-frontend.js"></script>
 
 
 
