@@ -178,7 +178,7 @@
 			<div class="container">
 				<div id="logo-area">
 					<a href="http://www.elegantthemes.com/preview/Aggregate">
-												{img src="design/logo.png" alt="Aggregate Theme" id="logo"}
+												{img src="tmp/logo.png" alt="Aggregate Theme" id="logo"}
 					</a>
 					<p id="slogan">Where The News Comes Together</p>
 									</div> <!-- end #logo-area -->
@@ -233,7 +233,7 @@
 
 	<ul class="slides">
 									<li class="slide" style="width: 100%; float: left; margin-right: -100%; display: none; ">
-						{img src="design/screen1.jpg" alt="Duis venenatis scelerisque" width="960px" height="340px"}				<div class="featured-top-shadow"></div>
+						{img src="tmp/screen1.jpg" alt="Duis venenatis scelerisque" width="960px" height="340px"}				<div class="featured-top-shadow"></div>
 				<div class="featured-bottom-shadow"></div>	
 				<div class="featured-description">
 					<div class="feat_desc">
@@ -245,7 +245,7 @@
 				</div> <!-- end .description -->
 					</li> <!-- end .slide -->
 									<li class="slide" style="width: 100%; float: left; margin-right: -100%; display: none; ">
-						{img src="design/screen2.jpg" alt="Vestibulum ante ipsum primis" width="960px" height="340px"}			<div class="featured-top-shadow"></div>
+						{img src="tmp/screen2.jpg" alt="Vestibulum ante ipsum primis" width="960px" height="340px"}			<div class="featured-top-shadow"></div>
 				<div class="featured-bottom-shadow"></div>	
 				<div class="featured-description">
 					<div class="feat_desc">
@@ -257,7 +257,7 @@
 				</div> <!-- end .description -->
 					</li> <!-- end .slide -->
 									<li class="slide" style="width: 100%; float: left; margin-right: -100%; display: list-item; ">
-						{img src="design/screen3.jpg" alt="Donec ultricies porta sodales" width="960px" height="340px"}		<div class="featured-top-shadow"></div>
+						{img src="tmp/screen3.jpg" alt="Donec ultricies porta sodales" width="960px" height="340px"}		<div class="featured-top-shadow"></div>
 				<div class="featured-bottom-shadow"></div>	
 				<div class="featured-description">
 					<div class="feat_desc">
@@ -269,7 +269,7 @@
 				</div> <!-- end .description -->
 					</li> <!-- end .slide -->
 									<li class="slide" style="width: 100%; float: left; margin-right: -100%; display: none; ">
-						{img src="design/screen4.jpg" alt="Vivamus congue lorem ac velit" width="960px" height="340px"}		<div class="featured-top-shadow"></div>
+						{img src="tmp/screen4.jpg" alt="Vivamus congue lorem ac velit" width="960px" height="340px"}		<div class="featured-top-shadow"></div>
 				<div class="featured-bottom-shadow"></div>	
 				<div class="featured-description">
 					<div class="feat_desc">
@@ -281,7 +281,7 @@
 				</div> <!-- end .description -->
 					</li> <!-- end .slide -->
 									<li class="slide" style="width: 100%; float: left; margin-right: -100%; display: none; ">
-						{img src="design/screen5.jpg" alt="Duis congue ornare felis a" width="960px" height="340px"}				<div class="featured-top-shadow"></div>
+						{img src="tmp/screen5.jpg" alt="Duis congue ornare felis a" width="960px" height="340px"}				<div class="featured-top-shadow"></div>
 				<div class="featured-bottom-shadow"></div>	
 				<div class="featured-description">
 					<div class="feat_desc">
@@ -293,7 +293,7 @@
 				</div> <!-- end .description -->
 					</li> <!-- end .slide -->
 									<li class="slide" style="width: 100%; float: left; margin-right: -100%; display: none; ">
-						{img src="design/screen6.jpg" alt="Proin euismod ultrices enim" width="960px" height="340px"}			<div class="featured-top-shadow"></div>
+						{img src="tmp/screen6.jpg" alt="Proin euismod ultrices enim" width="960px" height="340px"}			<div class="featured-top-shadow"></div>
 				<div class="featured-bottom-shadow"></div>	
 				<div class="featured-description">
 					<div class="feat_desc">
@@ -305,7 +305,7 @@
 				</div> <!-- end .description -->
 					</li> <!-- end .slide -->
 									<li class="slide" style="width: 100%; float: left; margin-right: -100%; display: none; ">
-						{img src="design/screen7.jpg" alt="Aenean a odio a dolor egestas" width="960px" height="340px"}			<div class="featured-top-shadow"></div>
+						{img src="tmp/screen7.jpg" alt="Aenean a odio a dolor egestas" width="960px" height="340px"}			<div class="featured-top-shadow"></div>
 				<div class="featured-bottom-shadow"></div>	
 				<div class="featured-description">
 					<div class="feat_desc">
@@ -317,7 +317,7 @@
 				</div> <!-- end .description -->
 					</li> <!-- end .slide -->
 									<li class="slide" style="width: 100%; float: left; margin-right: -100%; display: none; ">
-						{img src="design/screen8.jpg" alt="Proin sed aliquam felis" width="960px" height="340px"}			<div class="featured-top-shadow"></div>
+						{img src="tmp/screen8.jpg" alt="Proin sed aliquam felis" width="960px" height="340px"}			<div class="featured-top-shadow"></div>
 				<div class="featured-bottom-shadow"></div>	
 				<div class="featured-description">
 					<div class="feat_desc">
@@ -336,56 +336,56 @@
 					<li>
 				<div class="controller">
 					<a href="#" class="">
-						{img src="design/screen1-116735_95x54.jpg" alt="Duis venenatis scelerisque" width="95px" height="54px"}						<span class="overlay"></span>
+						{img src="tmp/screen1-116735_95x54.jpg" alt="Duis venenatis scelerisque" width="95px" height="54px"}						<span class="overlay"></span>
 					</a>
 				</div>	
 			</li>
 					<li>
 				<div class="controller">
 					<a href="#" class="">
-						{img src="design/screen2-64827_95x54.jpg" alt="Vestibulum ante ipsum primis" width="95px" height="54px"}						<span class="overlay"></span>
+						{img src="tmp/screen2-64827_95x54.jpg" alt="Vestibulum ante ipsum primis" width="95px" height="54px"}						<span class="overlay"></span>
 					</a>
 				</div>	
 			</li>
 					<li>
 				<div class="controller">
 					<a href="#" class="active">
-						{img src="design/screen3-45490_95x54.jpg" alt="Donec ultricies porta sodales" width="95px" height="54px"}						<span class="overlay"></span>
+						{img src="tmp/screen3-45490_95x54.jpg" alt="Donec ultricies porta sodales" width="95px" height="54px"}						<span class="overlay"></span>
 					</a>
 				</div>	
 			</li>
 					<li>
 				<div class="controller">
 					<a href="#" class="">
-						{img src="design/screen4-105447_95x54.jpg" alt="Vivamus congue lorem ac velit" width="95px" height="54px"}						<span class="overlay"></span>
+						{img src="tmp/screen4-105447_95x54.jpg" alt="Vivamus congue lorem ac velit" width="95px" height="54px"}						<span class="overlay"></span>
 					</a>
 				</div>	
 			</li>
 					<li>
 				<div class="controller">
 					<a href="#" class="">
-						{img src="design/screen5-310111_95x54.jpg" alt="Duis congue ornare felis a" width="95px" height="54px"}						<span class="overlay"></span>
+						{img src="tmp/screen5-310111_95x54.jpg" alt="Duis congue ornare felis a" width="95px" height="54px"}						<span class="overlay"></span>
 					</a>
 				</div>	
 			</li>
 					<li>
 				<div class="controller">
 					<a href="#" class="">
-						{img src="design/screen6-217777_95x54.jpg" alt="Proin euismod ultrices enim" width="95px" height="54px"}					<span class="overlay"></span>
+						{img src="tmp/screen6-217777_95x54.jpg" alt="Proin euismod ultrices enim" width="95px" height="54px"}					<span class="overlay"></span>
 					</a>
 				</div>	
 			</li>
 					<li>
 				<div class="controller">
 					<a href="#" class="">
-						{img src="design/screen7-106541_95x54.jpg" alt="Aenean a odio a dolor egestas" width="95px" height="54px"}						<span class="overlay"></span>
+						{img src="tmp/screen7-106541_95x54.jpg" alt="Aenean a odio a dolor egestas" width="95px" height="54px"}						<span class="overlay"></span>
 					</a>
 				</div>	
 			</li>
 					<li>
 				<div class="controller">
 					<a href="#" class="">
-						{img src="design/screen8-91659_95x54.jpg" alt="Proin sed aliquam felis" width="95px" height="54px"}						<span class="overlay"></span>
+						{img src="tmp/screen8-91659_95x54.jpg" alt="Proin sed aliquam felis" width="95px" height="54px"}						<span class="overlay"></span>
 					</a>
 				</div>	
 			</li>
@@ -396,7 +396,7 @@
 								
 									<div class="thumb">
 						<a href="{$themepath}2010/09/15/stars-that-sparkle/">
-							{img src="design/shutterstock_56819374-78911_40x40.jpg" class="post-image" alt="Stars That Sparkle" width="40px" height="40px"}							<span class="overlay"></span>
+							{img src="tmp/shutterstock_56819374-78911_40x40.jpg" class="post-image" alt="Stars That Sparkle" width="40px" height="40px"}							<span class="overlay"></span>
 						</a>
 					</div> 	<!-- end .post-thumbnail -->
 								
@@ -407,7 +407,7 @@
 								
 									<div class="thumb">
 						<a href="{$themepath}2010/09/15/a-fairy-tale/">
-							{img src="design/shutterstock_560779571-136429_40x40.jpg" class="post-image" alt="A Fairy Tale" width="40px" height="40px"}							<span class="overlay"></span>
+							{img src="tmp/shutterstock_560779571-136429_40x40.jpg" class="post-image" alt="A Fairy Tale" width="40px" height="40px"}							<span class="overlay"></span>
 						</a>
 					</div> 	<!-- end .post-thumbnail -->
 								
@@ -418,7 +418,7 @@
 								
 									<div class="thumb">
 						<a href="{$themepath}2010/09/15/umbrella-rides-the-wind/">
-							{img src="design/shutterstock_55323319-109433_40x40.jpg" class="post-image" alt="Umbrella Rides The Wind" width="40px" height="40px"}						<span class="overlay"></span>
+							{img src="tmp/shutterstock_55323319-109433_40x40.jpg" class="post-image" alt="Umbrella Rides The Wind" width="40px" height="40px"}						<span class="overlay"></span>
 						</a>
 					</div> 	<!-- end .post-thumbnail -->
 								
@@ -432,7 +432,7 @@
 								
 									<div class="thumb">
 						<a href="{$themepath}2010/09/15/city-life/">
-							{img src="design/shutterstock_12774694-123553_40x40.jpg" class="post-image" alt="City Life" width="40px" height="40px"}							<span class="overlay"></span>
+							{img src="tmp/shutterstock_12774694-123553_40x40.jpg" class="post-image" alt="City Life" width="40px" height="40px"}							<span class="overlay"></span>
 						</a>
 					</div> 	<!-- end .post-thumbnail -->
 								
@@ -443,7 +443,7 @@
 								
 									<div class="thumb">
 						<a href="{$themepath}2010/09/15/snapshot-from-japan/">
-							{img src="design/shutterstock_58264459-111274_40x40.jpg" class="post-image" alt="Snapshot From Japan" width="40px" height="40px"}							<span class="overlay"></span>
+							{img src="tmp/shutterstock_58264459-111274_40x40.jpg" class="post-image" alt="Snapshot From Japan" width="40px" height="40px"}							<span class="overlay"></span>
 						</a>
 					</div> 	<!-- end .post-thumbnail -->
 								
@@ -454,7 +454,7 @@
 								
 									<div class="thumb">
 						<a href="{$themepath}2010/09/15/spiral-staircase/">
-							{img src="design/shutterstock_56785618-132726_40x40.jpg" class="post-image" alt="Spiral Staircase" width="40px" height="40px"}							<span class="overlay"></span>
+							{img src="tmp/shutterstock_56785618-132726_40x40.jpg" class="post-image" alt="Spiral Staircase" width="40px" height="40px"}							<span class="overlay"></span>
 						</a>
 					</div> 	<!-- end .post-thumbnail -->
 								
@@ -468,7 +468,7 @@
 								
 									<div class="thumb">
 						<a href="{$themepath}2010/09/15/make-a-wish/">
-							{img src="design/2-120627_40x40.jpg" class="post-image" alt="Make A Wish" width="40px" height="40px"}							<span class="overlay"></span>
+							{img src="tmp/2-120627_40x40.jpg" class="post-image" alt="Make A Wish" width="40px" height="40px"}							<span class="overlay"></span>
 						</a>
 					</div> 	<!-- end .post-thumbnail -->
 								
@@ -479,7 +479,7 @@
 								
 									<div class="thumb">
 						<a href="{$themepath}2010/09/15/the-morning-dew/">
-							{img src="design/3-135379_40x40.jpg" class="post-image" alt="The Morning Dew" width="40px" height="40px"}							<span class="overlay"></span>
+							{img src="tmp/3-135379_40x40.jpg" class="post-image" alt="The Morning Dew" width="40px" height="40px"}							<span class="overlay"></span>
 						</a>
 					</div> 	<!-- end .post-thumbnail -->
 								
@@ -490,7 +490,7 @@
 								
 									<div class="thumb">
 						<a href="{$themepath}2010/09/15/purple-haze/">
-							{img src="design/s-1-624464_40x40.png" class="post-image" alt="Purple Haze" width="40px" height="40px"}							<span class="overlay"></span>
+							{img src="tmp/s-1-624464_40x40.png" class="post-image" alt="Purple Haze" width="40px" height="40px"}							<span class="overlay"></span>
 						</a>
 					</div> 	<!-- end .post-thumbnail -->
 								
@@ -510,7 +510,7 @@
 						
 							<div class="thumb">
 					<a href="duis-venenatis-scelerisque-diam/">
-						{img src="design/screen1-116735_130x130.jpg" class="post-thumb" alt="Duis venenatis scelerisque" width="130px" height="130px"}						<span class="overlay"></span>
+						{img src="tmp/screen1-116735_130x130.jpg" class="post-thumb" alt="Duis venenatis scelerisque" width="130px" height="130px"}						<span class="overlay"></span>
 					</a>
 				</div> 	<!-- end .post-thumbnail -->
 						
@@ -524,7 +524,7 @@
 						
 							<div class="thumb">
 					<a href="vestibulum-ante-ipsum-primis/">
-						{img src="design/screen2-64827_130x130.jpg" class="post-thumb" alt="Vestibulum ante ipsum primis" width="130px" height="130px"}						<span class="overlay"></span>
+						{img src="tmp/screen2-64827_130x130.jpg" class="post-thumb" alt="Vestibulum ante ipsum primis" width="130px" height="130px"}						<span class="overlay"></span>
 					</a>
 				</div> 	<!-- end .post-thumbnail -->
 						
@@ -538,7 +538,7 @@
 						
 							<div class="thumb">
 					<a href="donec-ultricies-porta-sodales/">
-						{img src="design/screen3-45490_67x67.jpg" class="post-thumb" alt="Donec ultricies porta sodales" width="67px" height="67px"}						<span class="overlay"></span>
+						{img src="tmp/screen3-45490_67x67.jpg" class="post-thumb" alt="Donec ultricies porta sodales" width="67px" height="67px"}						<span class="overlay"></span>
 					</a>
 				</div> 	<!-- end .post-thumbnail -->
 						
@@ -552,7 +552,7 @@
 						
 							<div class="thumb">
 					<a href="vivamus-congue-lorem-ac-velit-accumsan/">
-						{img src="design/screen4-105447_67x67.jpg" class="post-thumb" alt="Vivamus congue lorem ac velit" width="67px" height="67px"}						<span class="overlay"></span>
+						{img src="tmp/screen4-105447_67x67.jpg" class="post-thumb" alt="Vivamus congue lorem ac velit" width="67px" height="67px"}						<span class="overlay"></span>
 					</a>
 				</div> 	<!-- end .post-thumbnail -->
 						
@@ -566,7 +566,7 @@
 						
 							<div class="thumb">
 					<a href="duis-congue-ornare-felis-a-lacinia/">
-						{img src="design/screen5-310111_67x67.jpg" class="post-thumb" alt="Duis congue ornare felis a" width="67px" height="67px"}						<span class="overlay"></span>
+						{img src="tmp/screen5-310111_67x67.jpg" class="post-thumb" alt="Duis congue ornare felis a" width="67px" height="67px"}						<span class="overlay"></span>
 					</a>
 				</div> 	<!-- end .post-thumbnail -->
 						
@@ -580,7 +580,7 @@
 						
 							<div class="thumb">
 					<a href="proin-euismod-ultrices-enim/">
-						{img src="design/screen6-217777_67x67.jpg" class="post-thumb" alt="Proin euismod ultrices enim" width="67px" height="67px"}						<span class="overlay"></span>
+						{img src="tmp/screen6-217777_67x67.jpg" class="post-thumb" alt="Proin euismod ultrices enim" width="67px" height="67px"}						<span class="overlay"></span>
 					</a>
 				</div> 	<!-- end .post-thumbnail -->
 						
@@ -594,7 +594,7 @@
 						
 							<div class="thumb">
 					<a href="aenean-a-odio-a-dolor-egestas/">
-						{img src="design/screen7-106541_67x67.jpg" class="post-thumb" alt="Aenean a odio a dolor egestas" width="67px" height="67px"}						<span class="overlay"></span>
+						{img src="tmp/screen7-106541_67x67.jpg" class="post-thumb" alt="Aenean a odio a dolor egestas" width="67px" height="67px"}						<span class="overlay"></span>
 					</a>
 				</div> 	<!-- end .post-thumbnail -->
 						
@@ -618,10 +618,10 @@
 				</ul>
 		</div> <!-- end .widget --><h4 class="main-title widget-title">Recent Comments</h4><div class="widget"><ul id="recentcomments"><li class="recentcomments"><a href="http://probarta.com/" rel="external nofollow" class="url">Projukti Barta</a> on <a href="{$themepath}2008/09/04/hello-world-2/#comment-723">Neque porro quisquam est qui</a></li><li class="recentcomments"><a href="http://bhaveshthaker.com/" rel="external nofollow" class="url">Bhaveshkumar Thaker</a> on <a href="{$themepath}2010/09/15/beautiful-buildings/#comment-721">Beautiful Buildings</a></li><li class="recentcomments"><a href="http://bhaveshthaker.com/" rel="external nofollow" class="url">Bhaveshkumar Thaker</a> on <a href="{$themepath}2010/09/15/beautiful-buildings/#comment-720">Beautiful Buildings</a></li><li class="recentcomments"><a href="http://www.k-files.com/" rel="external nofollow" class="url">Blogger's Notebook</a> on <a href="duis-venenatis-scelerisque-diam/#comment-717">Duis venenatis scelerisque</a></li></ul></div> <!-- end .widget --><h4 class="main-title widget-title">Advertisement</h4><div class="widget">	
 <div class="adwrap">
-	<a href="#" target="_blank">{img src="design/ad-2.gif" alt="advertisement" title="advertisement"}</a>
-	<a href="#" target="_blank">{img src="design/ad-2.gif" alt="advertisement" title="advertisement"}</a>
-	<a href="#" target="_blank">{img src="design/ad-2.gif" alt="advertisement" title="advertisement"}</a>
-	<a href="" target="_blank">{img src="design/ad-2.gif" alt="advertisement" title="advertisement"}</a>
+	<a href="#" target="_blank">{img src="tmp/ad-2.gif" alt="advertisement" title="advertisement"}</a>
+	<a href="#" target="_blank">{img src="tmp/ad-2.gif" alt="advertisement" title="advertisement"}</a>
+	<a href="#" target="_blank">{img src="tmp/ad-2.gif" alt="advertisement" title="advertisement"}</a>
+	<a href="" target="_blank">{img src="tmp/ad-2.gif" alt="advertisement" title="advertisement"}</a>
 </div> <!-- end adwrap -->
 </div> <!-- end .widget -->		</div> <!-- #sidebar -->
 																				</div> <!-- end #main-content -->
@@ -649,42 +649,42 @@
 							
 				<div class="thumb">
 					<a href="{$themepath}2010/09/15/make-a-wish/">
-						{img src="design/2-120627_67x67.jpg" class="post-thumb" alt="Make A Wish" width="67px" height="67px"}						<span class="overlay"></span>
+						{img src="tmp/2-120627_67x67.jpg" class="post-thumb" alt="Make A Wish" width="67px" height="67px"}						<span class="overlay"></span>
 					</a>
 				</div> 	<!-- end .post-thumbnail -->
 					
 							
 				<div class="thumb">
 					<a href="{$themepath}2010/09/15/the-morning-dew/">
-						{img src="design/3-135379_67x67.jpg" class="post-thumb" alt="The Morning Dew" width="67px" height="67px"}						<span class="overlay"></span>
+						{img src="tmp/3-135379_67x67.jpg" class="post-thumb" alt="The Morning Dew" width="67px" height="67px"}						<span class="overlay"></span>
 					</a>
 				</div> 	<!-- end .post-thumbnail -->
 					
 							
 				<div class="thumb">
 					<a href="{$themepath}2010/09/15/purple-haze/">
-						{img src="design/s-1-624464_67x67.png" class="post-thumb" alt="Purple Haze" width="67px" height="67px"}						<span class="overlay"></span>
+						{img src="tmp/s-1-624464_67x67.png" class="post-thumb" alt="Purple Haze" width="67px" height="67px"}						<span class="overlay"></span>
 					</a>
 				</div> 	<!-- end .post-thumbnail -->
 					
 							
 				<div class="thumb">
 					<a href="{$themepath}2010/09/15/bridge-to-nowhere/">
-						{img src="design/s-3-630122_67x67.png" class="post-thumb" alt="Bridge To Nowhere" width="67px" height="67px"}						<span class="overlay"></span>
+						{img src="tmp/s-3-630122_67x67.png" class="post-thumb" alt="Bridge To Nowhere" width="67px" height="67px"}						<span class="overlay"></span>
 					</a>
 				</div> 	<!-- end .post-thumbnail -->
 					
 							
 				<div class="thumb">
 					<a href="{$themepath}2010/09/15/the-lonely-ladybug/">
-						{img src="design/6-82087_67x67.jpg" class="post-thumb" alt="The Lonely Ladybug" width="67px" height="67px"}						<span class="overlay"></span>
+						{img src="tmp/6-82087_67x67.jpg" class="post-thumb" alt="The Lonely Ladybug" width="67px" height="67px"}						<span class="overlay"></span>
 					</a>
 				</div> 	<!-- end .post-thumbnail -->
 					
 							
 				<div class="thumb">
 					<a href="{$themepath}2010/09/15/moneys-take-a-bath/">
-						{img src="design/7-78254_67x67.jpg" class="post-thumb" alt="Monkeys Take a Bath" width="67px" height="67px"}						<span class="overlay"></span>
+						{img src="tmp/7-78254_67x67.jpg" class="post-thumb" alt="Monkeys Take a Bath" width="67px" height="67px"}						<span class="overlay"></span>
 					</a>
 				</div> 	<!-- end .post-thumbnail -->
 			</div> <!-- end .photostream -->
@@ -716,7 +716,7 @@
 					</div> <!-- end #inner-border -->
 				</div> <!-- end #content -->
 				
-									<div id="ad-720">	<a href="#">{img src="design/ad-3.gif" class="728_image" alt=""}</a>
+									<div id="ad-720">	<a href="#">{img src="tmp/ad-3.gif" class="728_image" alt=""}</a>
 </div> <!-- end #ad-720 -->					
 				
 			</div> <!-- end .container -->
