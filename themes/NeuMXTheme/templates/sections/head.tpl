@@ -4,7 +4,7 @@
 <title>{pagegetvar name='title'}</title>
 
 <!-- Mobile viewport optimisation -->
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
 
 <meta name="description" content="{$metatags.description}" />
 <meta name="keywords" content="{$metatags.keywords}" />
@@ -22,8 +22,8 @@
     <link rel="stylesheet" href="{$themepath}/style/tmp/style.css" type="text/css" media="screen" />
     <link rel="stylesheet" href="{$themepath}/style/tmp/colorpicker.css" type="text/css" media="screen" />
     
-    <link href="{$themepath}/style/tmp/css" rel="stylesheet" type="text/css" />
-    <link href="{$themepath}/style/tmp/css(1)" rel="stylesheet" type="text/css" />
+    <link href="{$themepath}/style/tmp/css.css" rel="stylesheet" type="text/css" />
+    <link href="{$themepath}/style/tmp/css(1).css" rel="stylesheet" type="text/css" />
 <!-- /copied -->
 
 <!-- pagevars -->
@@ -74,14 +74,13 @@
     <meta name="et_featured_slider_pause" content="0" />
     <meta name="et_featured_slider_auto" content="1" />
     <meta name="et_theme_folder" content="{$themepath}" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0," />
     <style type="text/css">
         #content-area { background-color: #f5f5f5; }
         #top-header { border-color: #f5f5f5; }
         #content-area { border-color: #f5f5f5; }
         #content-area { background-image: url(themes/NeuMXTheme/images/design/body-bg17.png); }
     </style>
-    <link id="droid_sans" href="{$themepath}/style/tmp/css(2)" rel="stylesheet" type="text/css">
+    <link id="droid_sans" href="{$themepath}/style/tmp/css(2).css" rel="stylesheet" type="text/css">
     <style type="text/css">
         h1,h2,h3,h4,h5,h6 { font-family: 'Droid Sans', Arial, sans-serif !important;  }
     </style>
