@@ -74,7 +74,7 @@
     <meta name="et_featured_slider_pause" content="0" />
     <meta name="et_featured_slider_auto" content="1" />
     <meta name="et_theme_folder" content="{$themepath}" />
-    <meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0; user-scalable=0;" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0," />
     <style type="text/css">
         #content-area { background-color: #f5f5f5; }
         #top-header { border-color: #f5f5f5; }
