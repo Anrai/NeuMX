@@ -30,17 +30,17 @@
 {bt_htmloutput section='head'}
 
 <!-- copied -->
-    {browserhack condition='if lt IE 7}
+    {browserhack condition='if lt IE 7'}
         <link rel="stylesheet" type="text/css" href="{$themepath}/style/tmp/ie6style.css" />
         <script src="{$themepath}/javascript/tmp/DD_belatedPNG_0.0.8a-min.js"></script>
         <script>DD_belatedPNG.fix('img#logo, span.overlay, a.zoom-icon, a.more-icon, #menu, #menu-right, #menu-content, ul#top-menu ul, #menu-bar, .footer-widget ul li, span.post-overlay, #content-area, .avatar-overlay, .comment-arrow, .testimonials-item-bottom, #quote, #bottom-shadow, #quote .container');</script>
     {/browserhack}
     
-    {browserhack condition='if IE 7}
+    {browserhack condition='if IE 7'}
         <link rel="stylesheet" type="text/css" href="{$themepath}/style/tmp/ie7style.css" />
     {/browserhack}
     
-    {browserhack condition='if lt IE 8}
+    {browserhack condition='if lt IE 8'}
         <link rel="stylesheet" type="text/css" href="{$themepath}/style/tmp/ie8style.css" />
     {/browserhack}
 <!-- /copied -->
