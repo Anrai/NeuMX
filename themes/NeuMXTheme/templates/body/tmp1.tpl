@@ -55,11 +55,11 @@
 																				<option value="Crimson+Text">Crimson Text</option>
 																				<option value="Cuprum">Cuprum</option>
 																				<option value="Dancing+Script">Dancing Script</option>
-																				<option value="Droid+Sans" selected="selected">Droid Sans</option>
+																				<option value="Droid+Sans">Droid Sans</option>
 																				<option value="Droid+Serif">Droid Serif</option>
 																				<option value="Goudy+Bookletter+1911">Goudy Bookletter 1911</option>
 																				<option value="Josefin+Sans">Josefin Sans</option>
-																				<option value="Kreon">Kreon</option>
+																				<option value="Kreon" selected="selected">Kreon</option>
 																				<option value="Lobster">Lobster</option>
 																				<option value="Nobile">Nobile</option>
 																				<option value="PT+Sans">PT Sans</option>
