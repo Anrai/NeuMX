@@ -734,10 +734,7 @@
 <script src="{$themepath}/javascript/tmp/custom.js" type="text/javascript"></script>	     
  
 <script src="{$themepath}/javascript/tmp/jquery.easing.1.3.js"></script>
-<script src="{$themepath}/javascript/tmp/colorpicker.js"></script>
-<script src="{$themepath}/javascript/tmp/eye.js"></script>
 <script src="{$themepath}/javascript/tmp/jquery.cookie.js"></script>
-<script src="{$themepath}/javascript/tmp/et_control_panel.js"></script>
 <script src="{$themepath}/javascript/tmp/jquery.fitvids.js"></script>
 <script src="{$themepath}/javascript/tmp/jquery.flexslider-min.js"></script>
 <script src="{$themepath}/javascript/tmp/et_flexslider.js"></script>
