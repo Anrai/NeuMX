@@ -1,0 +1,843 @@
+/**
+ * Clip
+ *
+ * @copyright  (c) Clip Team
+ * @link       http://code.zikula.org/clip/
+ * @license    GNU/GPL - http://www.gnu.org/copyleft/gpl.html
+ * @package    Clip
+ * @subpackage CSS
+ */
+
+
+/*** Admin GUI ***/
+#clip-adminmenu {
+  margin-bottom: 0;
+}
+#clip-adminmenu .z-menuitem-title {
+  background: none;
+  border: none;
+  line-height: 1.5em;
+}
+#ajax_indicator {
+  margin-left: 4px;
+}
+#clip_admin_buttons {
+  padding-top: 10px;
+}
+#groupControls {
+  color: #999;
+  margin-bottom: 5px;
+}
+#clip_cols_container {
+  overflow: hidden;
+  padding: 5px 0;
+}
+#clip_cols_maincol {
+  margin-left: 235px;
+  overflow: hidden;
+  padding: 0 0 0 15px;
+  position: relative;
+}
+  #z-maincontent div.z-admin-content #clip_cols_maincol {
+    position: relative;
+  }
+  #z-maincontent div.z-admin-content #clip_cols_maincol h3 {
+    margin-top: 0;
+    padding-top: 0;
+  }
+  #z-maincontent #clip_cols_maincol div.z-admin-content-pagetitle {
+    padding: 7px 0;
+  }
+
+#clip_cols_sidecol {
+  border-right: 1px solid #ccc;
+  float: left;
+  overflow-x: scroll;
+  overflow-y: hidden;
+  padding: 0 5px 10px 0;
+  width: 225px;
+}
+
+/* pubtype info */
+.clip-infotab {
+  padding: 18px;
+}
+.clip-infotab ul.z-buttons {
+  background: #fff;
+  border-left: 1px solid #ccc;
+  padding: 1.5em 1.5em 1em 2em;
+}
+.clip-infotab ul.z-buttons li {
+  border-bottom: none;
+  margin: 0;
+  padding: 0 0 1.5em;
+}
+.clip-infotab dl {
+  margin: 1em 0 0;
+  padding: 0;
+}
+.clip-infotab dt {
+  margin: 0;
+  padding: 0;
+}
+.clip-infotab dd {
+  margin: 0 0 0.5em 0.8em;
+  padding: 0;
+}
+.clip-infotab ul {
+  list-style: none outside none;
+  margin: 0;
+  padding: 0;
+}
+.clip-infotab li {
+  border-bottom: 1px solid #eee;
+  color: #777;
+  margin: 0 0 1.2em;
+  padding: 0 0 1em;
+}
+.clip-infotab li:last-child {
+  border-bottom: none;
+  margin-bottom: 0;
+}
+.clip-infotab a {
+  font-size: 1.1em;
+  font-weight: normal;
+}
+.clip-infotab p {
+  margin: 0;
+  padding: 0.2em 0 0;
+}
+.clip-infotab ul ul {
+  list-style: disc inside none;
+  padding: 0.5em 0 0;
+}
+.clip-infotab ul ul li {
+  margin: 0;
+  padding: 0;
+}
+
+/* relations */
+#relationslist li {
+  line-height: 1.4em;
+}
+
+/* forms */
+.z-form.clip-form .z-formrow div input[type="checkbox"] {
+  margin: 0.2em 0;
+  vertical-align: top;
+}
+.z-form.z-form div.z-formrow div label {
+  padding: 0 0.2em;
+}
+
+
+/*** Editor GUI ***/
+#clip_editor_buttons {
+  padding-right: 20px;
+}
+.clip-editorpanel {
+  margin-bottom: 1.5em;
+}
+.clip-editorpanel h2 {
+  background: none;
+  border-bottom: 1px solid #ddd;
+  color: #333;
+  margin-top: 0px;
+  padding-top: 0.5em;
+  text-align: left;
+}
+.clip-editorpanelicon {
+  padding: 0;
+}
+.clip-editorpanelicon img {
+  float: right;
+  padding-top: 5px;
+}
+.clip-editorpanelicon + h2 {
+  margin: 0;
+  padding-top: 10px;
+}
+
+.z-module-clip .clip-editorpanel .z-menu {
+  margin: 7px 0;
+}
+.z-module-clip .clip-editorpanel .clip-breadcrumbs {
+  border: none;
+}
+.clip-editorlist {
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  border: 1px solid #ddd;
+  list-style: none;
+  margin: 0 0 1.5em;
+}
+.clip-editorlist ul {
+  list-style: none;
+  margin: 0;
+  padding: 0 0.8em;
+}
+.clip-editorlist li {
+  margin: 0;
+  padding: 0;
+}
+.clip-editorlist li li {
+  padding: 0 0 0 0.8em;
+}
+
+.clip-grouptype {
+  border-bottom: 1px solid #eee;
+}
+.clip-grouptype strong {
+  border-bottom: 1px solid #eee;
+  display: block;
+  font-size: 1.3em;
+  font-weight: normal;
+  line-height: 1.9em;
+  padding: 0 0.8em;
+}
+.clip-editorlist .clip-pubtype {
+  padding: 5px 0.8em;
+}
+.clip-pubtype span {
+  color: #777;
+  display: block;
+}
+.clip-grouptype ul .clip-pubtype {
+  border-bottom: 1px solid #eee;
+}
+.clip-grouptype ul .clip-pubtype:last-child {
+  border-bottom: none;
+}
+
+.clip-editorpanel table.z-datatable {
+  margin: 0;
+  word-wrap: break-word;
+}
+.clip-editorpanel table.z-datatable td {
+  padding: 0.5em;
+  vertical-align: top;
+}
+.clip-editorpanel .z-pager {
+  padding-bottom: 0;
+}
+
+.clip-editoractions {
+  font-size: 11px;
+  padding: 5px 0 3px;
+}
+.clip-editoractions .clip-ac-delete a {
+  color: #9b3b3b;
+}
+
+
+/*** User GUI ***/
+.z-module-clip .z-menu {
+  margin-bottom: 0.5em;
+}
+.clip-breadcrumbs {
+  background: none;
+  border: none;
+  border-bottom: 1px solid #eee;
+  padding: 0;
+}
+.clip-breadcrumbs span {
+  color: #444;
+  padding: 3px;
+}
+.clip-breadcrumbs span a {
+  padding: 0;
+}
+
+table.z-admintable {
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+  border-spacing: 0;
+  padding: 0 !important;
+}
+table.z-admintable thead tr th {
+  background-color: #cfcfcf;
+  border-width: 0px;
+  font-size: 11px;
+  padding: 7px 7px 8px;
+  text-shadow: 0 1px 0 rgba(255, 255, 255, 0.8);
+}
+
+.z-clip-mini .z-itemlist {
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+  margin: 0.5em 0 !important;
+}
+.z-clip-mini .z-itemlist li.z-itemheader {
+  border: none;
+  font-size: 11px;
+  text-shadow: 0 1px 0 rgba(255, 255, 255, 0.8);
+}
+.z-clip-mini .z-itemlist li {
+  border-width: 1px 0 0;
+  margin: 0 !important;
+}
+.z-clip-mini .z-itemlist li:last-child {
+  -webkit-border-radius: 0 0 4px 4px;
+  -moz-border-radius: 0 0 4px 4px;
+  border-radius: 0 0 4px 4px;
+}
+
+.z-module-clip .z-form .z-buttons input,
+.z-module-clip .z-form .z-buttons button {
+  margin-bottom: 0.5em;
+}
+
+/* general */
+img {
+  vertical-align: middle;
+}
+
+pre.clip-generatorcode {
+  background: #222;
+  border: 1px solid #ccc;
+  color: #fff;
+  letter-spacing: -0.04em;
+  line-height: 1.1em;
+  margin: 1em 0;
+  overflow-x: scroll;
+  padding: 0 1em;
+  white-space: pre-wrap;
+}
+#clippy_clip_generatorcode {
+  float: left;
+  margin: 5px 4px 0;
+}
+
+#pubfieldlist {
+  background: #fff;
+}
+
+/* pubfield type selector and modalbox */
+.z-form div.z-formrow select.clip-plugintypeselector {
+  display: inline;
+  width: 66.2%;
+}
+
+/* relations selectors */
+.z-form-relations div.z-formrow select {
+  display: inline;
+  width: auto;
+}
+
+
+/*** Clip buttons not available on the Core ***/
+
+.z-buttons .clip-bt-clone,
+.z-buttons .clip-bt-configure,
+.z-buttons .clip-bt-demote,
+.z-buttons .clip-bt-display,
+.z-buttons .clip-bt-mail,
+.z-buttons .clip-bt-promote,
+.z-buttons .clip-bt-recover,
+.z-buttons .clip-bt-reload,
+.z-buttons .clip-bt-remove,
+.z-buttons .clip-bt-trash {
+  padding: 5px 7px 5px 32px !important;
+}
+
+.z-buttons .clip-bt-clone.z-bt-small,
+.z-buttons .clip-bt-configure.z-bt-small,
+.z-buttons .clip-bt-demote.z-bt-small,
+.z-buttons .clip-bt-display.z-bt-small,
+.z-buttons .clip-bt-mail.z-bt-small,
+.z-buttons .clip-bt-promote.z-bt-small,
+.z-buttons .clip-bt-recover.z-bt-small,
+.z-buttons .clip-bt-reload.z-bt-small,
+.z-buttons .clip-bt-remove.z-bt-small,
+.z-buttons .clip-bt-trash.z-bt-small {
+  margin: 0 1px 0 0;
+  padding: 3px 8px 4px 27px !important;
+}
+
+/* clone */
+.z-buttons .clip-bt-clone {
+  background: url("../../../images/icons/extrasmall/editcopy.png") #dfdfdf 10px 50% no-repeat; /*non-CSS3 browsers*/
+  background: url("../../../images/icons/extrasmall/editcopy.png") 10px 50% no-repeat, -moz-linear-gradient(center top , #ffffff, #dfdfdf) repeat scroll 0 0 transparent; /*gecko*/
+  background: url("../../../images/icons/extrasmall/editcopy.png") 10px 50% no-repeat, -webkit-gradient(linear, left top, left bottom, from(#ffffff), to(#dfdfdf)) repeat scroll 0 0 transparent; /*webkit*/
+  background: url("../../../images/icons/extrasmall/editcopy.png") 10px 50% no-repeat, linear-gradient(#ffffff, #dfdfdf); /*CSS3*/
+}
+.z-buttons .clip-bt-clone:hover,
+.z-buttons .clip-bt-clone.hover {
+  background: url("../../../images/icons/extrasmall/editcopy.png") #cfcfcf 10px 50% no-repeat; /*non-CSS3 browsers*/
+  background: url("../../../images/icons/extrasmall/editcopy.png") 10px 50% no-repeat, -moz-linear-gradient(top,  #fafafa, #cfcfcf) repeat scroll 0 0 transparent; /*gecko*/
+  background: url("../../../images/icons/extrasmall/editcopy.png") 10px 50% no-repeat, -webkit-gradient(linear, left top, left bottom, from(#fafafa), to(#cfcfcf)) repeat scroll 0 0 transparent; /*webkit*/
+  background: url("../../../images/icons/extrasmall/editcopy.png") 10px 50% no-repeat, linear-gradient(#fafafa, #cfcfcf); /*CSS3*/
+}
+.z-buttons .clip-bt-clone:active,
+.z-buttons .clip-bt-clone.active {
+  background: url("../../../images/icons/extrasmall/editcopy.png") #fafafa 10px 50% no-repeat; /*non-CSS3 browsers*/
+  background: url("../../../images/icons/extrasmall/editcopy.png") 10px 50% no-repeat, -moz-linear-gradient(top,  #cfcfcf, #fafafa) repeat scroll 0 0 transparent; /*gecko*/
+  background: url("../../../images/icons/extrasmall/editcopy.png") 10px 50% no-repeat, -webkit-gradient(linear, left top, left bottom, from(#cfcfcf), to(#fafafa)) repeat scroll 0 0 transparent; /*webkit*/
+  background: url("../../../images/icons/extrasmall/editcopy.png") 10px 50% no-repeat, linear-gradient(#cfcfcf, #fafafa); /*CSS3*/
+}
+
+/* configure */
+.z-buttons .clip-bt-configure {
+  background: url("../../../images/icons/extrasmall/configure.png") #dfdfdf 10px 50% no-repeat; /*non-CSS3 browsers*/
+  background: url("../../../images/icons/extrasmall/configure.png") 10px 50% no-repeat, -moz-linear-gradient(center top , #ffffff, #dfdfdf) repeat scroll 0 0 transparent; /*gecko*/
+  background: url("../../../images/icons/extrasmall/configure.png") 10px 50% no-repeat, -webkit-gradient(linear, left top, left bottom, from(#ffffff), to(#dfdfdf)) repeat scroll 0 0 transparent; /*webkit*/
+  background: url("../../../images/icons/extrasmall/configure.png") 10px 50% no-repeat, linear-gradient(#ffffff, #dfdfdf); /*CSS3*/
+}
+.z-buttons .clip-bt-configure:hover,
+.z-buttons .clip-bt-configure.hover {
+  background: url("../../../images/icons/extrasmall/configure.png") #cfcfcf 10px 50% no-repeat; /*non-CSS3 browsers*/
+  background: url("../../../images/icons/extrasmall/configure.png") 10px 50% no-repeat, -moz-linear-gradient(top,  #fafafa, #cfcfcf) repeat scroll 0 0 transparent; /*gecko*/
+  background: url("../../../images/icons/extrasmall/configure.png") 10px 50% no-repeat, -webkit-gradient(linear, left top, left bottom, from(#fafafa), to(#cfcfcf)) repeat scroll 0 0 transparent; /*webkit*/
+  background: url("../../../images/icons/extrasmall/configure.png") 10px 50% no-repeat, linear-gradient(#fafafa, #cfcfcf); /*CSS3*/
+}
+.z-buttons .clip-bt-configure:active,
+.z-buttons .clip-bt-configure.active {
+  background: url("../../../images/icons/extrasmall/configure.png") #fafafa 10px 50% no-repeat; /*non-CSS3 browsers*/
+  background: url("../../../images/icons/extrasmall/configure.png") 10px 50% no-repeat, -moz-linear-gradient(top,  #cfcfcf, #fafafa) repeat scroll 0 0 transparent; /*gecko*/
+  background: url("../../../images/icons/extrasmall/configure.png") 10px 50% no-repeat, -webkit-gradient(linear, left top, left bottom, from(#cfcfcf), to(#fafafa)) repeat scroll 0 0 transparent; /*webkit*/
+  background: url("../../../images/icons/extrasmall/configure.png") 10px 50% no-repeat, linear-gradient(#cfcfcf, #fafafa); /*CSS3*/
+}
+
+/* demote */
+.z-buttons .clip-bt-demote {
+  background: url("../images/icons/demote.png") #dfdfdf 10px 50% no-repeat; /*non-CSS3 browsers*/
+  background: url("../images/icons/demote.png") 10px 50% no-repeat, -moz-linear-gradient(center top , #ffffff, #dfdfdf) repeat scroll 0 0 transparent; /*gecko*/
+  background: url("../images/icons/demote.png") 10px 50% no-repeat, -webkit-gradient(linear, left top, left bottom, from(#ffffff), to(#dfdfdf)) repeat scroll 0 0 transparent; /*webkit*/
+  background: url("../images/icons/demote.png") 10px 50% no-repeat, linear-gradient(#ffffff, #dfdfdf); /*CSS3*/
+}
+.z-buttons .clip-bt-demote:hover,
+.z-buttons .clip-bt-demote.hover {
+  background: url("../images/icons/demote.png") #cfcfcf 10px 50% no-repeat; /*non-CSS3 browsers*/
+  background: url("../images/icons/demote.png") 10px 50% no-repeat, -moz-linear-gradient(top,  #fafafa, #cfcfcf) repeat scroll 0 0 transparent; /*gecko*/
+  background: url("../images/icons/demote.png") 10px 50% no-repeat, -webkit-gradient(linear, left top, left bottom, from(#fafafa), to(#cfcfcf)) repeat scroll 0 0 transparent; /*webkit*/
+  background: url("../images/icons/demote.png") 10px 50% no-repeat, linear-gradient(#fafafa, #cfcfcf); /*CSS3*/
+}
+.z-buttons .clip-bt-demote:active,
+.z-buttons .clip-bt-demote.active {
+  background: url("../images/icons/demote.png") #fafafa 10px 50% no-repeat; /*non-CSS3 browsers*/
+  background: url("../images/icons/demote.png") 10px 50% no-repeat, -moz-linear-gradient(top,  #cfcfcf, #fafafa) repeat scroll 0 0 transparent; /*gecko*/
+  background: url("../images/icons/demote.png") 10px 50% no-repeat, -webkit-gradient(linear, left top, left bottom, from(#cfcfcf), to(#fafafa)) repeat scroll 0 0 transparent; /*webkit*/
+  background: url("../images/icons/demote.png") 10px 50% no-repeat, linear-gradient(#cfcfcf, #fafafa); /*CSS3*/
+}
+
+/* display */
+.z-buttons .clip-bt-display {
+  background: url("../../../images/icons/extrasmall/demo.png") #dfdfdf 10px 50% no-repeat; /*non-CSS3 browsers*/
+  background: url("../../../images/icons/extrasmall/demo.png") 10px 50% no-repeat, -moz-linear-gradient(center top , #ffffff, #dfdfdf) repeat scroll 0 0 transparent; /*gecko*/
+  background: url("../../../images/icons/extrasmall/demo.png") 10px 50% no-repeat, -webkit-gradient(linear, left top, left bottom, from(#ffffff), to(#dfdfdf)) repeat scroll 0 0 transparent; /*webkit*/
+  background: url("../../../images/icons/extrasmall/demo.png") 10px 50% no-repeat, linear-gradient(#ffffff, #dfdfdf); /*CSS3*/
+}
+.z-buttons .clip-bt-display:hover,
+.z-buttons .clip-bt-display.hover {
+  background: url("../../../images/icons/extrasmall/demo.png") #cfcfcf 10px 50% no-repeat; /*non-CSS3 browsers*/
+  background: url("../../../images/icons/extrasmall/demo.png") 10px 50% no-repeat, -moz-linear-gradient(top,  #fafafa, #cfcfcf) repeat scroll 0 0 transparent; /*gecko*/
+  background: url("../../../images/icons/extrasmall/demo.png") 10px 50% no-repeat, -webkit-gradient(linear, left top, left bottom, from(#fafafa), to(#cfcfcf)) repeat scroll 0 0 transparent; /*webkit*/
+  background: url("../../../images/icons/extrasmall/demo.png") 10px 50% no-repeat, linear-gradient(#fafafa, #cfcfcf); /*CSS3*/
+}
+.z-buttons .clip-bt-display:active,
+.z-buttons .clip-bt-display.active {
+  background: url("../../../images/icons/extrasmall/demo.png") #fafafa 10px 50% no-repeat; /*non-CSS3 browsers*/
+  background: url("../../../images/icons/extrasmall/demo.png") 10px 50% no-repeat, -moz-linear-gradient(top,  #cfcfcf, #fafafa) repeat scroll 0 0 transparent; /*gecko*/
+  background: url("../../../images/icons/extrasmall/demo.png") 10px 50% no-repeat, -webkit-gradient(linear, left top, left bottom, from(#cfcfcf), to(#fafafa)) repeat scroll 0 0 transparent; /*webkit*/
+  background: url("../../../images/icons/extrasmall/demo.png") 10px 50% no-repeat, linear-gradient(#cfcfcf, #fafafa); /*CSS3*/
+}
+
+/* mail */
+.z-buttons .clip-bt-mail {
+  background: url("../../../images/icons/extrasmall/mail_generic.png") #dfdfdf 10px 50% no-repeat; /*non-CSS3 browsers*/
+  background: url("../../../images/icons/extrasmall/mail_generic.png") 10px 50% no-repeat, -moz-linear-gradient(center top , #ffffff, #dfdfdf) repeat scroll 0 0 transparent; /*gecko*/
+  background: url("../../../images/icons/extrasmall/mail_generic.png") 10px 50% no-repeat, -webkit-gradient(linear, left top, left bottom, from(#ffffff), to(#dfdfdf)) repeat scroll 0 0 transparent; /*webkit*/
+  background: url("../../../images/icons/extrasmall/mail_generic.png") 10px 50% no-repeat, linear-gradient(#ffffff, #dfdfdf); /*CSS3*/
+}
+.z-buttons .clip-bt-mail:hover,
+.z-buttons .clip-bt-mail.hover {
+  background: url("../../../images/icons/extrasmall/mail_generic.png") #cfcfcf 10px 50% no-repeat; /*non-CSS3 browsers*/
+  background: url("../../../images/icons/extrasmall/mail_generic.png") 10px 50% no-repeat, -moz-linear-gradient(top,  #fafafa, #cfcfcf) repeat scroll 0 0 transparent; /*gecko*/
+  background: url("../../../images/icons/extrasmall/mail_generic.png") 10px 50% no-repeat, -webkit-gradient(linear, left top, left bottom, from(#fafafa), to(#cfcfcf)) repeat scroll 0 0 transparent; /*webkit*/
+  background: url("../../../images/icons/extrasmall/mail_generic.png") 10px 50% no-repeat, linear-gradient(#fafafa, #cfcfcf); /*CSS3*/
+}
+.z-buttons .clip-bt-mail:active,
+.z-buttons .clip-bt-mail.active {
+  background: url("../../../images/icons/extrasmall/mail_generic.png") #fafafa 10px 50% no-repeat; /*non-CSS3 browsers*/
+  background: url("../../../images/icons/extrasmall/mail_generic.png") 10px 50% no-repeat, -moz-linear-gradient(top,  #cfcfcf, #fafafa) repeat scroll 0 0 transparent; /*gecko*/
+  background: url("../../../images/icons/extrasmall/mail_generic.png") 10px 50% no-repeat, -webkit-gradient(linear, left top, left bottom, from(#cfcfcf), to(#fafafa)) repeat scroll 0 0 transparent; /*webkit*/
+  background: url("../../../images/icons/extrasmall/mail_generic.png") 10px 50% no-repeat, linear-gradient(#cfcfcf, #fafafa); /*CSS3*/
+}
+
+/* promote */
+.z-buttons .clip-bt-promote {
+  background: url("../images/icons/promote.png") #dfdfdf 10px 50% no-repeat; /*non-CSS3 browsers*/
+  background: url("../images/icons/promote.png") 10px 50% no-repeat, -moz-linear-gradient(center top , #ffffff, #dfdfdf) repeat scroll 0 0 transparent; /*gecko*/
+  background: url("../images/icons/promote.png") 10px 50% no-repeat, -webkit-gradient(linear, left top, left bottom, from(#ffffff), to(#dfdfdf)) repeat scroll 0 0 transparent; /*webkit*/
+  background: url("../images/icons/promote.png") 10px 50% no-repeat, linear-gradient(#ffffff, #dfdfdf); /*CSS3*/
+}
+.z-buttons .clip-bt-promote:hover,
+.z-buttons .clip-bt-promote.hover {
+  background: url("../images/icons/promote.png") #cfcfcf 10px 50% no-repeat; /*non-CSS3 browsers*/
+  background: url("../images/icons/promote.png") 10px 50% no-repeat, -moz-linear-gradient(top,  #fafafa, #cfcfcf) repeat scroll 0 0 transparent; /*gecko*/
+  background: url("../images/icons/promote.png") 10px 50% no-repeat, -webkit-gradient(linear, left top, left bottom, from(#fafafa), to(#cfcfcf)) repeat scroll 0 0 transparent; /*webkit*/
+  background: url("../images/icons/promote.png") 10px 50% no-repeat, linear-gradient(#fafafa, #cfcfcf); /*CSS3*/
+}
+.z-buttons .clip-bt-promote:active,
+.z-buttons .clip-bt-promote.active {
+  background: url("../images/icons/promote.png") #fafafa 10px 50% no-repeat; /*non-CSS3 browsers*/
+  background: url("../images/icons/promote.png") 10px 50% no-repeat, -moz-linear-gradient(top,  #cfcfcf, #fafafa) repeat scroll 0 0 transparent; /*gecko*/
+  background: url("../images/icons/promote.png") 10px 50% no-repeat, -webkit-gradient(linear, left top, left bottom, from(#cfcfcf), to(#fafafa)) repeat scroll 0 0 transparent; /*webkit*/
+  background: url("../images/icons/promote.png") 10px 50% no-repeat, linear-gradient(#cfcfcf, #fafafa); /*CSS3*/
+}
+
+/* recover */
+.z-buttons .clip-bt-recover {
+  background: url("../../../images/icons/extrasmall/edittrash.png") #dfdfdf 10px 50% no-repeat; /*non-CSS3 browsers*/
+  background: url("../../../images/icons/extrasmall/edittrash.png") 10px 50% no-repeat, -moz-linear-gradient(center top , #ffffff, #dfdfdf) repeat scroll 0 0 transparent; /*gecko*/
+  background: url("../../../images/icons/extrasmall/edittrash.png") 10px 50% no-repeat, -webkit-gradient(linear, left top, left bottom, from(#ffffff), to(#dfdfdf)) repeat scroll 0 0 transparent; /*webkit*/
+  background: url("../../../images/icons/extrasmall/edittrash.png") 10px 50% no-repeat, linear-gradient(#ffffff, #dfdfdf); /*CSS3*/
+}
+.z-buttons .clip-bt-recover:hover,
+.z-buttons .clip-bt-recover.hover {
+  background: url("../../../images/icons/extrasmall/edittrash.png") #cfcfcf 10px 50% no-repeat; /*non-CSS3 browsers*/
+  background: url("../../../images/icons/extrasmall/edittrash.png") 10px 50% no-repeat, -moz-linear-gradient(top,  #fafafa, #cfcfcf) repeat scroll 0 0 transparent; /*gecko*/
+  background: url("../../../images/icons/extrasmall/edittrash.png") 10px 50% no-repeat, -webkit-gradient(linear, left top, left bottom, from(#fafafa), to(#cfcfcf)) repeat scroll 0 0 transparent; /*webkit*/
+  background: url("../../../images/icons/extrasmall/edittrash.png") 10px 50% no-repeat, linear-gradient(#fafafa, #cfcfcf); /*CSS3*/
+}
+.z-buttons .clip-bt-recover:active,
+.z-buttons .clip-bt-recover.active {
+  background: url("../../../images/icons/extrasmall/edittrash.png") #fafafa 10px 50% no-repeat; /*non-CSS3 browsers*/
+  background: url("../../../images/icons/extrasmall/edittrash.png") 10px 50% no-repeat, -moz-linear-gradient(top,  #cfcfcf, #fafafa) repeat scroll 0 0 transparent; /*gecko*/
+  background: url("../../../images/icons/extrasmall/edittrash.png") 10px 50% no-repeat, -webkit-gradient(linear, left top, left bottom, from(#cfcfcf), to(#fafafa)) repeat scroll 0 0 transparent; /*webkit*/
+  background: url("../../../images/icons/extrasmall/edittrash.png") 10px 50% no-repeat, linear-gradient(#cfcfcf, #fafafa); /*CSS3*/
+}
+
+/* reload */
+.z-buttons .clip-bt-reload {
+  background: url("../images/icons/reload.png") #dfdfdf 10px 50% no-repeat; /*non-CSS3 browsers*/
+  background: url("../images/icons/reload.png") 10px 50% no-repeat, -moz-linear-gradient(center top , #ffffff, #dfdfdf) repeat scroll 0 0 transparent; /*gecko*/
+  background: url("../images/icons/reload.png") 10px 50% no-repeat, -webkit-gradient(linear, left top, left bottom, from(#ffffff), to(#dfdfdf)) repeat scroll 0 0 transparent; /*webkit*/
+  background: url("../images/icons/reload.png") 10px 50% no-repeat, linear-gradient(#ffffff, #dfdfdf); /*CSS3*/
+}
+.z-buttons .clip-bt-reload:hover,
+.z-buttons .clip-bt-reload.hover {
+  background: url("../images/icons/reload.png") #cfcfcf 10px 50% no-repeat; /*non-CSS3 browsers*/
+  background: url("../images/icons/reload.png") 10px 50% no-repeat, -moz-linear-gradient(top,  #fafafa, #cfcfcf) repeat scroll 0 0 transparent; /*gecko*/
+  background: url("../images/icons/reload.png") 10px 50% no-repeat, -webkit-gradient(linear, left top, left bottom, from(#fafafa), to(#cfcfcf)) repeat scroll 0 0 transparent; /*webkit*/
+  background: url("../images/icons/reload.png") 10px 50% no-repeat, linear-gradient(#fafafa, #cfcfcf); /*CSS3*/
+}
+.z-buttons .clip-bt-reload:active,
+.z-buttons .clip-bt-reload.active {
+  background: url("../images/icons/reload.png") #fafafa 10px 50% no-repeat; /*non-CSS3 browsers*/
+  background: url("../images/icons/reload.png") 10px 50% no-repeat, -moz-linear-gradient(top,  #cfcfcf, #fafafa) repeat scroll 0 0 transparent; /*gecko*/
+  background: url("../images/icons/reload.png") 10px 50% no-repeat, -webkit-gradient(linear, left top, left bottom, from(#cfcfcf), to(#fafafa)) repeat scroll 0 0 transparent; /*webkit*/
+  background: url("../images/icons/reload.png") 10px 50% no-repeat, linear-gradient(#cfcfcf, #fafafa); /*CSS3*/
+}
+
+/* remove */
+.z-buttons .clip-bt-remove {
+  background: url("../../../images/icons/extrasmall/edit_remove.png") #dfdfdf 10px 50% no-repeat; /*non-CSS3 browsers*/
+  background: url("../../../images/icons/extrasmall/edit_remove.png") 10px 50% no-repeat, -moz-linear-gradient(center top , #ffffff, #dfdfdf) repeat scroll 0 0 transparent; /*gecko*/
+  background: url("../../../images/icons/extrasmall/edit_remove.png") 10px 50% no-repeat, -webkit-gradient(linear, left top, left bottom, from(#ffffff), to(#dfdfdf)) repeat scroll 0 0 transparent; /*webkit*/
+  background: url("../../../images/icons/extrasmall/edit_remove.png") 10px 50% no-repeat, linear-gradient(#ffffff, #dfdfdf); /*CSS3*/
+}
+.z-buttons .clip-bt-remove:hover,
+.z-buttons .clip-bt-remove.hover {
+  background: url("../../../images/icons/extrasmall/edit_remove.png") #cfcfcf 10px 50% no-repeat; /*non-CSS3 browsers*/
+  background: url("../../../images/icons/extrasmall/edit_remove.png") 10px 50% no-repeat, -moz-linear-gradient(top,  #fafafa, #cfcfcf) repeat scroll 0 0 transparent; /*gecko*/
+  background: url("../../../images/icons/extrasmall/edit_remove.png") 10px 50% no-repeat, -webkit-gradient(linear, left top, left bottom, from(#fafafa), to(#cfcfcf)) repeat scroll 0 0 transparent; /*webkit*/
+  background: url("../../../images/icons/extrasmall/edit_remove.png") 10px 50% no-repeat, linear-gradient(#fafafa, #cfcfcf); /*CSS3*/
+}
+.z-buttons .clip-bt-remove:active,
+.z-buttons .clip-bt-remove.active {
+  background: url("../../../images/icons/extrasmall/edit_remove.png") #fafafa 10px 50% no-repeat; /*non-CSS3 browsers*/
+  background: url("../../../images/icons/extrasmall/edit_remove.png") 10px 50% no-repeat, -moz-linear-gradient(top,  #cfcfcf, #fafafa) repeat scroll 0 0 transparent; /*gecko*/
+  background: url("../../../images/icons/extrasmall/edit_remove.png") 10px 50% no-repeat, -webkit-gradient(linear, left top, left bottom, from(#cfcfcf), to(#fafafa)) repeat scroll 0 0 transparent; /*webkit*/
+  background: url("../../../images/icons/extrasmall/edit_remove.png") 10px 50% no-repeat, linear-gradient(#cfcfcf, #fafafa); /*CSS3*/
+}
+
+/* trash */
+.z-buttons .clip-bt-trash {
+  background: url("../../../images/icons/extrasmall/trashcan_empty.png") #dfdfdf 10px 50% no-repeat; /*non-CSS3 browsers*/
+  background: url("../../../images/icons/extrasmall/trashcan_empty.png") 10px 50% no-repeat, -moz-linear-gradient(center top , #ffffff, #dfdfdf) repeat scroll 0 0 transparent; /*gecko*/
+  background: url("../../../images/icons/extrasmall/trashcan_empty.png") 10px 50% no-repeat, -webkit-gradient(linear, left top, left bottom, from(#ffffff), to(#dfdfdf)) repeat scroll 0 0 transparent; /*webkit*/
+  background: url("../../../images/icons/extrasmall/trashcan_empty.png") 10px 50% no-repeat, linear-gradient(#ffffff, #dfdfdf); /*CSS3*/
+}
+.z-buttons .clip-bt-trash:hover,
+.z-buttons .clip-bt-trash.hover {
+  background: url("../../../images/icons/extrasmall/trashcan_empty.png") #cfcfcf 10px 50% no-repeat; /*non-CSS3 browsers*/
+  background: url("../../../images/icons/extrasmall/trashcan_empty.png") 10px 50% no-repeat, -moz-linear-gradient(top,  #fafafa, #cfcfcf) repeat scroll 0 0 transparent; /*gecko*/
+  background: url("../../../images/icons/extrasmall/trashcan_empty.png") 10px 50% no-repeat, -webkit-gradient(linear, left top, left bottom, from(#fafafa), to(#cfcfcf)) repeat scroll 0 0 transparent; /*webkit*/
+  background: url("../../../images/icons/extrasmall/trashcan_empty.png") 10px 50% no-repeat, linear-gradient(#fafafa, #cfcfcf); /*CSS3*/
+}
+.z-buttons .clip-bt-trash:active,
+.z-buttons .clip-bt-trash.active {
+  background: url("../../../images/icons/extrasmall/trashcan_empty.png") #fafafa 10px 50% no-repeat; /*non-CSS3 browsers*/
+  background: url("../../../images/icons/extrasmall/trashcan_empty.png") 10px 50% no-repeat, -moz-linear-gradient(top,  #cfcfcf, #fafafa) repeat scroll 0 0 transparent; /*gecko*/
+  background: url("../../../images/icons/extrasmall/trashcan_empty.png") 10px 50% no-repeat, -webkit-gradient(linear, left top, left bottom, from(#cfcfcf), to(#fafafa)) repeat scroll 0 0 transparent; /*webkit*/
+  background: url("../../../images/icons/extrasmall/trashcan_empty.png") 10px 50% no-repeat, linear-gradient(#cfcfcf, #fafafa); /*CSS3*/
+}
+
+
+/*** Clip Icons ***/
+.clip-iconlink {
+  padding: 2px 0 2px 20px;
+}
+.clip-op-activate {
+  background: url("../../../images/icons/extrasmall/greenled.png") no-repeat scroll 0 50% transparent;
+}
+.clip-op-deactivate {
+  background: url("../../../images/icons/extrasmall/yellowled.png") no-repeat scroll 0 50% transparent;
+}
+.clip-op-reject {
+  background: url("../../../images/icons/extrasmall/redled.png") no-repeat scroll 0 50% transparent;
+}
+.clip-op-trash {
+  background: url("../../../images/icons/extrasmall/trashcan_empty.png") no-repeat scroll 0 50% transparent;
+}
+.clip-op-recover {
+  background: url("../../../images/icons/extrasmall/edittrash.png") no-repeat scroll 0 50% transparent;
+}
+.clip-op-delete {
+  background: url("../../../images/icons/extrasmall/14_layer_deletelayer.png") no-repeat scroll 0 50% transparent;
+}
+.clip-op-attach {
+  background: url("../../../images/icons/extrasmall/attach.png") no-repeat scroll 0 50% transparent;
+}
+.clip-op-exec {
+  background: url("../../../images/icons/extrasmall/exec.png") no-repeat scroll 0 50% transparent;
+}
+.clip-op-notify {
+  background: url("../../../images/icons/extrasmall/bell.png") no-repeat scroll 0 50% transparent;
+}
+.clip-op-remind {
+  background: url("../../../images/icons/extrasmall/reminders.png") no-repeat scroll 0 50% transparent;
+}
+
+
+/*** Zikula.Autocompleter CSS ***/
+div.z-formrow {
+  position: relative;
+}
+ul.z-auto-holder {
+  background: #fff;
+  border: 1px solid #ddd;
+  font-family: "Lucida Grande", Tahoma, Arial, Verdana, sans-serif;
+  height: auto !important; height: 1%;
+  margin: 0;
+  overflow: hidden;
+  padding: 0.3em 0.3em 0;
+  position: relative;
+  width: 67.8%;
+}
+.z-linear ul.z-auto-holder {
+  width: 96%;
+}
+ul.z-auto-holder:hover {
+  border: 1px solid #aaa;
+}
+*:first-child+html ul.z-auto-holder {
+  padding-bottom: 2px;
+}
+* html ul.z-auto-holder { /* ie7 and below */
+  padding-bottom: 2px;
+}
+ul.z-auto-holder li {
+  float: left;
+  list-style-type: none;
+  margin: 0 0.3em 0.3em 0;
+}
+ul.z-auto-holder li.z-auto-bit-box,
+ul.z-auto-holder li.z-auto-bit-input input {
+  font: 11px "Lucida Grande", "Verdana";
+}
+ul.z-auto-holder li.z-auto-bit-input input:hover,
+ul.z-auto-holder li.z-auto-bit-input input:focus {
+  background: inherit; border: none;
+}
+ul.z-auto-holder li.z-auto-bit-box {
+  -moz-border-radius: 2px;
+  -webkit-border-radius: 2px;
+  border-radius: 2px;
+  border: 1px solid #ddd;
+  background: #f2f2f2;
+  padding: 1px 15px 2px 5px;
+  position: relative;
+}
+ul.z-auto-holder li.z-auto-bit-hover {
+  background: #ddd;
+  border-color: #aaa;
+}
+ul.z-auto-holder li.z-auto-bit-box-focus {
+  background: #555;
+  border-color: #555;
+  color: #fff;
+}
+ul.z-auto-holder li.z-auto-bit-input {
+  padding: 1px 2px 2px 2px;
+}
+ul.z-auto-holder li.z-auto-bit-input input {
+  border: none;
+  margin: 0;
+  outline: 0;
+  padding: 0; /* no left/right padding here please */
+  width: 100%;
+}
+ul.z-auto-holder li.z-auto-bit-input input.z-auto-smallinput {
+  width: 20px;
+}
+
+/* Boxes decoration */
+ul.z-auto-holder li.z-auto-bit-box a.z-auto-closebutton {
+  background: url('../images/auto_close.gif');
+  display: block;
+  font-size: 1px;
+  height: 7px;
+  position: absolute;
+  right: 4px;
+  top: 5px;
+  width: 7px;
+}
+ul.z-auto-holder li.z-auto-bit-box a.z-auto-closebutton:hover {
+  background-position: 7px;
+}
+ul.z-auto-holder li.z-auto-bit-box-focus a.z-auto-closebutton,
+ul.z-auto-holder li.z-auto-bit-box-focus a.z-auto-closebutton:hover {
+  background-position: bottom;
+}
+
+/* Container and options */
+.z-form div.z-formrow > .z-auto-container {
+  background: #eee;
+  display: none;
+  /*margin-left: 27.5% !important;*/
+  margin-left: 29% !important;
+  padding: 0;
+  position: absolute;
+  /*width: 67.4%;*/
+  width: 71%;
+  z-index: 9999;
+}
+.z-linear div.z-formrow > .z-auto-container {
+  margin-left: 0 !important;
+  width: 100%;
+}
+.z-form div.z-formrow > .z-auto-container .z-auto-default,
+.z-form div.z-formrow > .z-auto-container .z-auto-notfound {
+  border: 1px solid #ccc;
+  border-width: 0 1px 1px;
+  padding: 5px 7px;
+}
+.z-form div.z-formrow > .z-auto-container ul {
+  display: none;
+  margin: 0;
+  overflow: auto;
+  padding: 0;
+}
+.z-form div.z-formrow > .z-auto-container ul li {
+  border: 1px solid #ccc;
+  border-width: 0 1px 1px;
+  cursor: pointer;
+  font: 11px "Lucida Grande", "Verdana";
+  list-style-type: none;
+  margin: 0;
+  padding: 5px 12px;
+  z-index: 1000;
+}
+.z-form div.z-formrow > .z-auto-container ul li em {
+  background: #ccc;
+  font-style: normal;
+  font-weight: bold;
+}
+.z-form div.z-formrow > .z-auto-container ul li.z-auto-focus {
+  background: #555;
+  color: #fff;
+}
+.z-form div.z-formrow > .z-auto-container ul li.z-auto-focus em {
+  background: none;
+}
+
+/* Default pubtypes generic styles */
+
+/* generic */
+.clip-pagedetails .z-formrow {
+  overflow: hidden;
+}
+.clip-hooks-display div {
+  margin-top: 1.5em;
+}
+
+/* blog */
+.clip-list-items .clip-listpost {
+  border-top: 1px solid #eee;
+  margin-top: 1em;
+  padding-top: 0.5em;
+}
+.clip-list-items .clip-listpost:first-child {
+  border-top: none;
+  margin-top: 0.5em;
+  padding-top: 0;
+}
+.clip-post-title {
+  line-height: 1.3em;
+  margin-bottom: 0;
+}
+.clip-post-title a:link,
+.clip-post-title a:visited {
+  text-decoration: none;
+}
+.clip-post-meta {
+  color: #888;
+  font-size: 0.95em;
+}
+.clip-post-content {
+  padding: 12px 0;
+}
+.clip-post-content > *:last-child {
+  padding-bottom: 0;
+  margin-bottom: 0;
+}
+.clip-post-socialise {
+  float: right;
+  padding: 0 0 10px 7px;
+}
+.clip-post-socialise iframe {
+  vertical-align: top;
+}
+.clip-post-utility {
+  color: #888;
+  font-size: 0.95em;
+  line-height: 18px;
+}
+.clip-post-utility a:link,
+.clip-post-utility a:visited {
+  color: #888;
+  text-decoration: underline;
+}
+.clip-edit-blog h2 {
+  background: url('../../../images/icons/extrasmall/edit.png') 0 50% no-repeat;
+  padding-left: 25px;
+}
+.clip-edit-blog-initial h2 {
+  background: url('../../../images/icons/extrasmall/filenew.png') 0 50% no-repeat;
+}
+
+/* pages */
+.clip-page-title {
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 7px;
+  margin-bottom: 0px;
+}
+.clip-page-content {
+  padding: 7px;
+}
+.clip-page-info {
+  border-top: 1px solid #ddd;
+  font-size: smaller;
+  line-height: 2.2em;
+  padding: 5px;
+}
+.clip-page-info a:link,
+.clip-page-info a:visited {
+  color: #888;
+  text-decoration: underline;
+}
