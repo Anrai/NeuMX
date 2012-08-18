@@ -110,13 +110,13 @@
 		<div class="container clearfix">
 			<a href="#" class="mobile_nav closed">Pages Navigation Menu<span></span><ul id="mobile_menu" class="et_mobile_menu"><li id="menu-item-14" class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home menu-item-14 et_first_mobile_item"><a href="NeuMXTheme.htm">Home</a></li>
 <li id="menu-item-12" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-12"><a href="{$themepath}category/blog/">Blog</a></li>
-<li id="menu-item-406" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-406"><a href="{$themepath}page-templates/" class="sf-with-ul">Page Templates<span class="sf-sub-indicator"> »</span></a>
+<li id="menu-item-406" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-406"><a href="{$themepath}page-templates/" class="sf-with-ul">Page Templates</a>
 <ul class="sub-menu" style="display: none; visibility: hidden; "><li class="menu-gradient"></li>
 	<li id="menu-item-402" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-402"><a href="{$themepath}sitemap/">Sitemap</a></li>
 	<li id="menu-item-403" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-403"><a href="{$themepath}advanced-search/">Advanced Search</a></li>
 	<li id="menu-item-404" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-404"><a href="{$themepath}member-login/">Member Login</a></li>
 	<li id="menu-item-405" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-405"><a href="{$themepath}image-gallery/">Image Gallery</a></li>
-	<li id="menu-item-411" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-411"><a href="{$themepath}portfolio/" class="sf-with-ul">Portfolio<span class="sf-sub-indicator"> »</span></a>
+	<li id="menu-item-411" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-411"><a href="{$themepath}portfolio/" class="sf-with-ul">Portfolio</a>
 	<ul class="sub-menu" style="display: none; visibility: hidden; ">
 		<li id="menu-item-414" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-414 first-item"><a href="{$themepath}portfolio-medium/">Portfolio Smalll</a></li>
 		<li id="menu-item-415" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-415"><a href="{$themepath}portfolio/">Portfolio Medium</a></li>
