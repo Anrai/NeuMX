@@ -81,15 +81,12 @@
         #content-area { background-image: url(themes/NeuMXTheme/images/design/body-bg17.png); }
     </style>
     <link id="droid_sans" href="{$themepath}/style/tmp/css(2).css" rel="stylesheet" type="text/css">
-    <style type="text/css">
-        h1,h2,h3,h4,h5,h6 { font-family: 'Droid Sans', Arial, sans-serif !important;  }
-    </style>
     <style type="text/css">h1,h2,h3,h4,h5,h6, h2 a, h3 a, h4 a, h5 a, h6 a {  }
             h2.featured-title a { color: #fff !important; }
             .main-title { color: #48423F !important; }
     </style>
     <link id="droid_sans" href="{$themepath}/style/tmp/css(2).css" rel="stylesheet" type="text/css" />
-    <style type="text/css">body { font-family: 'Droid Sans', Arial, sans-serif !important;  }</style><style type="text/css">body {  }</style>
+    <style type="text/css">body {  }</style>
     <style type="text/css">.recentcomments a{display:inline !important;padding:0 !important;margin:0 !important;}</style>
     <style type="text/css">
         #et_pt_portfolio_gallery { margin-left: -41px; margin-right: -51px; }
