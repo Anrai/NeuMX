@@ -69,8 +69,6 @@
                 <a href="http://community.zikula.org/" title="{gt text='Powered by Zikula'}">Zikula</a>
                 <span class="text-separator">|</span>
                 <a href="http://www.yaml.de/" title="{gt text='Layout supported by YAML'}">YAML</a>
-                <br />
-                Designed by <a href="http://www.elegantthemes.com/" title="Premium WordPress Themes">Elegant WordPress Themes</a> | Powered by  <a href="http://www.wordpress.org/">WordPress</a>
                 {if $serviceManager.development}
                     {* displays validators links only on development mode *}
                     <span class="text-separator">|</span>
