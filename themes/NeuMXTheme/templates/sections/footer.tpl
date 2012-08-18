@@ -41,4 +41,4 @@
         </div> <!-- end #footer-bottom -->
     </div> <!-- end #footer -->
 
-{**bt_htmloutput section='footer'**}
+{bt_htmloutput section='footer'}
