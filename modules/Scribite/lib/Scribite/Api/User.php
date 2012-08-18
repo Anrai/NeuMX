@@ -96,6 +96,9 @@ class Scribite_Api_User extends Zikula_AbstractApi
             case 'yui':
                 return $this->__('YUI Rich Text Editor');
                 break;
+            case 'aloha':
+                return $this->__('Aloha');
+                break;
         }
     }
 
@@ -424,8 +427,14 @@ class Scribite_Api_User extends Zikula_AbstractApi
 
                     // end tiny_mce
                     break;
+                default:
+                    if ($args['areas'][0] == "all") {
+                        $args['areas'] = 'all';
+                    }
+                    // set parameters
+                    $view->assign('modareas', $args['areas']); 
             }
-
+            
             // view output
             // 1. check if special template is required (from direct module call)
             if (isset($args['tpl']) && $view->template_exists($args['tpl'])) {
@@ -451,15 +460,21 @@ class Scribite_Api_User extends Zikula_AbstractApi
      * @param array $args file values
      * @return status(bool)
      */
-    public function uploadFile()
+    public function uploadFile($args)
     {
         // Security check
         if (!SecurityUtil::checkPermission('Scribite::', '::', ACCESS_ADD)) {
             return LogUtil::registerPermissionError();
         }
-        extract($_FILES['file']);
         
-
+        
+        if (count($args) == 0) {
+            $args = $_FILES['file'];
+        }            
+            
+        extract($args);
+        
+        
         //Check file extension
         $allowedExtensions = array('png', 'jpg', 'gif', 'jpeg');
         $ex = end(explode(".", $name));
@@ -485,4 +500,42 @@ class Scribite_Api_User extends Zikula_AbstractApi
                 ->thumbnail($size, $mode)
                 ->save($destination.'/thumbs/'.$name);
     }
+    
+    /**
+     * show images
+     *
+     * @param array $args file values
+     * @return status(bool)
+     */
+    public function showImages($args) {
+        $view = Zikula_View::getInstance('Scribite', false, null, true);        
+        
+        $upload_path = $this->getVar('upload_path');
+        $images = array();
+        if ($handle = opendir($upload_path)) {
+
+            $allowedExtensions = array('png', 'jpg', 'gif', 'jpeg');
+            while (false !== ($file = readdir($handle))) {
+                $extension = end(explode(".", $file));
+                if ( in_array($extension, $allowedExtensions) ) {
+                    $thumb = $upload_path.'/thumbs/'.$file;
+                    if(!file_exists($thumb)) {
+                        $thumb = $upload_path.'/'.$file;
+                    }                    
+                    $images[$thumb] = $file;
+                }
+            }
+
+            closedir($handle);
+        }
+
+        $view->setCaching(false);
+        $view->assign('images', $images );
+        $view->assign('baseUrl', System::getBaseURL() );
+        
+        
+        return $view->fetch('user/showImages.tpl');
+    }
+    
+    
 }
