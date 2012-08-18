@@ -121,7 +121,7 @@ img#about-image { float: left; margin: 3px 8px 8px 0px; }
 						#controllers #active_item { background: url(../../images/design/featured-arrow.png) no-repeat; position: absolute; top: -30px; left: 36px; width: 20px; height: 10px; z-index: 100; }
 						.controller { display:block; float:left; position:relative; margin-right: 21px; }
 							.controller a { display: block; }
-							.controller a.active { -moz-box-shadow: 0 0 6px 2px rgba(0,0,0,0.4); -webkit-box-shadow: 0 0 6px 2px rgba(0,0,0,0.4); box-shadow: 0 0 6px 2px rgba(0,0,0,0.4); }
+							.controller a.active { -moz-box-shadow: 0 0 6px 2px rgba(0,0,0,0.4); -webkit-box-shadow: 0 0 6px 2px rgba(0,0,0,0.4); box-shadow: 0 0 6px 2px rgba(0,0,0,0.4); heigh:54px;}
 								.controller span.overlay { background:url(../../images/design/controller-overlay.png) no-repeat; display:block; height:54px; left:0px; position:absolute; top:0px; width:95px; }
 					.recent-from { float: left; width: 317px; }
 						.recent-middle { width: 318px !important; }
