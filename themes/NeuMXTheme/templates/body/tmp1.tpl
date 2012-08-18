@@ -212,7 +212,7 @@
 <li id="menu-item-458" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-458"><a href="{$themepath}category/portfolio/people/">People</a></li>
 <li id="menu-item-459" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-459"><a href="{$themepath}category/featured/">Featured</a></li>
 <li id="menu-item-460" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-460"><a href="{$themepath}category/portfolio/nature/">Nature</a></li>
-<li id="menu-item-463" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-463"><a href="{$themepath}category/portrai/" class="sf-with-ul">Photography<span class="sf-sub-indicator"> »</span></a>
+<li id="menu-item-463" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-463"><a href="{$themepath}category/portrai/" class="sf-with-ul">Photography</a>
 <ul class="sub-menu" style="display: none; visibility: hidden; ">
 	<li id="menu-item-476" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-476"><a href="{$themepath}category/portfolio/architecture/">Architecture</a></li>
 	<li id="menu-item-477" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-477 even-item"><a href="{$themepath}category/portfolio/fashion/">Fashion</a></li>
