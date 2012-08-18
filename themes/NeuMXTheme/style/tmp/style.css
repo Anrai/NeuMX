@@ -310,6 +310,11 @@ h3#reply-title { font-family: 'Kreon', Arial, sans-serif; font-size: 30px; }
 					ul.bottom-nav li a:hover {text-decoration: none; color: #ebbe5e; } 
 						ul.bottom-nav li.current_page_item a { color: #ebbe5e !important; }
 	
+/*---- Extra footer ----*/
+
+#extrafooter a { color:#ffffff; font-size:11px; text-shadow: 1px 1px 1px rgba(0,0,0,0.6); text-decoration: none; font-weight: bold; }
+#extrafooter a:hover {text-decoration: none; color: #ebbe5e; } 
+
 /*------------------------------------------------*/
 /*--------------------[SIDEBAR]-------------------*/
 /*------------------------------------------------*/
