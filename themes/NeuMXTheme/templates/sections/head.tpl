@@ -22,8 +22,8 @@
     <link rel="stylesheet" href="{$themepath}/style/tmp/style.css" type="text/css" media="screen" />
     <link rel="stylesheet" href="{$themepath}/style/tmp/colorpicker.css" type="text/css" media="screen" />
     
-    <link href="{$themepath}/style/tmp/css.css" rel="stylesheet" type="text/css" />
-    <link href="{$themepath}/style/tmp/css(1).css" rel="stylesheet" type="text/css" />
+    <link href='http://fonts.googleapis.com/css?family=Droid+Sans:regular,bold' rel='stylesheet' type='text/css'/>
+    <link href='http://fonts.googleapis.com/css?family=Kreon:light,regular' rel='stylesheet' type='text/css'/>
 <!-- /copied -->
 
 <!-- pagevars -->
@@ -80,13 +80,6 @@
         #content-area { border-color: #f5f5f5; }
         #content-area { background-image: url(themes/NeuMXTheme/images/design/body-bg17.png); }
     </style>
-    <link id="droid_sans" href="{$themepath}/style/tmp/css(2).css" rel="stylesheet" type="text/css">
-    <style type="text/css">h1,h2,h3,h4,h5,h6, h2 a, h3 a, h4 a, h5 a, h6 a {  }
-            h2.featured-title a { color: #fff !important; }
-            .main-title { color: #48423F !important; }
-    </style>
-    <link id="droid_sans" href="{$themepath}/style/tmp/css(2).css" rel="stylesheet" type="text/css" />
-    <style type="text/css">body {  }</style>
     <style type="text/css">.recentcomments a{display:inline !important;padding:0 !important;margin:0 !important;}</style>
     <style type="text/css">
         #et_pt_portfolio_gallery { margin-left: -41px; margin-right: -51px; }
