@@ -65,7 +65,7 @@
 
             <p id="copyright">
                 &copy; {'Y'|date} <a href="{$baseurl}">{$modvars.ZConfig.sitename}</a>.
-                &nbsp;&nbsp;&nbsp;
+                &nbsp;
                 <a href="http://community.zikula.org/" title="{gt text='Powered by Zikula'}">Zikula</a>
                 <span class="text-separator">|</span>
                 <a href="http://www.yaml.de/" title="{gt text='Layout supported by YAML'}">YAML</a>
