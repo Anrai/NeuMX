@@ -312,6 +312,7 @@ h3#reply-title { font-family: 'Kreon', Arial, sans-serif; font-size: 30px; }
 	
 /*---- Extra footer ----*/
 
+#extrafooter {float: left;}
 #extrafooter a { color:#ffffff; font-size:11px; text-shadow: 1px 1px 1px rgba(0,0,0,0.6); text-decoration: none; font-weight: bold; }
 #extrafooter a:hover {text-decoration: none; color: #ebbe5e; } 
 
