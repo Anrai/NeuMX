@@ -725,9 +725,9 @@
 	</div> <!-- end #content-area -->
 
 <!-- begin: footer -->
-<footer>
+
     {include file='sections/footer.tpl'}
-</footer>
+
 <!-- end: footer -->
 
 <script src="{$themepath}/javascript/tmp/superfish.js" type="text/javascript"></script>
