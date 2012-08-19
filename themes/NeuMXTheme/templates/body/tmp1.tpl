@@ -74,7 +74,7 @@
 					<a href="http://www.elegantthemes.com/preview/Aggregate">
 												{img src="tmp/logo.png" alt="Aggregate Theme" id="logo"}
 					</a>
-					<p id="slogan">{pagegetvar name='slogan'}</p>
+					<p id="slogan">{pagegetvar name='description'}</p>
 									</div> <!-- end #logo-area -->
 				<div id="content">
 					<div id="inner-border">
