@@ -131,11 +131,9 @@
 				<div class="featured-bottom-shadow"></div>	
 				<div class="featured-description">
 					<div class="feat_desc">
-						<p class="meta-info">Posted by <a href="{$themepath}author/admin/" title="Posts by admin" rel="author">admin</a> on May 19, 2011</p>
-						<h2 class="featured-title"><a href="duis-venenatis-scelerisque-diam/">Duis venenatis scelerisque</a></h2>
-						<p>Praesent sagittis nibh a purus dictum elementum. Morbi eget tortor ac leo faucibus dictum. Nam accumsan nisl ut sapien vulputate vitae varius turpis condimentum. Etiam aliquam sollicitudin tellus, vitae iaculis arcu posuere at. Cras nec justo non velit scelerisque faucibus. Maecenas tempor, ante sed rhoncus hendrerit, dui est malesuada massa, ut tincidunt turpis urna non nibh. Sed turpis sapien, posuere...</p>
+						<h2 class="featured-title"><a href="duis-venenatis-scelerisque-diam/">Alme Design</a></h2>
+						<p>Diseño minimalista en HTML5 y CSS. Es una galería de fotos de los productos de una empresa de diseño de Pulseras. Programación de animaciones y carga de imágenes en Javascript.</p>
 					</div>
-					<a href="duis-venenatis-scelerisque-diam/" class="readmore">Read More</a>
 				</div> <!-- end .description -->
 					</li> <!-- end .slide -->
 									<li class="slide" style="width: 100%; float: left; margin-right: -100%; display: none; ">
@@ -143,11 +141,9 @@
 				<div class="featured-bottom-shadow"></div>	
 				<div class="featured-description">
 					<div class="feat_desc">
-						<p class="meta-info">Posted by <a href="{$themepath}author/admin/" title="Posts by admin" rel="author">admin</a> on May 19, 2011</p>
-						<h2 class="featured-title"><a href="vestibulum-ante-ipsum-primis/">Vestibulum ante ipsum primis</a></h2>
-						<p>Morbi massa turpis, ullamcorper eget tincidunt nec, tincidunt non mi. Aenean cursus mauris ac ligula sollicitudin mattis. Donec sit amet mi nunc, vitae euismod purus. Phasellus sodales, tellus nec adipiscing mattis, mauris elit tempus eros, non porttitor enim urna at mi. Nam et congue lorem. Etiam ac ante quis massa laoreet consequat et in diam. Nunc eget massa vehicula eros ultricies vulputate vitae quis...</p>
+						<h2 class="featured-title"><a href="vestibulum-ante-ipsum-primis/">DeMolay Querétaro</a></h2>
+						<p>Sitio Web para un grupo de Jóvenes. Funciona bajo el Framework/CMS Zikula, programado en PHP y AJAX. Incluye Blog, Galería de Imágenes, Preguntas Frecuentes, Páginas Fijas, Página de Contacto y Creación de Nuevos Grupos.</p>
 					</div>
-					<a href="vestibulum-ante-ipsum-primis/" class="readmore">Read More</a>
 				</div> <!-- end .description -->
 					</li> <!-- end .slide -->
 									<li class="slide" style="width: 100%; float: left; margin-right: -100%; display: list-item; ">
@@ -155,11 +151,9 @@
 				<div class="featured-bottom-shadow"></div>	
 				<div class="featured-description">
 					<div class="feat_desc">
-						<p class="meta-info">Posted by <a href="{$themepath}author/admin/" title="Posts by admin" rel="author">admin</a> on May 19, 2011</p>
-						<h2 class="featured-title"><a href="donec-ultricies-porta-sodales/">Donec ultricies porta sodales</a></h2>
-						<p>Sed dignissim sapien et eros suscipit id bibendum nunc mollis. Duis non cursus elit. Donec bibendum adipiscing euismod. Sed eget velit lectus, sed fringilla arcu. Quisque mauris ante, vehicula iaculis euismod id, dapibus elementum nibh. Mauris posuere egestas suscipit. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Proin ultrices semper enim, ut tincidunt augue...</p>
+						<h2 class="featured-title"><a href="donec-ultricies-porta-sodales/">Agarti</a></h2>
+						<p>Empresa fabricante de artículos de oficina. Incluye Página de contacto, Páginas estáticas, Catálogo de Productos, Blog, Comercio Electrónico. Funciona bajo el Framework/CMS Zikula con programación modular en PHP y AJAX, base de datos en MySQL. Optimizada para motores de búsqueda (SEO) utiliza Microdatos para enviar información a buscadores. El cliente puede analizar las estrategias de mercadotecnia desde Google Analytics, incluye Objetivos y Comercio Electrónico en las conversiones y Landing Pages.</p>
 					</div>
-					<a href="donec-ultricies-porta-sodales/" class="readmore">Read More</a>
 				</div> <!-- end .description -->
 					</li> <!-- end .slide -->
 									<li class="slide" style="width: 100%; float: left; margin-right: -100%; display: none; ">
@@ -168,8 +162,8 @@
 				<div class="featured-description">
 					<div class="feat_desc">
 						<p class="meta-info">Posted by <a href="{$themepath}author/admin/" title="Posts by admin" rel="author">admin</a> on May 19, 2011</p>
-						<h2 class="featured-title"><a href="vivamus-congue-lorem-ac-velit-accumsan/">Vivamus congue lorem ac velit</a></h2>
-						<p>Sed commodo, erat sed lacinia tempor, odio tortor molestie purus, eget malesuada odio tortor ac lectus. Ut pharetra euismod orci quis vulputate. Nunc ornare fringilla purus, non imperdiet eros feugiat nec. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Vivamus congue lorem ac velit accumsan quis consequat diam mollis. Cras consectetur imperdiet nibh, in...</p>
+						<h2 class="featured-title"><a href="vivamus-congue-lorem-ac-velit-accumsan/">Evolución Industrial</a></h2>
+						<p>Sitio para promocionar y registrar invitados en el Congreso de Ingeniería Industrial del Tecnológico de Monterrey. Funciona con un sistema de noticias, galería de patrocinadores, de videos, registro de personas y pago en línea.</p>
 					</div>
 					<a href="vivamus-congue-lorem-ac-velit-accumsan/" class="readmore">Read More</a>
 				</div> <!-- end .description -->
