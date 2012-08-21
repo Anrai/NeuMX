@@ -53,13 +53,13 @@
     <div id="footer-bottom">
         <div class="container clearfix">
             <ul id="bottom-nav" class="bottom-nav">
-                <li class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home menu-item-14"><a href="NeuMXTheme.htm">Home</a></li>
-                <li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-12"><a href="{$themepath}category/blog/">Blog</a></li>
-                <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-406"><a href="{$themepath}page-templates/">Page Templates</a></li>
-                <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-398"><a href="{$themepath}shortcodes/">Shortcodes</a></li>
-                <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-410"><a href="{$themepath}contact-us/">Contact Us</a></li>
-                <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-474"><a href="{$themepath}sitemap/">Sitemap</a></li>
-                <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-475"><a href="{$themepath}advanced-search/">Advanced Search</a></li>
+                <li class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home menu-item-14"><a href="NeuMXTheme.htm">Inicio</a></li>
+                <li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-12"><a href="{$themepath}category/blog/">Servicios</a></li>
+                <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-406"><a href="{$themepath}page-templates/">Nosotros</a></li>
+                <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-398"><a href="{$themepath}shortcodes/">Soporte</a></li>
+                <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-410"><a href="{$themepath}contact-us/">Blog</a></li>
+                <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-474"><a href="{$themepath}sitemap/">Portafolios</a></li>
+                <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-475"><a href="{$themepath}advanced-search/">Contacto</a></li>
             </ul>
         </div> <!-- end .container -->
     </div> <!-- end #footer-bottom -->
