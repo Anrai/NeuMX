@@ -57,12 +57,6 @@
 <li id="menu-item-474" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-474"><a href="{$themepath}sitemap/">Portafolios</a></li>
 <li id="menu-item-475" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-475"><a href="{$themepath}advanced-search/">Contacto</a></li>
 </ul>
-			<div id="search-form">
-				<form method="get" id="searchform" action="/NeuMXTheme.htm">
-					<input type="text" value="search this site..." name="s" id="searchinput">
-					<input type="image" src="{$imagepath}/design/search_btn.png" id="searchsubmit">
-				</form>
-			</div> <!-- end #search-form -->
 		</div> <!-- end .container -->
 	</div> <!-- end #top-header -->
 
