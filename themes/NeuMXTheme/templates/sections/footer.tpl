@@ -22,9 +22,9 @@
                     <span class="text-separator">|</span>
                     <a href="{modurl modname='News' type='user' func='view' theme='Atom'}" title="Atom"><img src="{$imagepath}/icons/atom.png" alt="Atom" width="14" height="14" /> Atom</a>
                     <span class="text-separator">|</span>
-                    <a href="{modurl modname='Legal' type='user' func='main'}" title="{gt text='Terms of use'}">{gt text='Términos de US'}</a>
+                    <a href="{modurl modname='Legal' type='user' func='main'}" title="{gt text='Terms of use'}">{gt text='Términos de uso'}</a>
                     <span class="text-separator">|</span>
-                    <a href="{modurl modname='Formicula' type='user' func='main'}" title="{gt text='Contact'}">{gt text='Contact0'}</a>
+                    <a href="{modurl modname='Formicula' type='user' func='main'}" title="{gt text='Contact'}">{gt text='Contacto'}</a>
                     <span class="text-separator">|</span>
                     <a href="#header" title="{gt text='Back to top'}">{gt text='Subir'}</a>
                 {/if}
