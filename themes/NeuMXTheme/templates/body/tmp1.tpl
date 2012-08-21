@@ -2,13 +2,13 @@
 		<div id="top-shadow"></div>
 		<div id="bottom-shadow"></div>
 		<div class="container clearfix">
-			<a href="#" class="mobile_nav closed">Pages Navigation Menu<span></span><ul id="mobile_menu" class="et_mobile_menu"><li id="menu-item-14" class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home menu-item-14 et_first_mobile_item"><a href="NeuMXTheme.htm">Home</a></li>
-<li id="menu-item-12" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-12"><a href="{$themepath}category/blog/">Blog</a></li>
-<li id="menu-item-406" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-406"><a href="{$themepath}page-templates/" class="sf-with-ul">Page Templates<span class="sf-sub-indicator"> »</span></a>
+			<a href="#" class="mobile_nav closed">Pages Navigation Menu<span></span><ul id="mobile_menu" class="et_mobile_menu"><li id="menu-item-14" class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home menu-item-14 et_first_mobile_item"><a href="NeuMXTheme.htm">Inicio</a></li>
+<li id="menu-item-12" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-12"><a href="{$themepath}category/blog/">Servicios</a></li>
+<li id="menu-item-406" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-406"><a href="{$themepath}page-templates/" class="sf-with-ul">Nosotros<span class="sf-sub-indicator"> »</span></a>
 <ul class="sub-menu" style="display: none; visibility: hidden; "><li class="menu-gradient"></li>
-	<li id="menu-item-402" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-402"><a href="{$themepath}sitemap/">Sitemap</a></li>
-	<li id="menu-item-403" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-403"><a href="{$themepath}advanced-search/">Advanced Search</a></li>
-	<li id="menu-item-404" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-404"><a href="{$themepath}member-login/">Member Login</a></li>
+	<li id="menu-item-402" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-402"><a href="{$themepath}sitemap/">Soporte</a></li>
+	<li id="menu-item-403" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-403"><a href="{$themepath}advanced-search/">Blog</a></li>
+	<li id="menu-item-404" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-404"><a href="{$themepath}member-login/">Contacto</a></li>
 	<li id="menu-item-405" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-405"><a href="{$themepath}image-gallery/">Image Gallery</a></li>
 	<li id="menu-item-411" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-411"><a href="{$themepath}portfolio/" class="sf-with-ul">Portfolio<span class="sf-sub-indicator"> »</span></a>
 	<ul class="sub-menu" style="display: none; visibility: hidden; ">
@@ -25,13 +25,13 @@
 	<li id="menu-item-409" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-409"><a href="contact-us/">Contact Us</a></li>
 </ul>
 </li>
-<li id="menu-item-398" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-398"><a href="{$themepath}shortcodes/">Shortcodes</a></li>
-<li id="menu-item-410" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-410"><a href="{$themepath}contact-us/">Contact Us</a></li>
-<li id="menu-item-474" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-474"><a href="{$themepath}sitemap/">Sitemap</a></li>
-<li id="menu-item-475" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-475"><a href="{$themepath}advanced-search/">Advanced Search</a></li>
-</ul></a>			<ul id="top-menu" class="nav sf-js-enabled"><li id="menu-item-14" class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home menu-item-14"><a href="NeuMXTheme.htm">Home</a></li>
-<li id="menu-item-12" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-12"><a href="{$themepath}category/blog/">Blog</a></li>
-<li id="menu-item-406" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-406"><a href="{$themepath}page-templates/" class="sf-with-ul">Page Templates</a>
+<li id="menu-item-398" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-398"><a href="{$themepath}shortcodes/">Soporte</a></li>
+<li id="menu-item-410" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-410"><a href="{$themepath}contact-us/">Blog</a></li>
+<li id="menu-item-474" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-474"><a href="{$themepath}sitemap/">Portafolios</a></li>
+<li id="menu-item-475" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-475"><a href="{$themepath}advanced-search/">Contacto</a></li>
+</ul></a>			<ul id="top-menu" class="nav sf-js-enabled"><li id="menu-item-14" class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home menu-item-14"><a href="NeuMXTheme.htm">Inicio</a></li>
+<li id="menu-item-12" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-12"><a href="{$themepath}category/blog/">Servicios</a></li>
+<li id="menu-item-406" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-406"><a href="{$themepath}page-templates/" class="sf-with-ul">Nosotros</a>
 <ul class="sub-menu" style="display: none; visibility: hidden; "><li class="menu-gradient"></li>
 	<li id="menu-item-402" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-402"><a href="{$themepath}sitemap/">Sitemap</a></li>
 	<li id="menu-item-403" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-403"><a href="{$themepath}advanced-search/">Advanced Search</a></li>
@@ -52,10 +52,10 @@
 	<li id="menu-item-409" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-409"><a href="{$themepath}contact-us/">Contact Us</a></li>
 </ul>
 </li>
-<li id="menu-item-398" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-398"><a href="{$themepath}shortcodes/">Shortcodes</a></li>
-<li id="menu-item-410" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-410"><a href="{$themepath}contact-us/">Contact Us</a></li>
-<li id="menu-item-474" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-474"><a href="{$themepath}sitemap/">Sitemap</a></li>
-<li id="menu-item-475" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-475"><a href="{$themepath}advanced-search/">Advanced Search</a></li>
+<li id="menu-item-398" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-398"><a href="{$themepath}shortcodes/">Soporte</a></li>
+<li id="menu-item-410" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-410"><a href="{$themepath}contact-us/">Blog</a></li>
+<li id="menu-item-474" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-474"><a href="{$themepath}sitemap/">Portafolios</a></li>
+<li id="menu-item-475" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-475"><a href="{$themepath}advanced-search/">Contacto</a></li>
 </ul>
 			<div id="search-form">
 				<form method="get" id="searchform" action="/NeuMXTheme.htm">
@@ -161,11 +161,9 @@
 				<div class="featured-bottom-shadow"></div>	
 				<div class="featured-description">
 					<div class="feat_desc">
-						<p class="meta-info">Posted by <a href="{$themepath}author/admin/" title="Posts by admin" rel="author">admin</a> on May 19, 2011</p>
 						<h2 class="featured-title"><a href="vivamus-congue-lorem-ac-velit-accumsan/">Evolución Industrial</a></h2>
 						<p>Sitio para promocionar y registrar invitados en el Congreso de Ingeniería Industrial del Tecnológico de Monterrey. Funciona con un sistema de noticias, galería de patrocinadores, de videos, registro de personas y pago en línea.</p>
 					</div>
-					<a href="vivamus-congue-lorem-ac-velit-accumsan/" class="readmore">Read More</a>
 				</div> <!-- end .description -->
 					</li> <!-- end .slide -->
 									<li class="slide" style="width: 100%; float: left; margin-right: -100%; display: none; ">
@@ -295,14 +293,8 @@
 				<li><a href="donec-ultricies-porta-sodales/" title="Donec ultricies porta sodales">Donec ultricies porta sodales</a></li>
 				<li><a href="vivamus-congue-lorem-ac-velit-accumsan/" title="Vivamus congue lorem ac velit">Vivamus congue lorem ac velit</a></li>
 				</ul>
-		</div> <!-- end .widget --><h4 class="main-title widget-title">Recent Comments</h4><div class="widget"><ul id="recentcomments"><li class="recentcomments"><a href="http://probarta.com/" rel="external nofollow" class="url">Projukti Barta</a> on <a href="{$themepath}2008/09/04/hello-world-2/#comment-723">Neque porro quisquam est qui</a></li><li class="recentcomments"><a href="http://bhaveshthaker.com/" rel="external nofollow" class="url">Bhaveshkumar Thaker</a> on <a href="{$themepath}2010/09/15/beautiful-buildings/#comment-721">Beautiful Buildings</a></li><li class="recentcomments"><a href="http://bhaveshthaker.com/" rel="external nofollow" class="url">Bhaveshkumar Thaker</a> on <a href="{$themepath}2010/09/15/beautiful-buildings/#comment-720">Beautiful Buildings</a></li><li class="recentcomments"><a href="http://www.k-files.com/" rel="external nofollow" class="url">Blogger's Notebook</a> on <a href="duis-venenatis-scelerisque-diam/#comment-717">Duis venenatis scelerisque</a></li></ul></div> <!-- end .widget --><h4 class="main-title widget-title">Advertisement</h4><div class="widget">	
-<div class="adwrap">
-	<a href="#" target="_blank">{img src="tmp/ad-2.gif" alt="advertisement" title="advertisement"}</a>
-	<a href="#" target="_blank">{img src="tmp/ad-2.gif" alt="advertisement" title="advertisement"}</a>
-	<a href="#" target="_blank">{img src="tmp/ad-2.gif" alt="advertisement" title="advertisement"}</a>
-	<a href="" target="_blank">{img src="tmp/ad-2.gif" alt="advertisement" title="advertisement"}</a>
-</div> <!-- end adwrap -->
-</div> <!-- end .widget -->		</div> <!-- #sidebar -->
+		</div> <!-- end .widget --><h4 class="main-title widget-title">Recent Comments</h4><div class="widget"><ul id="recentcomments"><li class="recentcomments"><a href="http://probarta.com/" rel="external nofollow" class="url">Projukti Barta</a> on <a href="{$themepath}2008/09/04/hello-world-2/#comment-723">Neque porro quisquam est qui</a></li><li class="recentcomments"><a href="http://bhaveshthaker.com/" rel="external nofollow" class="url">Bhaveshkumar Thaker</a> on <a href="{$themepath}2010/09/15/beautiful-buildings/#comment-721">Beautiful Buildings</a></li><li class="recentcomments"><a href="http://bhaveshthaker.com/" rel="external nofollow" class="url">Bhaveshkumar Thaker</a> on <a href="{$themepath}2010/09/15/beautiful-buildings/#comment-720">Beautiful Buildings</a></li><li class="recentcomments"><a href="http://www.k-files.com/" rel="external nofollow" class="url">Blogger's Notebook</a> on <a href="duis-venenatis-scelerisque-diam/#comment-717">Duis venenatis scelerisque</a></li></ul></div> <!-- end .widget -->
+	</div> <!-- #sidebar -->
 																				</div> <!-- end #main-content -->
 									
 		<div id="additional-widgets" class="clearfix">
