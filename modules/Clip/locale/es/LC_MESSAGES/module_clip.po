@@ -1,0 +1,3076 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Clio 0.9\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2011-08-09 02:58-0500\n"
+"PO-Revision-Date: 2011-08-09 03:05-0500\n"
+"Last-Translator: Mateo Tibaquirá <mateo@zikula.org>\n"
+"Language-Team: Zikula en Español <equipo@zikula.es>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-Language: Spanish\n"
+
+#: templates/plugins/function.clip_multilistdecode.php:34
+#: templates/plugins/block.clip_form_block.php:37
+#: templates/plugins/function.clip_form_genericplugin.php:33
+#: lib/Clip/Api/User.php:37
+#: lib/Clip/Api/User.php:269
+#: lib/Clip/Api/User.php:275
+#: lib/Clip/Api/User.php:384
+#: lib/Clip/Api/User.php:387
+#: lib/Clip/Api/User.php:422
+#: lib/Clip/Api/User.php:425
+#: lib/Clip/Api/User.php:446
+#: lib/Clip/Api/User.php:449
+#: lib/Clip/Controller/User.php:694
+#: lib/Clip/Controller/Editor.php:167
+#: lib/Clip/Controller/Admin.php:189
+#, php-format
+msgid "Error! Missing argument [%s]."
+msgstr "¡Error! Falta el argumento [%s]."
+
+#: templates/plugins/function.clip_editorpanel.php:26
+#: templates/plugins/function.clip_copytoclipboard.php:38
+#: templates/plugins/function.clip_array.php:31
+#: templates/plugins/function.clip_category_browser.php:41
+#: templates/plugins/function.clip_category_browser.php:46
+#: templates/plugins/function.clip_hitcount.php:34
+#: templates/plugins/function.clip_hitcount.php:39
+#: templates/plugins/function.clip_editoractions.php:31
+#, fuzzy, php-format
+msgid "Error! in %1$s: the %2$s parameter must be specified."
+msgstr "¡Error! En %1$s: el parámetro %2$s debe ser especificado."
+
+#: templates/plugins/function.clip_copytoclipboard.php:59
+#, php-format
+msgid "Error! Clippy.swf not found on this view paths [%s]."
+msgstr ""
+
+#: templates/plugins/function.clip_copytoclipboard.php:67
+msgid "Copy to clipboard"
+msgstr "Copiar al portapapeles"
+
+#: templates/plugins/function.clip_pagerabc.php:92
+msgid "clip_pagerabc: Values length must be the same of the Names"
+msgstr ""
+
+#: templates/plugins/function.clip_pagerabc.php:100
+msgid "A,B,C,D,E,F,G,H,I,J,K,L,M,N,O,P,Q,R,S,T,U,V,W,X,Y,Z"
+msgstr ""
+
+#: templates/plugins/function.clip_category_browser.php:113
+#, fuzzy, php-format
+msgid "Error! No such category found for the ID passed [%s]."
+msgstr "¡Error! No se encontró tal categoría para el ID [%s]."
+
+#: templates/plugins/function.clip_category_browser.php:208
+#: templates/pages/list.tpl:18
+#: templates/pages/display.tpl:57
+#: templates/blog/list.tpl:38
+#: templates/blog/display.tpl:44
+msgid "Uncategorized"
+msgstr "Sin categoría"
+
+#: templates/plugins/function.clip_editoractions.php:55
+#: templates/generic_navbar.tpl:92
+#, fuzzy
+msgid "Edit this publication"
+msgstr "Editar esta publicación"
+
+#: templates/plugins/function.clip_editoractions.php:55
+#: templates/plugins/function.clip_adminmenu.php:51
+#: templates/plugins/function.clip_adminmenu.php:53
+#: lib/Clip/Form/Plugin/RadioList.php:101
+#: templates/clip_admin_relations.tpl:86
+#: templates/clip_base_publist.tpl:80
+#: templates/generic_blocklist.tpl:13
+#: templates/pages/list.tpl:55
+#: templates/pages/display.tpl:34
+#: templates/pages/list_fblike.tpl:27
+#: templates/clip_admin_pubfields.tpl:82
+#: templates/clip_base_history.tpl:48
+#: templates/blog/list.tpl:51
+#: templates/blog/display.tpl:63
+#: templates/clip_base_pubtypeinfo.tpl:135
+#: templates/clip_base_pubtypeinfo.tpl:146
+#: templates/clip_base_pubtypeinfo.tpl:169
+#: templates/clip_base_pubtypeinfo.tpl:188
+#: templates/clip_base_pubtypeinfo.tpl:192
+#: templates/generic_list.tpl:25
+#: templates/generic_navbar.tpl:92
+#: templates/generic_navbar.tpl:105
+#: templates/generic_navbar.tpl:125
+msgid "Edit"
+msgstr "Editar"
+
+#: templates/plugins/function.clip_adminmenu.php:34
+#: lib/Clip/Access.php:79
+#: lib/Clip/Access.php:144
+#, php-format
+msgid "%1$s: Invalid publication type ID passed [%2$s]."
+msgstr ""
+
+#: templates/plugins/function.clip_adminmenu.php:43
+msgid "Info"
+msgstr "InfoInfo"
+
+#: templates/plugins/function.clip_adminmenu.php:60
+#: templates/plugins/function.clip_adminmenu.php:62
+#: templates/plugins/function.clip_adminmenu.php:64
+#: templates/clip_base_pubtypeinfo.tpl:11
+#: templates/clip_base_pubtypeinfo.tpl:127
+msgid "Fields"
+msgstr "Campos"
+
+#: templates/plugins/function.clip_adminmenu.php:70
+#: lib/Clip/Api/Admin.php:36
+#: templates/clip_admin_relations.tpl:7
+#: templates/clip_admin_relations.tpl:17
+#: templates/clip_base_pubtypeinfo.tpl:160
+msgid "Relations"
+msgstr "Relaciones"
+
+#: templates/plugins/function.clip_adminmenu.php:76
+#: templates/plugins/function.clip_adminmenu.php:101
+msgid "Generate templates"
+msgstr "Generar plantillas"
+
+#: templates/plugins/function.clip_adminmenu.php:81
+#: lib/Clip/Api/Admin.php:29
+msgid "Index"
+msgstr "Índice"
+
+#: templates/plugins/function.clip_adminmenu.php:81
+#, fuzzy
+msgid "Publication type main template"
+msgstr "¡Hecho! Tipo de publicación creado."
+
+#. ! field type name
+#: templates/plugins/function.clip_adminmenu.php:84
+#: lib/Clip/Form/Plugin/List.php:25
+#: templates/clip_base_pubtypeinfo.tpl:91
+msgid "List"
+msgstr "Lista"
+
+#: templates/plugins/function.clip_adminmenu.php:84
+#, fuzzy
+msgid "Publications list template"
+msgstr "Plantilla del listado de artículos"
+
+#: templates/plugins/function.clip_adminmenu.php:87
+#: templates/clip_base_pubtypeinfo.tpl:99
+msgid "Display"
+msgstr "Mostrar"
+
+#: templates/plugins/function.clip_adminmenu.php:87
+#, fuzzy
+msgid "Publication display template"
+msgstr "Plantilla de despliegue de un artículo"
+
+#: templates/plugins/function.clip_adminmenu.php:90
+#: templates/clip_base_pubtypeinfo.tpl:83
+msgid "Form"
+msgstr "Formulario"
+
+#: templates/plugins/function.clip_adminmenu.php:90
+#, fuzzy
+msgid "Publication input form template"
+msgstr "Formato de plantilla para la visualización de la publicación"
+
+#: templates/plugins/function.clip_adminmenu.php:93
+#: templates/clip_base_pubtypeinfo.tpl:107
+msgid "List block"
+msgstr "Bloque lista"
+
+#: templates/plugins/function.clip_adminmenu.php:93
+#: templates/clip_base_generator.tpl:31
+#, fuzzy
+msgid "List block template"
+msgstr "Plantilla de bloque personalizada"
+
+#: templates/plugins/function.clip_adminmenu.php:96
+msgid "Pub block"
+msgstr "Bloque pub"
+
+#: templates/plugins/function.clip_adminmenu.php:96
+#, fuzzy
+msgid "Publication block template"
+msgstr "Plantilla de bloque personalizada"
+
+#: workflows/function.enterprise_permissioncheck.php:38
+#: workflows/function.standard_permissioncheck.php:38
+#, fuzzy
+msgid "Are you sure you want to delete this publication?"
+msgstr "¿Está seguro que quiere romper este bloqueo?"
+
+#: workflows/function.enterprise_permissioncheck.php:41
+msgid "Enterprise"
+msgstr "Empresarial"
+
+#: workflows/function.enterprise_permissioncheck.php:42
+msgid "This is a three staged workflow with stages for untrusted submissions, moderator's acceptance, and approval control by a editor; approved publications are handled by authors staff."
+msgstr ""
+
+#: workflows/function.enterprise_permissioncheck.php:46
+#: workflows/function.standard_permissioncheck.php:46
+msgid "Waiting"
+msgstr "En espera"
+
+#: workflows/function.enterprise_permissioncheck.php:46
+#: workflows/function.standard_permissioncheck.php:46
+#, fuzzy
+msgid "Content has been submitted and is waiting for acceptance"
+msgstr "El artículo ha sido enviado y está esperando aprobación"
+
+#: workflows/function.enterprise_permissioncheck.php:47
+msgid "Accepted"
+msgstr "Aceptado"
+
+#: workflows/function.enterprise_permissioncheck.php:47
+#, fuzzy
+msgid "Content has been accepted and is waiting for approval"
+msgstr "El artículo ha sido enviado y está esperando aprobación"
+
+#: workflows/function.enterprise_permissioncheck.php:48
+#: workflows/function.none_permissioncheck.php:44
+#: workflows/function.standard_permissioncheck.php:47
+msgid "Approved"
+msgstr "Aprobado"
+
+#: workflows/function.enterprise_permissioncheck.php:48
+#, fuzzy
+msgid "Content has been approved is available online"
+msgstr "El artículo ha sido aprobado y está disponible en línea"
+
+#: workflows/function.enterprise_permissioncheck.php:54
+#: workflows/function.standard_permissioncheck.php:53
+msgid "Submit and Approve"
+msgstr "Enviar y Aprobar"
+
+#: workflows/function.enterprise_permissioncheck.php:54
+#: workflows/function.standard_permissioncheck.php:53
+#, fuzzy
+msgid "Submit a publication and approve immediately"
+msgstr "Envía y aprueba un artículo inmediatamente"
+
+#: workflows/function.enterprise_permissioncheck.php:55
+msgid "Submit and Accept"
+msgstr "Enviar y Aceptar"
+
+#: workflows/function.enterprise_permissioncheck.php:55
+#, fuzzy
+msgid "Submit a publication and accept immediately"
+msgstr "Envía y aprueba un artículo inmediatamente"
+
+#: workflows/function.enterprise_permissioncheck.php:56
+#: workflows/function.none_permissioncheck.php:50
+#: workflows/function.standard_permissioncheck.php:54
+#: templates/generic_navbar.tpl:107
+#: templates/generic_navbar.tpl:127
+msgid "Submit"
+msgstr "Enviar"
+
+#: workflows/function.enterprise_permissioncheck.php:56
+#: workflows/function.standard_permissioncheck.php:54
+#, fuzzy
+msgid "Submit a publication for acceptance by a moderator"
+msgstr "Envía el artículo para la aprobación de un moderador"
+
+#: workflows/function.enterprise_permissioncheck.php:59
+#: workflows/function.enterprise_permissioncheck.php:68
+#: workflows/function.standard_permissioncheck.php:57
+msgid "Update and Approve"
+msgstr "Actualizar y Aprobar"
+
+#: workflows/function.enterprise_permissioncheck.php:59
+#: workflows/function.standard_permissioncheck.php:57
+#, fuzzy
+msgid "Update the content and approve for immediate publishing"
+msgstr "Actualizar el artículo y aprobarlo para su publicación inmediata"
+
+#: workflows/function.enterprise_permissioncheck.php:60
+#: workflows/function.standard_permissioncheck.php:59
+msgid "Approve"
+msgstr "Aprobar"
+
+#: workflows/function.enterprise_permissioncheck.php:60
+#: workflows/function.enterprise_permissioncheck.php:68
+#: workflows/function.standard_permissioncheck.php:59
+#, fuzzy
+msgid "Approve the publication for immediate publishing"
+msgstr "Aprobar el artículo para su publicación inmediata"
+
+#: workflows/function.enterprise_permissioncheck.php:61
+msgid "Accept"
+msgstr "Aceptar"
+
+#: workflows/function.enterprise_permissioncheck.php:61
+msgid "Accept the publication for editors approval"
+msgstr ""
+
+#: workflows/function.enterprise_permissioncheck.php:62
+#: workflows/function.enterprise_permissioncheck.php:69
+#: workflows/function.enterprise_permissioncheck.php:75
+#: workflows/function.none_permissioncheck.php:53
+#: workflows/function.standard_permissioncheck.php:58
+#: workflows/function.standard_permissioncheck.php:65
+msgid "Update"
+msgstr "Actualizar"
+
+#: workflows/function.enterprise_permissioncheck.php:62
+#: workflows/function.enterprise_permissioncheck.php:69
+#: workflows/function.enterprise_permissioncheck.php:75
+#, fuzzy
+msgid "Update the content of the publication"
+msgstr "¡Error! Actualización del artículo fallida."
+
+#: workflows/function.enterprise_permissioncheck.php:63
+#: workflows/function.enterprise_permissioncheck.php:70
+#: workflows/function.enterprise_permissioncheck.php:79
+#: workflows/function.none_permissioncheck.php:54
+#: workflows/function.standard_permissioncheck.php:60
+#: workflows/function.standard_permissioncheck.php:68
+msgid "Trash"
+msgstr "Papelera"
+
+#: workflows/function.enterprise_permissioncheck.php:63
+#: workflows/function.enterprise_permissioncheck.php:70
+#: workflows/function.enterprise_permissioncheck.php:79
+#: workflows/function.none_permissioncheck.php:54
+#: workflows/function.standard_permissioncheck.php:60
+#: workflows/function.standard_permissioncheck.php:68
+msgid "Move the publication to the recycle bin"
+msgstr ""
+
+#: workflows/function.enterprise_permissioncheck.php:64
+#: workflows/function.enterprise_permissioncheck.php:71
+#: workflows/function.enterprise_permissioncheck.php:80
+#: workflows/function.none_permissioncheck.php:55
+#: workflows/function.standard_permissioncheck.php:61
+#: workflows/function.standard_permissioncheck.php:69
+msgid "Recover"
+msgstr "Recuperar"
+
+#: workflows/function.enterprise_permissioncheck.php:64
+#: workflows/function.enterprise_permissioncheck.php:71
+#: workflows/function.enterprise_permissioncheck.php:80
+#: workflows/function.none_permissioncheck.php:55
+#: workflows/function.standard_permissioncheck.php:61
+#: workflows/function.standard_permissioncheck.php:69
+msgid "Recover the publication from the recycle bin"
+msgstr ""
+
+#: workflows/function.enterprise_permissioncheck.php:65
+msgid "Reject"
+msgstr "Rechazar"
+
+#: workflows/function.enterprise_permissioncheck.php:65
+msgid "Reject and delete the submitted content permanently"
+msgstr ""
+
+#: workflows/function.enterprise_permissioncheck.php:72
+#: workflows/function.enterprise_permissioncheck.php:81
+#: workflows/function.none_permissioncheck.php:56
+#: workflows/function.standard_permissioncheck.php:62
+#: workflows/function.standard_permissioncheck.php:70
+#: templates/clip_admin_relations.tpl:180
+#: templates/clip_admin_pubfields.tpl:179
+#: templates/clip_admin_pubtype.tpl:234
+msgid "Delete"
+msgstr "Eliminar"
+
+#: workflows/function.enterprise_permissioncheck.php:72
+#: workflows/function.enterprise_permissioncheck.php:81
+#: workflows/function.none_permissioncheck.php:56
+#: workflows/function.standard_permissioncheck.php:62
+#: workflows/function.standard_permissioncheck.php:70
+#, fuzzy
+msgid "Delete the publication permanently"
+msgstr "¡Error! Borrado del artículo fallido."
+
+#: workflows/function.enterprise_permissioncheck.php:76
+msgid "Disapprove"
+msgstr "Desaprobar"
+
+#: workflows/function.enterprise_permissioncheck.php:76
+#, fuzzy
+msgid "Disapprove this publication"
+msgstr "Desaprobar esta publicación"
+
+#: workflows/function.enterprise_permissioncheck.php:77
+#: workflows/function.standard_permissioncheck.php:66
+msgid "Publish"
+msgstr "Publicar"
+
+#: workflows/function.enterprise_permissioncheck.php:77
+#: workflows/function.standard_permissioncheck.php:66
+#, fuzzy
+msgid "Make the publication available"
+msgstr "Hacer el artículo disponible"
+
+#: workflows/function.enterprise_permissioncheck.php:78
+#: workflows/function.standard_permissioncheck.php:67
+msgid "Unpublish"
+msgstr "Despublicar"
+
+#: workflows/function.enterprise_permissioncheck.php:78
+#: workflows/function.standard_permissioncheck.php:67
+#, fuzzy
+msgid "Hide the publication"
+msgstr "Remover la publicación del artículo"
+
+#: workflows/function.none_permissioncheck.php:39
+#: templates/clip_base_pubtypeinfo.tpl:42
+msgid "None"
+msgstr "Ninguno"
+
+#: workflows/function.none_permissioncheck.php:40
+#, fuzzy
+msgid "This is like a non-existing workflow. Everything is online immediately after creation."
+msgstr "Este es un flujo de trabajo prácticamente no existente. Todo artículo se publica inmediatamente después de su creación."
+
+#: workflows/function.none_permissioncheck.php:44
+#: workflows/function.standard_permissioncheck.php:47
+msgid "Content has been approved and is available online"
+msgstr ""
+
+#: workflows/function.none_permissioncheck.php:50
+#: templates/generic_main.tpl:19
+#: templates/blog/main.tpl:19
+#: templates/generic_edit.tpl:9
+#: templates/generic_navbar.tpl:31
+#, fuzzy
+msgid "Submit a publication"
+msgstr "Enviar un artículo"
+
+#: workflows/function.none_permissioncheck.php:53
+#: workflows/function.standard_permissioncheck.php:65
+#, fuzzy
+msgid "Update the publication content"
+msgstr "Actualizar el artículo para su publicación posterior"
+
+#: workflows/operations/function.clone.php:80
+#, fuzzy
+msgid "Done! Publication copied."
+msgstr "¡Hecho! Artículo copiado."
+
+#: workflows/operations/function.clone.php:82
+#, fuzzy
+msgid "Error! Failed to copy the publication."
+msgstr "¡Error! Copia del artículo fallida."
+
+#: workflows/operations/function.delete.php:52
+#, fuzzy
+msgid "Done! Publication deleted."
+msgstr "¡Hecho! Artículo borrado."
+
+#: workflows/operations/function.delete.php:54
+#, fuzzy
+msgid "Error! Failed to delete the publication."
+msgstr "¡Error! Borrado del artículo fallido."
+
+#: workflows/operations/function.notify.php:64
+#, fuzzy, php-format
+msgid "Notification sent to '%s' group."
+msgstr "Añadir usuarios al grupo"
+
+#: workflows/operations/function.notify.php:66
+#, fuzzy
+msgid "Notification failed."
+msgstr "¡Error! Falló el envío de la notificacion."
+
+#: workflows/operations/function.update.php:107
+#, fuzzy
+msgid "Done! Publication updated."
+msgstr "¡Hecho! Artículo actualizado."
+
+#: workflows/operations/function.update.php:109
+#: workflows/operations/function.updateValues.php:99
+#, fuzzy
+msgid "Error! Failed to update the publication."
+msgstr "¡Error! Actualización del artículo fallida."
+
+#: workflows/operations/function.create.php:38
+msgid "Error! The fixed publication id already exists on the database. Please contact the administrator."
+msgstr ""
+
+#: workflows/operations/function.create.php:65
+#, fuzzy
+msgid "Done! Publication created."
+msgstr "¡Hecho! Artículo creado."
+
+#: workflows/operations/function.create.php:74
+#, fuzzy
+msgid "Error! Failed to create the publication."
+msgstr "¡Error! Creación del artículo fallida."
+
+#: workflows/operations/function.updateValues.php:86
+#, fuzzy
+msgid "Publication status set to 'published'."
+msgstr "¡Hecho! El estado del artículo ahora es 'publicado'."
+
+#: workflows/operations/function.updateValues.php:88
+#, fuzzy
+msgid "Publication status set to 'unpublished'."
+msgstr "¡Hecho! El estado del artículo ahora es 'inédito'."
+
+#: workflows/operations/function.updateValues.php:93
+msgid "Publication moved to the recycle bin."
+msgstr ""
+
+#: workflows/operations/function.updateValues.php:95
+msgid "Publication was recovered from the recycle bin."
+msgstr ""
+
+#: workflows/function.standard_permissioncheck.php:41
+msgid "Standard"
+msgstr "Estandar"
+
+#: workflows/function.standard_permissioncheck.php:42
+msgid "This is a two staged workflow with stages for untrusted submissions and finally approved publications. It does not allow corrections of non-editors to published pages."
+msgstr ""
+
+#: workflows/function.standard_permissioncheck.php:58
+#, fuzzy
+msgid "Update the content for later publishing"
+msgstr "Actualizar el artículo para su publicación posterior"
+
+#: lib/Clip/ContentType/ClipPub.php:41
+#, fuzzy
+msgid "Clip publication"
+msgstr "Enviar un artículo"
+
+#: lib/Clip/ContentType/ClipPub.php:45
+#, fuzzy
+msgid "Display a Clip publication."
+msgstr "Plantilla de despliegue de un artículo"
+
+#: lib/Clip/ContentType/ClipPublist.php:82
+#, fuzzy
+msgid "Clip publication list"
+msgstr "Lista de tipos de publicación"
+
+#: lib/Clip/ContentType/ClipPublist.php:86
+#, fuzzy
+msgid "Clip list of filtered, ordered, and/or formatted publications."
+msgstr "Lista de Pagesetter de filtrado, ordenado y/o publicaciones con formato."
+
+#: lib/Clip/Form/PluginType.php:67
+#: templates/clip_admin_relations.tpl:178
+#: templates/clip_admin_pubfields.tpl:177
+#: templates/clip_admin_pubtype.tpl:231
+#: templates/clip_admin_modifyconfig.tpl:68
+msgid "Save"
+msgstr "Guardar"
+
+#: lib/Clip/Form/PluginType.php:68
+#: templates/clip_admin_relations.tpl:185
+#: templates/pages/form_all.tpl:100
+#: templates/clip_admin_pubfields.tpl:184
+#: templates/blog/form_all.tpl:95
+#: templates/clip_admin_pubtype.tpl:239
+#: templates/clip_admin_import.tpl:30
+#: templates/generic_edit.tpl:78
+#: templates/clip_admin_export.tpl:66
+#: templates/clip_admin_modifyconfig.tpl:70
+msgid "Cancel"
+msgstr "Cancelar"
+
+#: lib/Clip/Form/PluginType.php:70
+#, fuzzy
+msgid "Plugin configuration"
+msgstr "Guardar Configuración"
+
+#: lib/Clip/Form/PluginType.php:76
+msgid "Open the plugin configuration popup"
+msgstr ""
+
+#: lib/Clip/Form/PluginType.php:76
+msgid "Configuration"
+msgstr "Configuración"
+
+#: lib/Clip/Form/Handler/Admin/Relations.php:29
+msgid "There are no publication types to relate."
+msgstr ""
+
+#: lib/Clip/Form/Handler/Admin/Relations.php:64
+#, fuzzy, php-format
+msgid "No such relation found [%s]."
+msgstr "No se ha encontrado tal elemento."
+
+#: lib/Clip/Form/Handler/Admin/Relations.php:96
+#: templates/clip_admin_relations.tpl:115
+msgid "One"
+msgstr "Una"
+
+#: lib/Clip/Form/Handler/Admin/Relations.php:100
+#: templates/clip_admin_relations.tpl:115
+msgid "Many"
+msgstr "Muchas"
+
+#: lib/Clip/Form/Handler/Admin/Relations.php:106
+#: templates/clip_admin_relations.tpl:117
+msgid "has One"
+msgstr "tiene Una"
+
+#: lib/Clip/Form/Handler/Admin/Relations.php:110
+#: templates/clip_admin_relations.tpl:117
+msgid "has Many"
+msgstr "tiene Varias"
+
+#: lib/Clip/Form/Handler/Admin/Relations.php:116
+msgid "or"
+msgstr "o"
+
+#: lib/Clip/Form/Handler/Admin/Relations.php:120
+msgid "and"
+msgstr "y"
+
+#: lib/Clip/Form/Handler/Admin/Relations.php:193
+#, fuzzy
+msgid "Invalid owning publication type passed."
+msgstr "¡Hecho! Tipo de publicación actualizado."
+
+#: lib/Clip/Form/Handler/Admin/Relations.php:199
+#: lib/Clip/Form/Handler/Admin/Relations.php:215
+#: lib/Clip/Form/Handler/Admin/Pubfields.php:140
+#, php-format
+msgid "The alias '%s' is already in use."
+msgstr ""
+
+#: lib/Clip/Form/Handler/Admin/Relations.php:209
+#, fuzzy
+msgid "Invalid related publication type passed."
+msgstr "Crear tipo de publicación"
+
+#: lib/Clip/Form/Handler/Admin/Relations.php:234
+#, fuzzy
+msgid "This relation already exists."
+msgstr " ya existe en la base de datos."
+
+#: lib/Clip/Form/Handler/Admin/Relations.php:257
+#, fuzzy
+msgid "Done! Relation created."
+msgstr "¡Hecho! Elemento creado."
+
+#: lib/Clip/Form/Handler/Admin/Relations.php:259
+#, fuzzy
+msgid "Done! Relation updated."
+msgstr "¡Hecho! Elemento actualizado."
+
+#: lib/Clip/Form/Handler/Admin/Relations.php:271
+#, fuzzy
+msgid "Done! Relation deleted."
+msgstr "¡Hecho! Elemento eliminado."
+
+#: lib/Clip/Form/Handler/Admin/Relations.php:273
+#: lib/Clip/Form/Handler/Admin/Pubfields.php:187
+#, fuzzy
+msgid "Error! Deletion attempt failed."
+msgstr "¡Error! Intento de eliminación fallido."
+
+#: lib/Clip/Form/Handler/Admin/Pubtypes.php:29
+#: lib/Clip/Form/Handler/Admin/Pubfields.php:31
+#: lib/Clip/Api/User.php:40
+#: lib/Clip/Api/User.php:272
+#: lib/Clip/Controller/User.php:51
+#: lib/Clip/Controller/User.php:172
+#: lib/Clip/Controller/User.php:331
+#: lib/Clip/Controller/User.php:524
+#: lib/Clip/Controller/User.php:675
+#: lib/Clip/Controller/Ajaxdata.php:45
+#: lib/Clip/Controller/Editor.php:73
+#: lib/Clip/Controller/Editor.php:152
+#: lib/Clip/Controller/Admin.php:68
+#: lib/Clip/Controller/Admin.php:111
+#: lib/Clip/Controller/Admin.php:178
+#, php-format
+msgid "Error! Invalid publication type ID passed [%s]."
+msgstr ""
+
+#: lib/Clip/Form/Handler/Admin/Pubtypes.php:39
+#, fuzzy, php-format
+msgid "Error! No such publication type [%s] found."
+msgstr "¡Error! No se encontró tal tipo de publicación [%s]."
+
+#: lib/Clip/Form/Handler/Admin/Pubtypes.php:117
+#: lib/Clip/Form/Handler/Admin/Pubtypes.php:120
+msgid "The submitted value is a reserved word. Please choose a different one."
+msgstr ""
+
+#: lib/Clip/Form/Handler/Admin/Pubtypes.php:126
+#: lib/Clip/Form/Handler/Admin/Pubtypes.php:129
+msgid "The submitted value already exists. Please choose a different one."
+msgstr ""
+
+#: lib/Clip/Form/Handler/Admin/Pubtypes.php:137
+msgid "Done! Publication type created. Now you can proceed to define its fields."
+msgstr ""
+
+#: lib/Clip/Form/Handler/Admin/Pubtypes.php:140
+#, fuzzy
+msgid "Done! Publication type updated."
+msgstr "¡Hecho! Tipo de publicación actualizado."
+
+#: lib/Clip/Form/Handler/Admin/Pubtypes.php:150
+#, php-format
+msgid "%s Clon"
+msgstr "Clon de %s"
+
+#: lib/Clip/Form/Handler/Admin/Pubtypes.php:174
+#, fuzzy
+msgid "Done! Publication type cloned."
+msgstr "¡Hecho! Tipo de publicación creado."
+
+#: lib/Clip/Form/Handler/Admin/Pubtypes.php:187
+#, fuzzy
+msgid "Done! Publication type deleted."
+msgstr "¡Hecho! Tipo de publicación borrado."
+
+#: lib/Clip/Form/Handler/Admin/Import.php:73
+#, fuzzy
+msgid "Import attempt failed."
+msgstr "¡Error! Intento de actualización fallido."
+
+#: lib/Clip/Form/Handler/Admin/Import.php:82
+#, fuzzy
+msgid "Import done successfully."
+msgstr "¡Hecho! Importación exitosa."
+
+#: lib/Clip/Form/Handler/Admin/ModifyConfig.php:88
+#, fuzzy
+msgid "Done! Module configuration updated."
+msgstr "¡Hecho! Configuración del módulo actualizada."
+
+#: lib/Clip/Form/Handler/Admin/Export.php:36
+msgid "File"
+msgstr "Archivo"
+
+#: lib/Clip/Form/Handler/Admin/Export.php:40
+msgid "Browser"
+msgstr "Navegador"
+
+#: lib/Clip/Form/Handler/Admin/Export.php:79
+msgid "There must be a filename for the output."
+msgstr ""
+
+#: lib/Clip/Form/Handler/Admin/Pubfields.php:49
+#, fuzzy, php-format
+msgid "Error! No such publication field [%s] found."
+msgstr "¡Error! No se encontró tal tipo de publicación [%s]."
+
+#: lib/Clip/Form/Handler/Admin/Pubfields.php:125
+msgid "The submitted name is reserved. Please choose a different one."
+msgstr ""
+
+#: lib/Clip/Form/Handler/Admin/Pubfields.php:132
+msgid "Another field already has this name."
+msgstr ""
+
+#: lib/Clip/Form/Handler/Admin/Pubfields.php:150
+msgid "The provided name is reserved for the publication standard fields."
+msgstr ""
+
+#: lib/Clip/Form/Handler/Admin/Pubfields.php:175
+#, fuzzy
+msgid "Done! Field created."
+msgstr "¡Hecho! Campo creado."
+
+#: lib/Clip/Form/Handler/Admin/Pubfields.php:177
+#, fuzzy
+msgid "Done! Field updated."
+msgstr "¡Hecho! Campo actualizado."
+
+#: lib/Clip/Form/Handler/Admin/Pubfields.php:185
+#, fuzzy
+msgid "Done! Field deleted."
+msgstr "¡Hecho! Campo borrado."
+
+#: lib/Clip/Form/Handler/User/Pubedit.php:44
+msgid "You have no permissions to execute any action on this publication."
+msgstr ""
+
+#: lib/Clip/Form/Handler/User/Pubedit.php:46
+msgid "You have no authorization to submit publications."
+msgstr ""
+
+#: lib/Clip/Form/Relation.php:140
+#, fuzzy
+msgid "Type the title of the related publication"
+msgid_plural "Type the titles of the related publications"
+msgstr[0] "¡Hecho! Tipo de publicación creado."
+msgstr[1] ""
+
+#: lib/Clip/Form/Relation.php:143
+#, fuzzy
+msgid "There are no matches found."
+msgstr "No hay páginas a mostrar."
+
+#. ! field type name
+#: lib/Clip/Form/Plugin/String.php:22
+msgid "String"
+msgstr "Cadena"
+
+#. ! field type name
+#: lib/Clip/Form/Plugin/Ms.php:22
+msgid "Mediashare"
+msgstr "Mediashare"
+
+#. ! field type name
+#: lib/Clip/Form/Plugin/User.php:30
+msgid "User"
+msgstr "Usuario"
+
+#: lib/Clip/Form/Plugin/User.php:91
+#, fuzzy
+msgid "Type the username"
+msgid_plural "Type the usernames"
+msgstr[0] "sin tipo"
+msgstr[1] ""
+
+#: lib/Clip/Form/Plugin/User.php:218
+#, fuzzy
+msgid "Multiple Users?"
+msgstr "Todos los usuarios"
+
+#: lib/Clip/Form/Plugin/User.php:224
+#, fuzzy
+msgid "in the beggining"
+msgstr "Iniciar Sesión"
+
+#: lib/Clip/Form/Plugin/User.php:225
+#, fuzzy
+msgid "inside the username"
+msgstr "Nombre de usuario de su amigo:"
+
+#: lib/Clip/Form/Plugin/User.php:228
+msgid "Search"
+msgstr "Buscar"
+
+#. ! field type name
+#: lib/Clip/Form/Plugin/MultiList.php:25
+msgid "Multiple Selector"
+msgstr "Selector Múltiple"
+
+#: lib/Clip/Form/Plugin/MultiList.php:130
+#: lib/Clip/Form/Plugin/MultiCheck.php:126
+#: lib/Clip/Generator.php:48
+msgid "(empty)"
+msgstr "(vacío)"
+
+#: lib/Clip/Form/Plugin/MultiList.php:174
+#: lib/Clip/Form/Plugin/RadioList.php:192
+#: lib/Clip/Form/Plugin/List.php:138
+#: lib/Clip/Form/Plugin/MultiCheck.php:162
+#: templates/pages/form_all.tpl:25
+#: templates/blog/form_all.tpl:34
+msgid "Category"
+msgstr "Categoría"
+
+#: lib/Clip/Form/Plugin/MultiList.php:192
+msgid "Size"
+msgstr "Tamaño"
+
+#: lib/Clip/Form/Plugin/MultiList.php:199
+#: lib/Clip/Form/Plugin/RadioList.php:211
+#: lib/Clip/Form/Plugin/List.php:164
+#: lib/Clip/Form/Plugin/MultiCheck.php:181
+msgid "Edit link"
+msgstr "Enlace de edición"
+
+#. ! field type name
+#: lib/Clip/Form/Plugin/Url.php:22
+msgid "URL"
+msgstr "URL"
+
+#: lib/Clip/Form/Plugin/Url.php:56
+#, fuzzy
+msgid "Error! Invalid URL."
+msgstr "¡Error! URL no válida."
+
+#. ! field type name
+#: lib/Clip/Form/Plugin/Int.php:24
+msgid "Integer"
+msgstr "Entero"
+
+#: lib/Clip/Form/Plugin/Int.php:71
+#: lib/Clip/Form/Plugin/Float.php:71
+#, fuzzy
+msgid "Min value"
+msgstr "Valor Entero"
+
+#: lib/Clip/Form/Plugin/Int.php:75
+#: lib/Clip/Form/Plugin/Float.php:75
+#, fuzzy
+msgid "Max value"
+msgstr "Valor Entero"
+
+#. ! field type name
+#: lib/Clip/Form/Plugin/Image.php:25
+#, fuzzy
+msgid "Image Upload"
+msgstr "Subida de Imagen"
+
+#: lib/Clip/Form/Plugin/Image.php:147
+#, fuzzy
+msgid "Stored data is invalid."
+msgstr "Los datos guardados son inválidos"
+
+#: lib/Clip/Form/Plugin/Image.php:302
+msgid "Image"
+msgstr "Imagen"
+
+#: lib/Clip/Form/Plugin/Image.php:306
+#, fuzzy
+msgid "No image uploaded."
+msgstr "No se cargó una imagen."
+
+#: lib/Clip/Form/Plugin/Image.php:315
+#, fuzzy
+msgid "Delete the image"
+msgstr "Borrar la Imagen"
+
+#: lib/Clip/Form/Plugin/Image.php:316
+#, fuzzy
+msgid "Regenerate thumbnails"
+msgstr "Regenerar miniaturas"
+
+#: lib/Clip/Form/Plugin/Image.php:362
+#, fuzzy
+msgid "Preserve filename"
+msgstr "Nombre del archivo de Imagen"
+
+#: lib/Clip/Form/Plugin/Image.php:366
+msgid "Thumbnail width"
+msgstr "Ancho de miniatura"
+
+#: lib/Clip/Form/Plugin/Image.php:370
+msgid "Thumbnail height"
+msgstr "Alto de miniatura"
+
+#: lib/Clip/Form/Plugin/Image.php:375
+msgid "Preview width"
+msgstr "Ancho de previsualización"
+
+#: lib/Clip/Form/Plugin/Image.php:379
+msgid "Preview height"
+msgstr "Alto de previsualización"
+
+#: lib/Clip/Form/Plugin/Image.php:384
+msgid "Full width"
+msgstr "Ancho completo"
+
+#: lib/Clip/Form/Plugin/Image.php:388
+msgid "Full height"
+msgstr "Alto completo"
+
+#: lib/Clip/Form/Plugin/Image.php:393
+#, fuzzy
+msgid "Warning! The Thumbnails module is not available. This plugin needs it to build the Preview and Thumbnail of each uploaded Image."
+msgstr "¡Advertencia! El módulo Thumbnails no está disponible. Este plugin lo necesita para generar las Previsualizaciones y Miniaturas de cada imagen subida."
+
+#. ! field type name
+#: lib/Clip/Form/Plugin/Float.php:24
+msgid "Float"
+msgstr "Valor Flotante"
+
+#. ! field type name
+#: lib/Clip/Form/Plugin/Email.php:22
+msgid "Email"
+msgstr "Email"
+
+#. ! field type name
+#: lib/Clip/Form/Plugin/Date.php:25
+msgid "Date"
+msgstr "Fecha"
+
+#: lib/Clip/Form/Plugin/Date.php:90
+msgid "Include time"
+msgstr "Incluir hora"
+
+#. ! field type name
+#: lib/Clip/Form/Plugin/RadioList.php:25
+#, fuzzy
+msgid "Radio list"
+msgstr "Abrir lista"
+
+#: lib/Clip/Form/Plugin/List.php:157
+#, fuzzy
+msgid "Include an empty item?"
+msgstr "Incluir un elemento vacío?"
+
+#. ! field type name
+#: lib/Clip/Form/Plugin/Checkbox.php:22
+#, fuzzy
+msgid "Checkbox"
+msgstr "Caja de verificacion"
+
+#. ! field type name
+#: lib/Clip/Form/Plugin/MultiCheck.php:25
+#, fuzzy
+msgid "MultiCheckbox List"
+msgstr "Lista de Verificación Múltiple"
+
+#. ! field type name
+#: lib/Clip/Form/Plugin/Text.php:24
+msgid "Text"
+msgstr "Texto"
+
+#: lib/Clip/Form/Plugin/Text.php:92
+msgid "Use Scribite!"
+msgstr "Usar Scribite!"
+
+#: lib/Clip/Form/Plugin/Text.php:97
+#, fuzzy
+msgid "Install Scribite! if you want to use it in this text field."
+msgstr "Instale Scribite! si quiere usarlo en este campo de texto"
+
+#. ! field type name
+#: lib/Clip/Form/Plugin/Upload.php:24
+#, fuzzy
+msgid "File Upload"
+msgstr "Subida de Archivo"
+
+#: lib/Clip/Form/Plugin/Upload.php:78
+#, fuzzy
+msgid "Stored data is invalid"
+msgstr "Los datos guardados son inválidos"
+
+#: lib/Clip/Import/Parser/XML.php:65
+#, fuzzy, php-format
+msgid "Unexpected section found [%s]."
+msgstr "No se encontraron elementos."
+
+#: lib/Clip/Import/Parser/XML.php:77
+#, fuzzy, php-format
+msgid "Unexpected element found [%s]."
+msgstr "Elemento no encontrado"
+
+#: lib/Clip/Import/Batch.php:52
+msgid "You must specify a file to import from."
+msgstr ""
+
+#: lib/Clip/Api/Import.php:95
+#, fuzzy
+msgid "Lists import succeded!"
+msgstr "Importe de listas exitoso!"
+
+#: lib/Clip/Api/Import.php:262
+#, fuzzy, php-format
+msgid "Error! Unsupported field type [%s]."
+msgstr "¡Error! Campo no soportado [%s]."
+
+#: lib/Clip/Api/Import.php:279
+#, fuzzy
+msgid "Fields import succeded!"
+msgstr "Importe de campos exitoso!"
+
+#: lib/Clip/Api/Import.php:295
+#, fuzzy, php-format
+msgid "Cannot create the database for tid [%1$s (%2$s)]."
+msgstr "No se pudo crear la base de datos para el tipo [%1$s (%2$s)]."
+
+#: lib/Clip/Api/Import.php:299
+#, fuzzy
+msgid "Database update succeded!"
+msgstr "Actualización de base de datos exitoso!"
+
+#: lib/Clip/Api/Import.php:347
+#, fuzzy, php-format
+msgid "Error! Cannot import the data for pubtype [%1$s (%2$s)]."
+msgstr "¡Error! No se pudo importar los datos del tipo [%1$s (%2$s)]."
+
+#: lib/Clip/Api/Import.php:464
+#, fuzzy
+msgid "Data import succeded!"
+msgstr "Importe de los datos exitoso!"
+
+#: lib/Clip/Api/User.php:46
+#: lib/Clip/Controller/User.php:547
+#, fuzzy
+msgid "Error! No publication fields found."
+msgstr "¡Error! No se encontraron los campos de la publicación."
+
+#: lib/Clip/Api/User.php:387
+#, fuzzy
+msgid "commandName has to be a valid workflow action for the current state."
+msgstr "El comando tiene que ser una acción válida del flujo de trabajo para el estado actual."
+
+#: lib/Clip/Api/User.php:402
+#: lib/Clip/Controller/User.php:722
+msgid "Unknown workflow action error. Operation failed."
+msgstr ""
+
+#: lib/Clip/Api/Search.php:85
+#, fuzzy
+msgid "Error! Could not save the search results."
+msgstr "¡Error! No se pudo guardar los resultados de la búsqueda."
+
+#: lib/Clip/Api/Admin.php:40
+#: templates/import_pagesetter.tpl:5
+#: templates/clip_admin_export.tpl:7
+#: templates/clip_admin_export.tpl:65
+msgid "Export"
+msgstr "Exportar"
+
+#: lib/Clip/Api/Admin.php:44
+#: templates/clip_admin_import.tpl:6
+#: templates/clip_admin_import.tpl:29
+msgid "Import"
+msgstr "Importar"
+
+#: lib/Clip/Api/Admin.php:48
+#: templates/clip_admin_modifyconfig.tpl:6
+msgid "Settings"
+msgstr "Configuración"
+
+#: lib/Clip/Util.php:240
+msgid "submit"
+msgstr "enviar"
+
+#: lib/Clip/Util.php:240
+msgid "edit"
+msgstr "editar"
+
+#: lib/Clip/Util.php:452
+#, php-format
+msgid "There is already a '%s' publication type."
+msgstr ""
+
+#: lib/Clip/Util.php:461
+#, php-format
+msgid "Default '%s' publication type created successfully."
+msgstr ""
+
+#: lib/Clip/Util.php:463
+#, php-format
+msgid "Could not import the '%s' publication type."
+msgstr ""
+
+#: lib/Clip/Workflow.php:130
+#: lib/Clip/Workflow.php:250
+#: lib/Clip/Workflow.php:426
+#, php-format
+msgid "%1$s: There is no object specified to work with."
+msgstr ""
+
+#: lib/Clip/Workflow.php:169
+#, fuzzy
+msgid "Invalid"
+msgstr "No válida"
+
+#: lib/Clip/Workflow.php:259
+#, fuzzy, php-format
+msgid "State [%s] not found."
+msgstr "Elemento no encontrado"
+
+#: lib/Clip/Workflow.php:264
+#, fuzzy, php-format
+msgid "Action [%1$s] not available in State [%2$s]."
+msgstr "Acción: %s no disponible en este Estado: %s"
+
+#: lib/Clip/Workflow.php:271
+#, fuzzy, php-format
+msgid "No permission to execute the [%s] action."
+msgstr "No tiene permiso de ejecutar la acción: %s [permiso]"
+
+#: lib/Clip/Workflow.php:338
+#, fuzzy, php-format
+msgid "Workflow operation file [%s] does not exist"
+msgstr "¡Error! La regla de permisos de archivo [%s] no existe."
+
+#: lib/Clip/Workflow.php:345
+#, php-format
+msgid "Workflow operation function [%s] is not defined"
+msgstr ""
+
+#: lib/Clip/Installer.php:243
+#: lib/Clip/Version.php:42
+msgid "Clip"
+msgstr "Clip"
+
+#: lib/Clip/Installer.php:244
+#, fuzzy
+msgid "Clip root category"
+msgstr "Categoría raíz de PageMaster"
+
+#. ! this is the 'Topics' category name to registry
+#: lib/Clip/Installer.php:259
+msgid "Topics"
+msgstr "Temas"
+
+#: lib/Clip/Installer.php:260
+#, fuzzy
+msgid "Clip topics for its publications"
+msgstr "Listas de PageMaster para sus artículos"
+
+#: lib/Clip/Installer.php:275
+#, fuzzy
+msgid "Zikula related publications"
+msgstr "Lista N artículos PageMaster"
+
+#. ! this is the 'Free Software' example category name
+#: lib/Clip/Installer.php:284
+msgid "Free Software"
+msgstr "Software libre"
+
+#: lib/Clip/Installer.php:285
+msgid "Free software related publications"
+msgstr ""
+
+#. ! this is the 'Community' example category name
+#: lib/Clip/Installer.php:294
+msgid "Community"
+msgstr "Comunidad"
+
+#: lib/Clip/Installer.php:295
+#, fuzzy
+msgid "Community related publications"
+msgstr "Lista N artículos PageMaster"
+
+#: lib/Clip/Installer.php:309
+#, fuzzy, php-format
+msgid "Error! Could not create the [%s] Category Registry for Clip."
+msgstr "¡Error! No se pudo crear el Registro de Categorías [%s] para PageMaster."
+
+#: lib/Clip/Installer.php:326
+#, php-format
+msgid "Category %s must be unique under parent"
+msgstr ""
+
+#: lib/Clip/Installer.php:329
+#, fuzzy, php-format
+msgid "Error! Could not create the [%s] category."
+msgstr "¡Error! No se pudo crear la categoría [%s]."
+
+#. ! name of the Default group of pubtypes
+#: lib/Clip/Installer.php:371
+msgid "Contents"
+msgstr "Contenidos"
+
+#: lib/Clip/Installer.php:372
+#, fuzzy
+msgid "Publication contents of this site."
+msgstr "Cerrar sesión"
+
+#: lib/Clip/Installer.php:386
+#, fuzzy, php-format
+msgid "Clip created the upload directory successfully at [%s]. Be sure that this directory is accessible via web and writable by the webserver."
+msgstr "PageMaster creó su carpeta de cargas exitosamente en [%s]. Asegúrese que esa carpeta es accesible desde la web y escribible por el servidor."
+
+#: lib/Clip/Installer.php:390
+#, php-format
+msgid "Clip detected that the upload directory is already created at [%s] but it's not writable. Be sure to correct that and that it's accessible via web."
+msgstr ""
+
+#: lib/Clip/Installer.php:392
+#, php-format
+msgid "Clip detected that the upload directory is already created at [%s]. Be sure that it's accessible via web."
+msgstr ""
+
+#: lib/Clip/Installer.php:557
+#: lib/Clip/Installer.php:599
+#: lib/Clip/Installer.php:972
+#: lib/Clip/Controller/Ajaxexec.php:41
+#, fuzzy
+msgid "Error! Update attempt failed."
+msgstr "¡Error! Intento de actualización fallido."
+
+#: lib/Clip/Doctrine/Table.php:356
+#, fuzzy, php-format
+msgid "The parameter %s must not be empty"
+msgstr "El parámetro %s no debe ser vacío"
+
+#: lib/Clip/Util/Selectors.php:160
+#: lib/Clip/Block/List.php:148
+#: templates/clip_base_publist.tpl:37
+#: templates/clip_admin_pubfields.tpl:53
+#: templates/editor_list.tpl:32
+msgid "Creation date"
+msgstr "Fecha de creación"
+
+#: lib/Clip/Util/Selectors.php:164
+#: lib/Clip/Block/List.php:152
+#: templates/clip_base_publist.tpl:42
+#: templates/clip_admin_pubfields.tpl:55
+#: templates/clip_base_history.tpl:16
+msgid "Update date"
+msgstr "Fecha de actualización"
+
+#: lib/Clip/Util/Selectors.php:168
+#: lib/Clip/Block/List.php:156
+msgid "Creator"
+msgstr "Creado por"
+
+#: lib/Clip/Util/Selectors.php:172
+#: lib/Clip/Block/List.php:160
+msgid "Updater"
+msgstr "Actualizado por"
+
+#: lib/Clip/Util/Selectors.php:176
+#: lib/Clip/Block/List.php:164
+#: templates/pages/form_all.tpl:64
+#: templates/blog/form_all.tpl:62
+#: templates/generic_edit.tpl:45
+msgid "Publish date"
+msgstr "Fecha de publicación"
+
+#: lib/Clip/Util/Selectors.php:180
+#: lib/Clip/Block/List.php:168
+#: templates/pages/form_all.tpl:70
+#: templates/blog/form_all.tpl:68
+#: templates/generic_edit.tpl:51
+msgid "Expire date"
+msgstr "Fecha de expiración"
+
+#: lib/Clip/Util/Selectors.php:184
+#: lib/Clip/Block/List.php:172
+#: templates/pages/form_all.tpl:30
+#: templates/blog/form_all.tpl:57
+#: templates/generic_edit.tpl:40
+msgid "Language"
+msgstr "Idioma"
+
+#: lib/Clip/Util/Selectors.php:188
+#: lib/Clip/Block/List.php:176
+#, fuzzy
+msgid "Number of reads"
+msgstr "Número de lecturas"
+
+#: lib/Clip/Util/Grouptypes.php:55
+msgid "Root"
+msgstr "Raíz"
+
+#: lib/Clip/Util/Grouptypes.php:179
+#, fuzzy, php-format
+msgid "Group ID [%s]"
+msgstr "ID-del-Sitio"
+
+#: lib/Clip/Util/Grouptypes.php:195
+#: templates/clip_admin_relations.tpl:54
+msgid "ID"
+msgstr "ID"
+
+#: lib/Clip/Util/Grouptypes.php:196
+#: templates/clip_ajax_groupedit.tpl:27
+#: templates/clip_admin_relations.tpl:141
+#: templates/clip_admin_relations.tpl:158
+#: templates/clip_admin_pubfields.tpl:40
+#: templates/clip_base_pubtypeinfo.tpl:133
+#: templates/clip_base_pubtypeinfo.tpl:167
+#: templates/clip_admin_pubtype.tpl:32
+msgid "Description"
+msgstr "Descripción"
+
+#: lib/Clip/Util/Plugins.php:90
+#, php-format
+msgid "Plugin ID [%s] not found in the available plugins."
+msgstr ""
+
+#: lib/Clip/Util/Plugins.php:96
+#, fuzzy, php-format
+msgid "Plugin [%s] must be an instance of Zikula_Form_AbstractPlugin."
+msgstr "El Plugin %s debe ser una instancia de Zikula_Form_AbstractPlugin"
+
+#: lib/Clip/Generator.php:104
+#, fuzzy
+msgid "Available for all languages."
+msgstr "Disponible para todos los idiomas"
+
+#: lib/Clip/Generator.php:141
+#, fuzzy
+msgid "No expire date specified."
+msgstr "No se especificó fecha de caducidad."
+
+#: lib/Clip/Controller/Ajax.php:49
+#, php-format
+msgid "Error! Cannot determine valid '%s' for edit in '%s'."
+msgstr ""
+
+#: lib/Clip/Controller/Ajax.php:52
+#: lib/Clip/Controller/Ajaxexec.php:77
+#: lib/Clip/Controller/Ajaxexec.php:106
+#, fuzzy
+msgid "Sorry! No such group found."
+msgstr "¡Lo sentimos! No se encontró tal grupo."
+
+#: lib/Clip/Controller/User.php:131
+#: lib/Clip/Controller/User.php:290
+#: lib/Clip/Controller/User.php:481
+#: lib/Clip/Controller/User.php:639
+msgid "This page cannot be displayed. Please contact the administrator."
+msgstr ""
+
+#: lib/Clip/Controller/User.php:136
+#: lib/Clip/Controller/User.php:295
+#: lib/Clip/Controller/User.php:485
+#: lib/Clip/Controller/User.php:619
+#: lib/Clip/Controller/User.php:630
+#: lib/Clip/Controller/User.php:643
+#, fuzzy, php-format
+msgid "Notice: Template [%s] not found."
+msgstr "Aviso: Plantilla [%s] no encontrada."
+
+#: lib/Clip/Controller/User.php:358
+#, fuzzy, php-format
+msgid "Error! Missing or wrong argument [%s]."
+msgstr "Error! El Campo Olbligatorio '%2$s' está en blanco o no es válido"
+
+#: lib/Clip/Controller/User.php:397
+msgid "The requested page cannot be displayed. Please contact the administrador."
+msgstr ""
+
+#: lib/Clip/Controller/User.php:452
+#, php-format
+msgid "No such publication [tid: %1$s - pid: %2$s; id: %3$s] found."
+msgstr ""
+
+#: lib/Clip/Controller/User.php:454
+#, fuzzy
+msgid "No such publication found."
+msgstr "No se encontró tal artículo."
+
+#: lib/Clip/Controller/User.php:555
+#: lib/Clip/Controller/User.php:572
+#, fuzzy, php-format
+msgid "Error! No such publication [%s - %s] found."
+msgstr "¡Error! No se encontró tal publicación  [%s - %s]."
+
+#: lib/Clip/Controller/User.php:702
+#, fuzzy, php-format
+msgid "Error! No such publication [%s] found."
+msgstr "¡Error! No se encontró tal publicación [%s]."
+
+#: lib/Clip/Controller/User.php:714
+#, fuzzy
+msgid "Error! Invalid action passed."
+msgstr "¡Error! Se ha proporcionado una categoría incorrecta."
+
+#: lib/Clip/Model/Pubtype.php:281
+#, php-format
+msgid "%s Item Hooks"
+msgstr "%s Hooks Individuales"
+
+#: lib/Clip/Model/Pubtype.php:292
+#, php-format
+msgid "%s Filter"
+msgstr "%s Filtro"
+
+#: lib/Clip/Block/Viewpub.php:32
+#, fuzzy
+msgid "Clip viewpub"
+msgstr "Artículo PageMaster"
+
+#: lib/Clip/Block/Viewpub.php:33
+#, fuzzy
+msgid "Clip View Publication"
+msgstr "Visualización de Publicación PageMaster"
+
+#: lib/Clip/Block/Viewpub.php:53
+#: lib/Clip/Block/Viewpub.php:56
+#: lib/Clip/Block/List.php:53
+#, php-format
+msgid "Required parameter [%s] not set or empty."
+msgstr ""
+
+#: lib/Clip/Block/List.php:32
+#, fuzzy
+msgid "Clip List"
+msgstr "Abrir lista"
+
+#: lib/Clip/Block/List.php:33
+#, fuzzy
+msgid "Clip list of publications"
+msgstr "Lista N artículos PageMaster"
+
+#: lib/Clip/Access.php:48
+#, fuzzy, php-format
+msgid "%1$s: Invalid grouptype ID passed [%2$s]."
+msgstr "No se pasó el ID del bloque."
+
+#: lib/Clip/Workflow/Util.php:38
+#: lib/Clip/Workflow/Util.php:199
+#, fuzzy, php-format
+msgid "%1$s: The specified module [%2$s] does not exist."
+msgstr "%1$s: El mdulo especificado [%2$s] no existe."
+
+#: lib/Clip/Workflow/Util.php:45
+#, fuzzy, php-format
+msgid "%1$s: Unable to find the workflow file [%2$s]."
+msgstr "%1$s: No se posible hallar el flujo de trabajo del archivo [%2$s]."
+
+#: lib/Clip/Workflow/Util.php:214
+#, fuzzy, php-format
+msgid "%s: Unsupported module type."
+msgstr "%s: Tipo de módulo no soportado"
+
+#: lib/Clip/Workflow/Util.php:219
+#, fuzzy, php-format
+msgid "%1$s: The module [%2$s] is not active."
+msgstr "%1$s: El módulo [%2$s] no está activo."
+
+#: lib/Clip/Workflow/Util.php:274
+#, fuzzy, php-format
+msgid "Workflow permission check file [%s] does not exist."
+msgstr "archivo de verificación de permisos: function.%s_permissioncheck.php : no existe"
+
+#: lib/Clip/Workflow/Util.php:281
+#, php-format
+msgid "Workflow permission check function [%s] is not defined."
+msgstr ""
+
+#: lib/Clip/Workflow/Parser.php:63
+#, fuzzy, php-format
+msgid "Unable to parse XML workflow (line %1$s, %2$s): %3$s."
+msgstr "Incapaz de procesar el XML del workflow (línea %1$s, %2$s): %3$s"
+
+#: lib/Clip/Workflow/Parser.php:123
+#, fuzzy, php-format
+msgid "Unknown %1$s name '%2$s' in action '%3$s'."
+msgstr "Nombre de %1$s desconocido '%2$s' en la acción '%3$s'"
+
+#: lib/Clip/Workflow/Parser.php:142
+#, fuzzy, php-format
+msgid "Unknown %1$s name '%2$s' in action '%3$s' of the '%4$s' state."
+msgstr "Nombre '%2$s' desconocido '%1$s' en la acción '%3$s' del estado '%4$s'."
+
+#: lib/Clip/Workflow/Parser.php:149
+#, fuzzy, php-format
+msgid "Unknown state name '%1$s' in action '%2$s', operation '%3$s'."
+msgstr "Nombre de estado desconocido '%1$s' en la acción '%2$s' - operación '%3$s'"
+
+#: lib/Clip/Workflow/Parser.php:276
+#, fuzzy, php-format
+msgid "Workflow state error: '%2$s' tag of the state '%1$s'."
+msgstr "Error de estado de Worflow: Etiqueta '%2$s' inesperada en el estado '%1$s'."
+
+#: lib/Clip/Workflow/Parser.php:399
+#, fuzzy, php-format
+msgid "Unexpected %1$s tag in %2$s state."
+msgstr "Tag %s inesperado en el estado %s"
+
+#: lib/Clip/Version.php:43
+msgid "Dynamic content publishing platform for Zikula."
+msgstr ""
+
+#. ! module name that appears in URL
+#: lib/Clip/Version.php:46
+msgid "clip"
+msgstr "clip"
+
+#: templates/clip_ajax_groupedit.tpl:2
+msgid "Edit group"
+msgstr "Editar grupo"
+
+#: templates/clip_ajax_groupedit.tpl:4
+msgid "Create new group"
+msgstr "Crear nuevo grupo"
+
+#: templates/clip_ajax_groupedit.tpl:18
+#: templates/clip_admin_pubfields.tpl:20
+#: templates/clip_admin_pubfields.tpl:106
+msgid "Name"
+msgstr "Nombre"
+
+#: templates/clip_admin_relations.tpl:10
+#, fuzzy
+msgid "Manage Relations"
+msgstr "Manejar Relaciones"
+
+#: templates/clip_admin_relations.tpl:20
+#, fuzzy
+msgid "Filter by owner"
+msgstr "Filtrar por autor"
+
+#: templates/clip_admin_relations.tpl:27
+msgid "related"
+msgstr "relacionado"
+
+#: templates/clip_admin_relations.tpl:31
+msgid "Filter"
+msgstr "Filtrar"
+
+#: templates/clip_admin_relations.tpl:32
+msgid "Clear"
+msgstr "Limpiar"
+
+#: templates/clip_admin_relations.tpl:43
+#, php-format
+msgid "List filtered by [%1$s] as Owner %2$s [%3$s] as Related"
+msgstr ""
+
+#: templates/clip_admin_relations.tpl:45
+#, php-format
+msgid "List filtered by [%s] as Owner"
+msgstr ""
+
+#: templates/clip_admin_relations.tpl:47
+#, php-format
+msgid "List filtered by [%s] as Related"
+msgstr ""
+
+#: templates/clip_admin_relations.tpl:55
+#: templates/clip_admin_relations.tpl:131
+#, fuzzy
+msgid "Owning side"
+msgstr "2 columnas, menú a la izquierda"
+
+#: templates/clip_admin_relations.tpl:56
+#: templates/clip_admin_relations.tpl:148
+#, fuzzy
+msgid "Related side"
+msgstr "Enlace relacionado"
+
+#: templates/clip_admin_relations.tpl:57
+#: templates/clip_admin_pubfields.tpl:26
+msgid "Actions"
+msgstr "Acciones"
+
+#: templates/clip_admin_relations.tpl:66
+#, fuzzy, php-format
+msgid "One <strong>%s</strong>"
+msgstr "Muy Fuerte"
+
+#: templates/clip_admin_relations.tpl:68
+#, fuzzy, php-format
+msgid "Many <strong>%s</strong>"
+msgstr "Muy Fuerte"
+
+#: templates/clip_admin_relations.tpl:77
+#, fuzzy, php-format
+msgid "has One <strong>%s</strong>"
+msgstr "Evento único"
+
+#: templates/clip_admin_relations.tpl:79
+#, fuzzy, php-format
+msgid "has Many <strong>%s</strong>"
+msgstr "La carpeta <strong>%s</strong> tiene permisos de escritura."
+
+#: templates/clip_admin_relations.tpl:93
+msgid "No relations matches the current filter."
+msgstr ""
+
+#: templates/clip_admin_relations.tpl:95
+msgid "There are no relations specified yet."
+msgstr ""
+
+#: templates/clip_admin_relations.tpl:107
+#, fuzzy
+msgid "Edit relation"
+msgstr "Editar relación"
+
+#: templates/clip_admin_relations.tpl:109
+#, fuzzy
+msgid "Add a relation"
+msgstr "Editar relación"
+
+#: templates/clip_admin_relations.tpl:113
+#: templates/clip_admin_relations.tpl:121
+#, fuzzy
+msgid "Definition:"
+msgstr "Definición de formato personalizado"
+
+#: templates/clip_admin_relations.tpl:133
+#: templates/clip_admin_relations.tpl:150
+#: templates/clip_base_pubtypeinfo.tpl:131
+#: templates/clip_base_pubtypeinfo.tpl:165
+msgid "Alias"
+msgstr "Alias"
+
+#: templates/clip_admin_relations.tpl:134
+#: templates/clip_admin_relations.tpl:151
+msgid "Alias cannot contain special characters, only a-z, A-Z, 0-9 and _"
+msgstr ""
+
+#: templates/clip_admin_relations.tpl:137
+#: templates/clip_admin_relations.tpl:154
+#: templates/clip_base_publist.tpl:18
+#: templates/pages/form_all.tpl:20
+#: templates/clip_admin_pubfields.tpl:21
+#: templates/clip_base_history.tpl:10
+#: templates/clip_base_pubtypeinfo.tpl:132
+#: templates/clip_base_pubtypeinfo.tpl:166
+#: templates/clip_admin_pubtype.tpl:22
+#: templates/editor_list.tpl:19
+msgid "Title"
+msgstr "Título"
+
+#: templates/clip_admin_relations.tpl:165
+msgid ""
+"\n"
+"            Explanation of the side details:\n"
+"            <ul style=\"margin-bottom: 0\">\n"
+"                <li><strong>Alias</strong>: Used as a field name on the publication code. i.e. $pubdata.Alias1</li>\n"
+"                <li><strong>Title</strong>: Used in the user side forms as the public name of the relation.</li>\n"
+"                <li><strong>Description</strong>: Also used in the forms as the autocompleter tooltip.</li>\n"
+"            </ul>\n"
+"            "
+msgstr ""
+
+#: templates/clip_admin_relations.tpl:179
+#, fuzzy
+msgid "Are you sure you want to delete this relation?"
+msgstr "¿Está seguro que quiere romper este bloqueo?"
+
+#: templates/clip_admin_relations.tpl:182
+#: templates/clip_admin_pubfields.tpl:181
+#: templates/clip_admin_pubtype.tpl:236
+msgid "Create"
+msgstr "Crear"
+
+#: templates/clip_admin_relations.tpl:184
+#: templates/pages/form_all.tpl:99
+#: templates/clip_admin_pubfields.tpl:183
+#: templates/blog/form_all.tpl:94
+#: templates/clip_admin_pubtype.tpl:238
+#: templates/generic_edit.tpl:77
+#: templates/clip_admin_modifyconfig.tpl:69
+msgid "Reset"
+msgstr "Restablecer"
+
+#: templates/clip_admin_relations.tpl:184
+#: templates/pages/form_all.tpl:99
+#: templates/clip_admin_pubfields.tpl:183
+#: templates/blog/form_all.tpl:94
+#: templates/clip_admin_pubtype.tpl:238
+#: templates/generic_edit.tpl:77
+#: templates/clip_admin_modifyconfig.tpl:69
+#, fuzzy
+msgid "Reset the form to its initial state"
+msgstr "Restablecer el formulario a su estado inicial"
+
+#: templates/generic_main.tpl:15
+#: templates/blog/main.tpl:15
+#, fuzzy
+msgid "Go to the list"
+msgstr "Volver al listado"
+
+#: templates/clip_block_list_modify.tpl:3
+#: templates/contenttype/clippub_edit.tpl:2
+#: templates/contenttype/clippublist_edit.tpl:2
+#: templates/clip_block_viewpub_modify.tpl:3
+#, fuzzy
+msgid "Publication type"
+msgstr "Tipo de publicación"
+
+#: templates/clip_block_list_modify.tpl:8
+#, fuzzy
+msgid "Order by"
+msgstr "Ordenar por"
+
+#: templates/clip_block_list_modify.tpl:13
+#, fuzzy
+msgid "Filter string"
+msgstr "Filtro"
+
+#: templates/clip_block_list_modify.tpl:18
+#, fuzzy
+msgid "Number of items"
+msgstr "Número de artículos"
+
+#: templates/clip_block_list_modify.tpl:23
+#, fuzzy
+msgid "Starting from"
+msgstr "Comenzando desde"
+
+#: templates/clip_block_list_modify.tpl:28
+#: templates/clip_block_list_modify.tpl:30
+#: templates/clip_block_viewpub_modify.tpl:13
+#: templates/clip_block_viewpub_modify.tpl:15
+#, fuzzy
+msgid "Template"
+msgstr "Plantilla"
+
+#: templates/clip_block_list_modify.tpl:31
+#: templates/clip_block_viewpub_modify.tpl:16
+#, fuzzy
+msgid "FOLDER"
+msgstr "Carpeta"
+
+#: templates/clip_block_list_modify.tpl:35
+#: templates/clip_block_viewpub_modify.tpl:20
+#, fuzzy, php-format
+msgid "The block will use the template '%s'."
+msgstr "Plantilla de bloque personalizada"
+
+#: templates/clip_block_list_modify.tpl:38
+#: templates/clip_block_viewpub_modify.tpl:23
+#, php-format
+msgid "You can customize the generic code <a href=\"%s\">available here</a>."
+msgstr ""
+
+#: templates/clip_block_list_modify.tpl:40
+msgid "If the template is not found, generic_blocklist.tpl will be used."
+msgstr ""
+
+#: templates/clip_block_list_modify.tpl:45
+#: templates/clip_block_viewpub_modify.tpl:30
+#, fuzzy
+msgid "Cache lifetime"
+msgstr "Tiempo de caché"
+
+#: templates/clip_admin_main.tpl:9
+msgid "Add group"
+msgstr "Añadir grupo"
+
+#: templates/clip_admin_main.tpl:11
+msgid "Expand"
+msgstr "Expandir"
+
+#: templates/clip_admin_main.tpl:13
+msgid "Collapse"
+msgstr "Contraer"
+
+#: templates/clip_admin_main.tpl:21
+msgid "About Clip"
+msgstr "Sobre Clip"
+
+#: templates/clip_admin_main.tpl:22
+msgid ""
+"\n"
+"            <p>Clip is one of the <strong>must have</strong> Zikula modules. It let you manage any type of estructured content or media in your Zikula website.</p>\n"
+"            <p>To use its potential, you just need to know what do you need in detail; let's suppose you need a News system. Then your Publication Type can be named \"News\" and its <em>Publications</em> will be Articles.\n"
+"            For each article, you need a title, a summary, a complete text and a category.</p>\n"
+"            <p>The process to configure this \"News\" publication type is really simple:</p>\n"
+"            <ol>\n"
+"                <li>Use the <em>New Publication Type</em> button, setup the desired name, according with your requirements configure the options that Clip offers, and setup the folder where you will put its contents.</li>\n"
+"                <li>After press the 'Create' button, you will be directed to a screen where you can setup the <em>Publication Fields</em>. You can add now the fields required by your Articles:<br />\n"
+"                For each name, choose a Name (used internally by Clip), a Public Name (Displayed in the Edit Form and probably in the Article too) and the rest. You can consult each form help for more details.</li>\n"
+"                <li>Next, you can setup the <em>Relations</em> of your articles with other <em>Publication Types</em> if you want.</li>\n"
+"                <li>The last step is to build the <em>Templates</em> for your data, starting from the code generated by Clip for you. With some HTML and Smarty knowledge, you will be able to do whatever you want with them.\n"
+"                You can customize them to suit your needs, and put them in the specified paths. You can use the autogenerated templates while you get familiar with them.</li>\n"
+"                <li>Ready! You can add Articles, filter it lists, and stablish permissions to let the require groups to submit stuff.</li>\n"
+"                <li>Enjoy and Share your experiences!</li>\n"
+"            </ol>\n"
+"            "
+msgstr ""
+
+#: templates/clip_admin_main.tpl:38
+#, fuzzy
+msgid "About this Index"
+msgstr "('index.php' apunta aquí)"
+
+#: templates/clip_admin_main.tpl:39
+msgid ""
+"\n"
+"            <p>Clip let you organize your Publication Types through Groups. At the left side, you can manage and order all of them to feel confortable.</p>\n"
+"            <p>By clicking a <em>Publication Type</em> you will get its details and available options loaded dynamically. You can right click the elements of the tree to see their options too.</p>\n"
+"            "
+msgstr ""
+
+#: templates/clip_base_publist.tpl:2
+#, fuzzy
+msgid "Publications list"
+msgstr "Lista de artículos"
+
+#: templates/clip_base_publist.tpl:13
+#: templates/clip_base_history.tpl:9
+#: templates/editor_list.tpl:14
+msgid "PID"
+msgstr "PID"
+
+#: templates/clip_base_publist.tpl:22
+#: templates/clip_base_history.tpl:11
+#: templates/clip_admin_pubtype.tpl:114
+msgid "Revision"
+msgstr "Revisión"
+
+#: templates/clip_base_publist.tpl:25
+#: templates/clip_base_history.tpl:12
+msgid "State"
+msgstr "Estado"
+
+#: templates/clip_base_publist.tpl:29
+#: templates/clip_base_history.tpl:13
+#: templates/editor_list.tpl:24
+msgid "Author"
+msgstr "Autor"
+
+#: templates/clip_base_publist.tpl:33
+#: templates/clip_base_history.tpl:14
+#: templates/editor_list.tpl:28
+msgid "Online"
+msgstr "En línea"
+
+#: templates/clip_base_publist.tpl:46
+#: templates/clip_base_history.tpl:17
+msgid "Options"
+msgstr "Opciones"
+
+#: templates/clip_base_publist.tpl:81
+#: templates/pages/list.tpl:50
+#: templates/pages/list_fblike.tpl:22
+#: templates/generic_list.tpl:20
+msgid "View"
+msgstr "Ver"
+
+#: templates/clip_base_publist.tpl:82
+#: templates/clip_base_history.tpl:2
+msgid "History"
+msgstr "Historial"
+
+#: templates/clip_base_publist.tpl:87
+#: templates/generic_blocklist.tpl:20
+#: templates/clip_base_history.tpl:53
+#: templates/editor_list.tpl:71
+#: templates/generic_list.tpl:33
+#, fuzzy
+msgid "No publications found."
+msgstr "No se encontraron artículos."
+
+#: templates/contenttype/clippub_edit.tpl:7
+#, fuzzy
+msgid "Publication PID"
+msgstr "Identificador de Publicación (PID)"
+
+#: templates/contenttype/clippub_edit.tpl:12
+#, fuzzy
+msgid "Template format for displaying the publication"
+msgstr "Formato de plantilla para la visualización de la publicación"
+
+#: templates/contenttype/clippublist_edit.tpl:7
+#, fuzzy
+msgid "Number of publications (leave empty for default)"
+msgstr "Número de publicaciones (dejar en blanco para el valor por defecto)"
+
+#: templates/contenttype/clippublist_edit.tpl:12
+#, fuzzy
+msgid "First publication number to show (leave empty for first in list)"
+msgstr "Número de la publicación a mostrar de primera (en blanco para la primera de la lista)"
+
+#: templates/contenttype/clippublist_edit.tpl:17
+#, fuzzy
+msgid "List filter as used in URL, separated by \"&\", but without \"filter=\" (e.g. \"country:eq:DK\")"
+msgstr "Lista de filtros como se utilizan en la URL, separados por \"&\", pero sin \"filter=\" (p. ej. \"country:eq:ES\")"
+
+#: templates/contenttype/clippublist_edit.tpl:22
+#, fuzzy
+msgid "Orderby clause as used in URL. Should be a comma separated list of field names without \"orderby=\" (e.g. \"core.lastUpdated:desc,title\")"
+msgstr "Cláusula orderby como se utiliza en la URL. Debe ser una lista separada por comas de campos sin \"orderby=\" (p. ej. \"core.lastUpdated:desc,title\")"
+
+#: templates/contenttype/clippublist_edit.tpl:27
+#, fuzzy
+msgid "Template format for displaying list items"
+msgstr "Formato de plantilla para mostrar la lista de elementos"
+
+#: templates/clip_base_generator.tpl:4
+msgid "Show code"
+msgstr "Código"
+
+#: templates/clip_base_generator.tpl:5
+#, fuzzy
+msgid "Template code"
+msgstr "Configuración [code][/code]"
+
+#: templates/clip_base_generator.tpl:15
+#, fuzzy
+msgid "Form template"
+msgstr "Plantilla del formulario de entrada"
+
+#: templates/clip_base_generator.tpl:19
+#, fuzzy
+msgid "List template"
+msgstr "Plantilla de listado"
+
+#: templates/clip_base_generator.tpl:23
+#, fuzzy
+msgid "Display template"
+msgstr "Plantilla de despliegue"
+
+#: templates/clip_base_generator.tpl:27
+#, fuzzy
+msgid "Index template"
+msgstr "Plantilla de entrada"
+
+#: templates/clip_base_generator.tpl:35
+#, fuzzy
+msgid "Pub block template"
+msgstr "Plantilla de bloque personalizada"
+
+#: templates/clip_base_generator.tpl:42
+#, php-format
+msgid "Create a template file named <strong>%1$s</strong> with this code, and store it in the the config directory: <strong>/config/templates/Clip/%2$s/%1$s</strong>, or within your theme in the <strong>/themes/YourTheme/templates/modules/Clip/%2$s/%1$s</strong>."
+msgstr ""
+
+#: templates/clip_base_generator.tpl:51
+#, php-format
+msgid "You can also have custom templates like <strong>main_TEMPLATE.tpl</strong> depending of the <var>template</var> parameter passed. . For instance, <code>%1$s</code> will use <strong>main_welcome.tpl</strong>, and <code>%2$s</code> will use <strong>main_categories.tpl</strong>."
+msgstr ""
+
+#: templates/clip_base_generator.tpl:58
+#, php-format
+msgid "You can also have custom templates like <strong>list_TEMPLATE.tpl</strong> depending of the <var>template</var> parameter passed. For instance, <code>%1$s</code> will use <strong>list_categories.tpl</strong>, and <code>%2$s</code> will use <strong>list_snippet.tpl</strong>."
+msgstr ""
+
+#: templates/clip_base_generator.tpl:65
+#, php-format
+msgid "You can also have custom templates like <strong>display_TEMPLATE.tpl</strong> depending of the <var>template</var> parameter passed. For instance, <code>%1$s</code> will use <strong>display_mini.tpl</strong>, and <code>%2$s</code> will use <strong>display_snippet.tpl</strong>."
+msgstr ""
+
+#: templates/clip_base_generator.tpl:70
+msgid "You can also have custom templates like <strong>form_custom_TEMPLATE.tpl</strong> depending of the <var>template</var> parameter passed; or have individual templates according to the current state of the publication workflow <strong>form_STATE.tpl</strong>, for instance: form_initial.tpl, form_approved.tpl, etc."
+msgstr ""
+
+#: templates/clip_base_generator.tpl:75
+#: templates/clip_base_generator.tpl:80
+msgid "<strong>XYZ</strong> is the template name chosen on your block configuration."
+msgstr ""
+
+#: templates/pages/list.tpl:21
+#, fuzzy
+msgid "Uncategorized pages published:"
+msgstr "Páginas publicadas sin categoría:"
+
+#: templates/pages/list.tpl:31
+#: templates/pages/display.tpl:54
+#, fuzzy, php-format
+msgid "Category: %s"
+msgstr "Categoría: %s"
+
+#: templates/pages/list.tpl:32
+#, fuzzy
+msgid "Pages published under this category:"
+msgstr "Páginas publicadas en esta categoría:"
+
+#: templates/pages/list.tpl:45
+#: templates/pages/display.tpl:42
+#: templates/pages/list_fblike.tpl:17
+#: templates/blog/display.tpl:27
+#: templates/generic_list.tpl:15
+#, php-format
+msgid "%s read"
+msgid_plural "%s reads"
+msgstr[0] "%s lectura"
+msgstr[1] "%s lecturas"
+
+#: templates/pages/list.tpl:63
+#: templates/pages/list_fblike.tpl:38
+#, fuzzy
+msgid "No pages found."
+msgstr "No se encontraron páginas."
+
+#: templates/pages/display.tpl:27
+#, fuzzy, php-format
+msgid "Posted by %1$s on %2$s"
+msgstr "Creada por %1$s el %2$s"
+
+#: templates/pages/display.tpl:50
+#: templates/blog/list.tpl:31
+#: templates/blog/display.tpl:37
+#, fuzzy, php-format
+msgid "View all posts in %s"
+msgstr "Ver todas las entradas en %s"
+
+#: templates/pages/display.tpl:56
+#, fuzzy
+msgid "View all uncategorized pages"
+msgstr "Ver todas las entradas en %s"
+
+#: templates/pages/display.tpl:64
+#: templates/blog/display.tpl:69
+msgid "Share"
+msgstr "Compartir"
+
+#: templates/pages/form_all.tpl:7
+msgid "Edit page"
+msgstr "Editar página"
+
+#: templates/pages/form_all.tpl:9
+msgid "New page"
+msgstr "Nueva página"
+
+#: templates/pages/form_all.tpl:17
+#: templates/pages/form_all.tpl:35
+#: templates/blog/form_all.tpl:23
+msgid "Content"
+msgstr "Contenido"
+
+#: templates/pages/form_all.tpl:42
+#, fuzzy
+msgid "Page settings"
+msgstr "Configuración de la página"
+
+#: templates/pages/form_all.tpl:47
+#, fuzzy
+msgid "Display page information"
+msgstr "Mostrar información adicional"
+
+#: templates/pages/form_all.tpl:52
+#: templates/blog/form_all.tpl:74
+#: templates/generic_edit.tpl:57
+msgid "Visible"
+msgstr "Visible"
+
+#: templates/pages/form_all.tpl:54
+#: templates/blog/form_all.tpl:76
+#: templates/generic_edit.tpl:59
+#, fuzzy
+msgid "If not visible, will be excluded from lists and search results"
+msgstr "Si no es visible, no será mostrada en los listados y búsquedas"
+
+#: templates/pages/form_all.tpl:58
+#: templates/blog/form_all.tpl:80
+#: templates/generic_edit.tpl:63
+msgid "Locked"
+msgstr "Bloqueado"
+
+#: templates/pages/form_all.tpl:60
+#: templates/blog/form_all.tpl:82
+#: templates/generic_edit.tpl:65
+#, fuzzy
+msgid "If enabled, the publication will be closed for changes"
+msgstr "Si se bloquea, la publicación no se podrá editar"
+
+#: templates/pages/form_all.tpl:66
+#: templates/blog/form_all.tpl:64
+#, fuzzy
+msgid "leave blank if you do not want to schedule the publication"
+msgstr "dejar en blanco si no quiere programar esta publicación"
+
+#: templates/pages/form_all.tpl:72
+#: templates/blog/form_all.tpl:70
+#, fuzzy
+msgid "leave blank if you do not want the plublication expires"
+msgstr "dejar en blanco si no quiere que la publicación expire"
+
+#: templates/pages/form_all.tpl:79
+msgid "Related pages"
+msgstr "Páginas relacionadas"
+
+#: templates/clip_admin_pubfields.tpl:7
+#, fuzzy
+msgid "Manage Publication fields"
+msgstr "Manejar campos de publicación"
+
+#: templates/clip_admin_pubfields.tpl:11
+msgid "You can order the fields using Drag and Drop on the following list."
+msgstr ""
+
+#: templates/clip_admin_pubfields.tpl:15
+#, fuzzy
+msgid "Existing publication fields"
+msgstr "Campos de publicación existentes"
+
+#: templates/clip_admin_pubfields.tpl:22
+msgid "Type"
+msgstr "Tipo"
+
+#: templates/clip_admin_pubfields.tpl:23
+#: templates/clip_admin_pubfields.tpl:133
+msgid "Title field"
+msgstr "Campo título"
+
+#: templates/clip_admin_pubfields.tpl:24
+#: templates/clip_admin_pubfields.tpl:138
+msgid "Mandatory"
+msgstr "Obligatorio"
+
+#: templates/clip_admin_pubfields.tpl:25
+#: templates/clip_admin_pubfields.tpl:143
+msgid "Searchable"
+msgstr "Consultable"
+
+#: templates/clip_admin_pubfields.tpl:44
+#: templates/clip_admin_pubfields.tpl:161
+msgid "Max. length"
+msgstr "Longitud máxima"
+
+#: templates/clip_admin_pubfields.tpl:47
+#: templates/clip_admin_pubfields.tpl:148
+msgid "Filterable"
+msgstr "Filtrable"
+
+#: templates/clip_admin_pubfields.tpl:49
+#: templates/clip_admin_pubfields.tpl:154
+msgid "Counter"
+msgstr "Contador"
+
+#: templates/clip_admin_pubfields.tpl:87
+#, fuzzy
+msgid "This publication type doesn't have fields yet."
+msgstr "Este tipo de publicación no tiene campos todavía."
+
+#: templates/clip_admin_pubfields.tpl:98
+#, fuzzy
+msgid "Edit publication field"
+msgstr "Añadir un campo de publicación"
+
+#: templates/clip_admin_pubfields.tpl:100
+#, fuzzy
+msgid "Add a publication field"
+msgstr "Añadir un campo de publicación"
+
+#: templates/clip_admin_pubfields.tpl:103
+msgid "Warning: When publication fields are changed or deleted, the database table of the publication type is updated automatically, and you could loss data of this publication type permanently. Be careful!"
+msgstr ""
+
+#: templates/clip_admin_pubfields.tpl:109
+msgid "This value is used as the form field ID, so be sure to choose a unique one."
+msgstr ""
+
+#: templates/clip_admin_pubfields.tpl:111
+#, fuzzy
+msgid "Name of this field (is used e.g. in the template variables)."
+msgstr "Nombre de este campo (es usado en las variables de plantilla)."
+
+#: templates/clip_admin_pubfields.tpl:114
+msgid "Display name"
+msgstr "Nombre público"
+
+#: templates/clip_admin_pubfields.tpl:116
+#, fuzzy
+msgid "Title (is shown e.g. in the automatically generated templates) and can be a custom gettext string."
+msgstr "Título (es mostrado en las plantillas generadas automáticamente) y puede ser una cadena gettext."
+
+#: templates/clip_admin_pubfields.tpl:119
+msgid "Note"
+msgstr "Nota"
+
+#: templates/clip_admin_pubfields.tpl:121
+#, fuzzy
+msgid "Optional tooltip of this field used on the input form, and can be a custom gettext string."
+msgstr "Descripción opcional de este campo usado en el formulario, y puede ser una cadena gettext."
+
+#: templates/clip_admin_pubfields.tpl:124
+#, fuzzy
+msgid "Fieldtype (Plugin)"
+msgstr "Plugin no configurado."
+
+#: templates/clip_admin_pubfields.tpl:126
+#, fuzzy
+msgid "Which kind of fieldtype is used (can be extended by plugins). Detailed informations about the individual plugins can be found in the documentation."
+msgstr "Qué tipo de campo es usado (puede ser extendido por plugins). Información detallada de los plugins individuales puede encontrarse en la documentación."
+
+#: templates/clip_admin_pubfields.tpl:128
+#, fuzzy
+msgid "Edit this field only if you know what you are doing."
+msgstr "Edite este campo sólo si sabe lo que está haciendo."
+
+#: templates/clip_admin_pubfields.tpl:129
+#, fuzzy
+msgid "This is the configuration data of the field, if you edit it manually you can get unexpected results. Please use the configuration icon next to the selector to configure the field with ease."
+msgstr "Este es el campo de datos de configuración, si lo edita manualmente puede tener resultados inesperados. Por favor use el ícono de configuración enseguida del selector para ajustar los parámetros del plugin fácilmente."
+
+#: templates/clip_admin_pubfields.tpl:135
+#, fuzzy
+msgid "The content of this field will be used as the title?"
+msgstr "El contenido de este campo será usado como título?"
+
+#: templates/clip_admin_pubfields.tpl:140
+#, fuzzy
+msgid "Is this field mandatory?"
+msgstr "Es este campo obligatorio?"
+
+#: templates/clip_admin_pubfields.tpl:145
+#, fuzzy
+msgid "The content of this field can be searched?"
+msgstr "El contenido de este campo se incluye en las búsquedas?"
+
+#: templates/clip_admin_pubfields.tpl:150
+msgid "This field can be used to filter a list?"
+msgstr ""
+
+#: templates/clip_admin_pubfields.tpl:156
+#, fuzzy
+msgid "This field acts as a counter?"
+msgstr "El contenido de este campo será usado como título?"
+
+#: templates/clip_admin_pubfields.tpl:163
+#, fuzzy
+msgid "The maximum length for the content of this field."
+msgstr "El largo máximo del contenido de este campo."
+
+#: templates/clip_admin_pubfields.tpl:168
+msgid "Pageable"
+msgstr "Paginable"
+
+#: templates/clip_admin_pubfields.tpl:170
+#, fuzzy
+msgid "The content of this field is pageable?"
+msgstr "El contenido de este campo será paginado?"
+
+#: templates/clip_admin_pubfields.tpl:178
+#, fuzzy
+msgid "Are you sure you want to delete this field?"
+msgstr "¿Está seguro que quiere romper este bloqueo?"
+
+#: templates/displaysimple_pending.tpl:6
+#, fuzzy
+msgid "Publication accepted, pending moderation."
+msgstr "Artículo recibido, en espera de moderación."
+
+#: templates/displaysimple_pending.tpl:9
+#, fuzzy
+msgid "Thanks for your submission!"
+msgstr "Gracias por su envío!"
+
+#: templates/displaysimple_pending.tpl:12
+#, fuzzy
+msgid "Go back to the index"
+msgstr "Volver al listado"
+
+#: templates/editor_header.tpl:13
+#, fuzzy
+msgid "Switch to the admin panel"
+msgstr "Ir al panel de administración"
+
+#: templates/editor_header.tpl:14
+#, fuzzy
+msgid "Admin Panel"
+msgstr "Panel de administración"
+
+#: templates/clip_base_history.tpl:15
+msgid "In depot"
+msgstr "En archivo"
+
+#: templates/blog/list.tpl:21
+#: templates/blog/display.tpl:26
+#, php-format
+msgid "Posted on %1$s by %2$s"
+msgstr "Publicada en %1$s por %2$s"
+
+#: templates/blog/list.tpl:35
+#: templates/blog/display.tpl:41
+#, php-format
+msgid "Posted in %s"
+msgstr "Publicado en %s"
+
+#: templates/blog/list.tpl:37
+#: templates/blog/display.tpl:43
+#, fuzzy
+msgid "View all uncategorized posts"
+msgstr "Ver todas las entradas en %s"
+
+#: templates/blog/list.tpl:59
+#, fuzzy
+msgid "No posts found."
+msgstr "No se encontraron elementos."
+
+#: templates/blog/display.tpl:53
+#, fuzzy, php-format
+msgid "Permalink to %s"
+msgstr "Enlace permanente a %s"
+
+#: templates/blog/display.tpl:55
+#, php-format
+msgid "Bookmark the <a rel=\"bookmark\" title=\"%1$s\" href=\"%2$s\">permalink</a>"
+msgstr ""
+
+#: templates/blog/form_all.tpl:7
+msgid "Edit post"
+msgstr "Editar entrada"
+
+#: templates/blog/form_all.tpl:9
+msgid "New post"
+msgstr "Nueva entrada"
+
+#: templates/blog/form_all.tpl:19
+#, fuzzy
+msgid "Enter title here"
+msgstr "Añadir el texto aqui ..."
+
+#: templates/blog/form_all.tpl:28
+msgid "Summary"
+msgstr "Sumario"
+
+#: templates/blog/form_all.tpl:30
+msgid "Optional hand-crafted summary of your content that can be used in your templates."
+msgstr ""
+
+#: templates/blog/form_all.tpl:41
+#: templates/generic_edit.tpl:24
+#, fuzzy
+msgid "Related publications"
+msgstr "Publicaciones relacionadas"
+
+#: templates/blog/form_all.tpl:54
+#, fuzzy
+msgid "Post options"
+msgstr "Opciones de entrega"
+
+#: templates/clip_base_pubtypeinfo.tpl:3
+#, fuzzy
+msgid "Publication type information"
+msgstr "Nuevo tipo de publicación"
+
+#: templates/clip_base_pubtypeinfo.tpl:9
+msgid "Manage"
+msgstr "Administrar"
+
+#: templates/clip_base_pubtypeinfo.tpl:10
+msgid "Get the code"
+msgstr "Obtener el código"
+
+#: templates/clip_base_pubtypeinfo.tpl:12
+msgid "Permissions"
+msgstr "Permisos"
+
+#: templates/clip_base_pubtypeinfo.tpl:18
+msgid "Add new publications to this publication type"
+msgstr ""
+
+#: templates/clip_base_pubtypeinfo.tpl:19
+msgid "New article"
+msgstr "Nuevo artículo"
+
+#: templates/clip_base_pubtypeinfo.tpl:23
+#, fuzzy
+msgid "Go to the Editor publication list"
+msgstr "Ir al listado administrativo de artículos"
+
+#: templates/clip_base_pubtypeinfo.tpl:24
+#, fuzzy
+msgid "Editor list"
+msgstr "Lista de editor"
+
+#: templates/clip_base_pubtypeinfo.tpl:28
+#, fuzzy
+msgid "Go to the public publication list"
+msgstr "Ir al listado público de artículos"
+
+#: templates/clip_base_pubtypeinfo.tpl:29
+#, fuzzy
+msgid "Public list"
+msgstr "Lista pública"
+
+#: templates/clip_base_pubtypeinfo.tpl:35
+#, fuzzy
+msgid "Edit this publication type"
+msgstr "Editar este tipo de publicación"
+
+#: templates/clip_base_pubtypeinfo.tpl:36
+#: templates/generic_edit.tpl:7
+#, php-format
+msgid "Edit '%s'"
+msgstr "Editar '%s'"
+
+#: templates/clip_base_pubtypeinfo.tpl:39
+#, fuzzy
+msgid "Edit the basic information of the publication type, the admin, user and relations settings."
+msgstr "Descripción del tipo de publicación, puede ser una cadena gettext."
+
+#: templates/clip_base_pubtypeinfo.tpl:44
+#: templates/clip_admin_pubtype.tpl:27
+#, fuzzy
+msgid "URL title"
+msgstr "Título de la URL del PermaLink"
+
+#: templates/clip_base_pubtypeinfo.tpl:46
+#: templates/clip_admin_pubtype.tpl:119
+msgid "Folder"
+msgstr "Carpeta"
+
+#: templates/clip_base_pubtypeinfo.tpl:48
+#: templates/clip_admin_pubtype.tpl:124
+#, fuzzy
+msgid "Workflow"
+msgstr "workflow"
+
+#: templates/clip_base_pubtypeinfo.tpl:52
+#: templates/clip_admin_pubtype.tpl:58
+#, fuzzy
+msgid "Fixed filter"
+msgstr "Filtro"
+
+#: templates/clip_base_pubtypeinfo.tpl:54
+#: templates/clip_admin_pubtype.tpl:63
+#, fuzzy
+msgid "Default filter"
+msgstr "Limpiar filtro"
+
+#: templates/clip_base_pubtypeinfo.tpl:56
+#: templates/clip_admin_pubtype.tpl:68
+#, fuzzy
+msgid "Items per page"
+msgstr "Elementos por página"
+
+#: templates/clip_base_pubtypeinfo.tpl:61
+#, fuzzy
+msgid "Add, sort or modify the fields of this publication type"
+msgstr "Añadir, editar o modificar los campos de este tipo de publicación"
+
+#: templates/clip_base_pubtypeinfo.tpl:62
+#, fuzzy
+msgid "Manage its fields"
+msgstr "Manejar campos de publicación"
+
+#: templates/clip_base_pubtypeinfo.tpl:65
+msgid "Sort, edit and configure the fields of this publication type."
+msgstr ""
+
+#: templates/clip_base_pubtypeinfo.tpl:69
+#, fuzzy
+msgid "Edit the relations of this publication type"
+msgstr "Este tipo de publicación no tiene campos todavía."
+
+#: templates/clip_base_pubtypeinfo.tpl:70
+#, fuzzy
+msgid "Manage its relations"
+msgstr "Manejar campos de publicación"
+
+#: templates/clip_base_pubtypeinfo.tpl:73
+#, fuzzy
+msgid "Edit and configure the relations."
+msgstr "Editar sólo las relaciones propias?"
+
+#: templates/clip_base_pubtypeinfo.tpl:86
+msgid "Get the input form code of this publication type."
+msgstr ""
+
+#: templates/clip_base_pubtypeinfo.tpl:94
+msgid "Get the list code of this publication type."
+msgstr ""
+
+#: templates/clip_base_pubtypeinfo.tpl:102
+msgid "Get the display code of this publication type."
+msgstr ""
+
+#: templates/clip_base_pubtypeinfo.tpl:110
+msgid "Get the generic code for a publications List block."
+msgstr ""
+
+#: templates/clip_base_pubtypeinfo.tpl:115
+#, fuzzy
+msgid "Publication block"
+msgstr "Bloque de Pendientes"
+
+#: templates/clip_base_pubtypeinfo.tpl:118
+msgid "Get the generic code for a Publication block."
+msgstr ""
+
+#: templates/clip_base_pubtypeinfo.tpl:125
+#, fuzzy
+msgid "Add a new field"
+msgstr "Añadir un nuevo campo personalizado"
+
+#: templates/clip_base_pubtypeinfo.tpl:134
+msgid "Plugin"
+msgstr "Plugin"
+
+#: templates/clip_base_pubtypeinfo.tpl:152
+#, fuzzy
+msgid "There are no field defined yet."
+msgstr "No hay páginas a mostrar."
+
+#: templates/clip_base_pubtypeinfo.tpl:158
+#, fuzzy
+msgid "Add a new relation"
+msgstr "Añadir nuevo artículo"
+
+#: templates/clip_base_pubtypeinfo.tpl:168
+msgid "Opposite"
+msgstr "Contrario"
+
+#: templates/clip_base_pubtypeinfo.tpl:178
+#, php-format
+msgid "Has one %s"
+msgstr "Tiene una %s"
+
+#: templates/clip_base_pubtypeinfo.tpl:180
+#, php-format
+msgid "Has many %s"
+msgstr "Tiene varias %s"
+
+#: templates/clip_base_pubtypeinfo.tpl:199
+#, fuzzy
+msgid "There are no relations defined."
+msgstr "No hay páginas a mostrar."
+
+#: templates/import_pagesetter.tpl:7
+#: templates/clip_admin_modifyconfig.tpl:14
+#, fuzzy
+msgid "Import pagesetter publications"
+msgstr "Importar publicaciones de pagesetter"
+
+#: templates/import_pagesetter.tpl:10
+#, fuzzy
+msgid "Be sure to know what you are doing on this process."
+msgstr "Asegúrese de saber lo que está haciendo en este proceso."
+
+#: templates/import_pagesetter.tpl:13
+#, fuzzy
+msgid "On this page you can import publications from Pagesetter.<br />You can only import publications when no Clip publication exist.<br />Please configure the Upload Path before you import something.<br />No Pagesetter data will be changed due the import."
+msgstr "En esta página puede importar publicaciones desde Pagesetter.<br />Usted solamente puede importar publicaciones cuando no existen publicaciones de PageMaster.<br />Por favor configure la carpeta de carga antes de importar algo.<br />No se cambiarán los datos de Pagesetter en esta importación."
+
+#: templates/import_pagesetter.tpl:17
+#, fuzzy
+msgid "Import lists,"
+msgstr "Importar listas,"
+
+#: templates/import_pagesetter.tpl:20
+#, fuzzy
+msgid "Import publication types,"
+msgstr "Importar tipos de publicación,"
+
+#: templates/import_pagesetter.tpl:23
+#, fuzzy
+msgid "Create the database tables,"
+msgstr "Crear las tablas de la base de datos,"
+
+#: templates/import_pagesetter.tpl:26
+#, fuzzy
+msgid "Import data."
+msgstr "Importar datos."
+
+#: templates/pager_default.tpl:5
+#: templates/pager_default.tpl:8
+msgid "First page"
+msgstr "Primera página"
+
+#: templates/pager_default.tpl:6
+#: templates/pager_default.tpl:9
+msgid "Previous page"
+msgstr "Página previa"
+
+#: templates/pager_default.tpl:21
+#: templates/pager_default.tpl:24
+msgid "Next page"
+msgstr "Siguiente página"
+
+#: templates/pager_default.tpl:22
+#: templates/pager_default.tpl:25
+msgid "Last page"
+msgstr "Última página"
+
+#: templates/clip_admin_pubtype.tpl:8
+#, fuzzy
+msgid "Edit publication type"
+msgstr "Editar tipo de publicación"
+
+#: templates/clip_admin_pubtype.tpl:11
+#, fuzzy
+msgid "Create publication type"
+msgstr "Crear tipo de publicación"
+
+#: templates/clip_admin_pubtype.tpl:19
+#, fuzzy
+msgid "General options"
+msgstr "Opciones generales"
+
+#: templates/clip_admin_pubtype.tpl:24
+#, fuzzy
+msgid "Title of the publication type."
+msgstr "Nuevo tipo de publicación"
+
+#: templates/clip_admin_pubtype.tpl:29
+msgid "Leave blank to autogenerate from the title."
+msgstr ""
+
+#: templates/clip_admin_pubtype.tpl:34
+#, fuzzy
+msgid "Description of the publication type."
+msgstr "Nuevo tipo de publicación"
+
+#: templates/clip_admin_pubtype.tpl:40
+#, fuzzy
+msgid "User settings"
+msgstr "Ajustes relacionados con el usuario"
+
+#: templates/clip_admin_pubtype.tpl:43
+#, fuzzy
+msgid "Output cache"
+msgstr "Tiempo de caché"
+
+#: templates/clip_admin_pubtype.tpl:46
+#, fuzzy
+msgid "Caching lifetime"
+msgstr "Tiempo de caché"
+
+#: templates/clip_admin_pubtype.tpl:48
+msgid "seconds"
+msgstr "segundos"
+
+#: templates/clip_admin_pubtype.tpl:49
+#, fuzzy
+msgid "How long should the publications be cached. 0 for no cache."
+msgstr "Cuanto tiempo se cachean los artículos. Vacío para no usar caché."
+
+#: templates/clip_admin_pubtype.tpl:55
+#, fuzzy
+msgid "Listing options"
+msgstr "Opciones de entrega"
+
+#: templates/clip_admin_pubtype.tpl:60
+msgid "The filter used always on listings."
+msgstr ""
+
+#: templates/clip_admin_pubtype.tpl:65
+#, fuzzy
+msgid "The filter which is used by default if none specified."
+msgstr "El filtro que será usado por defecto."
+
+#: templates/clip_admin_pubtype.tpl:70
+msgid "publications"
+msgstr "publicaciones"
+
+#: templates/clip_admin_pubtype.tpl:71
+#, fuzzy
+msgid "After how many publications the list will be paged. 0 for no paging."
+msgstr "Después de cuantos artículos la lista será paginada. 0 para no paginar."
+
+#: templates/clip_admin_pubtype.tpl:76
+#, fuzzy
+msgid "First sort field"
+msgstr "¡Error! Campo obligatorio:"
+
+#: templates/clip_admin_pubtype.tpl:80
+#: templates/clip_admin_pubtype.tpl:88
+#: templates/clip_admin_pubtype.tpl:96
+#, fuzzy
+msgid "Sort descending"
+msgstr "Valor de ordenación"
+
+#: templates/clip_admin_pubtype.tpl:84
+#, fuzzy
+msgid "Second sort field"
+msgstr "¡Error! Campo obligatorio:"
+
+#: templates/clip_admin_pubtype.tpl:92
+#, fuzzy
+msgid "Third sort field"
+msgstr "¡Error! Campo obligatorio:"
+
+#: templates/clip_admin_pubtype.tpl:106
+#, fuzzy
+msgid "Admin settings"
+msgstr "Configuración General"
+
+#: templates/clip_admin_pubtype.tpl:109
+msgid "Edit own"
+msgstr "Editar propias"
+
+#: templates/clip_admin_pubtype.tpl:111
+#, fuzzy
+msgid "Allow editing of own publications."
+msgstr "Permitir editar las publicaciones propias."
+
+#: templates/clip_admin_pubtype.tpl:116
+msgid "Enable revisioning. Currently, the relations does not work properly with revisioning."
+msgstr ""
+
+#: templates/clip_admin_pubtype.tpl:121
+#, fuzzy
+msgid "Folder where publication type template are."
+msgstr "¡Hecho! Tipo de publicación actualizado."
+
+#: templates/clip_admin_pubtype.tpl:126
+#, fuzzy
+msgid "You can choose a special workflow for the publications."
+msgstr "Puede escoger un flujo de trabajo especial para los artículos."
+
+#: templates/clip_admin_pubtype.tpl:133
+#, fuzzy
+msgid "Relations options"
+msgstr "Opciones de entrega"
+
+#: templates/clip_admin_pubtype.tpl:136
+msgid "Note that for performance reasons, only single records are loaded (if enabled). The rest are loaded on-demand from the templates."
+msgstr ""
+
+#: templates/clip_admin_pubtype.tpl:140
+#, fuzzy
+msgid "List view"
+msgstr "Ver lista"
+
+#: templates/clip_admin_pubtype.tpl:142
+#: templates/clip_admin_pubtype.tpl:179
+#, fuzzy
+msgid "Load related records?"
+msgstr "Ajustes relacionados con el usuario"
+
+#: templates/clip_admin_pubtype.tpl:145
+#: templates/clip_admin_pubtype.tpl:182
+#: templates/clip_admin_import.tpl:21
+#: templates/clip_admin_export.tpl:39
+msgid "Yes"
+msgstr "Si"
+
+#: templates/clip_admin_pubtype.tpl:147
+#: templates/clip_admin_pubtype.tpl:184
+#: templates/clip_admin_import.tpl:22
+#: templates/clip_admin_export.tpl:40
+msgid "No"
+msgstr "No"
+
+#: templates/clip_admin_pubtype.tpl:153
+#: templates/clip_admin_pubtype.tpl:190
+#, fuzzy
+msgid "Only own relations?"
+msgstr "Editar sólo las relaciones propias?"
+
+#: templates/clip_admin_pubtype.tpl:157
+#: templates/clip_admin_pubtype.tpl:194
+#, fuzzy
+msgid "Process relations data"
+msgstr "Importe de los datos exitoso!"
+
+#: templates/clip_admin_pubtype.tpl:162
+#: templates/clip_admin_pubtype.tpl:199
+#, fuzzy
+msgid "Check permissions?"
+msgstr "Verificación de la configuración"
+
+#: templates/clip_admin_pubtype.tpl:166
+#: templates/clip_admin_pubtype.tpl:203
+#, fuzzy
+msgid "Handle plugins data?"
+msgstr "Importe de los datos exitoso!"
+
+#: templates/clip_admin_pubtype.tpl:170
+#: templates/clip_admin_pubtype.tpl:207
+#, fuzzy
+msgid "Load workflow state?"
+msgstr "Error de estado de Worflow: Etiqueta '%2$s' inesperada en el estado '%1$s'."
+
+#: templates/clip_admin_pubtype.tpl:177
+#, fuzzy
+msgid "Display view"
+msgstr "Ver estadísticas"
+
+#: templates/clip_admin_pubtype.tpl:214
+msgid "Edit form"
+msgstr "Formulario"
+
+#: templates/clip_admin_pubtype.tpl:217
+#, fuzzy
+msgid "Load relations autocompleters?"
+msgstr "Cargar los datos de la categoría"
+
+#: templates/clip_admin_pubtype.tpl:222
+#, fuzzy
+msgid "Edit only own relations?"
+msgstr "Editar sólo las relaciones propias?"
+
+#: templates/clip_admin_pubtype.tpl:232
+msgid "Clone"
+msgstr "Clonar"
+
+#: templates/clip_admin_pubtype.tpl:233
+msgid "Are you sure you want to delete this publication type and all its fields and publications?"
+msgstr ""
+
+#: templates/editor_list.tpl:2
+#, fuzzy
+msgid "Editor's List"
+msgstr "Lista de editor"
+
+#: templates/editor_list.tpl:37
+#, fuzzy
+msgid "Last modified"
+msgstr "últimos %s años"
+
+#: templates/editor_main.tpl:1
+#: templates/generic_navbar.tpl:42
+#: templates/generic_navbar.tpl:47
+msgid "Editor's Panel"
+msgstr "Panel de Editor"
+
+#: templates/clip_admin_import.tpl:16
+msgid "Select the file with the publication(s) data."
+msgstr ""
+
+#: templates/clip_admin_import.tpl:24
+msgid "Go to the newly created publication type after the import."
+msgstr ""
+
+#: templates/generic_edit.tpl:18
+#, fuzzy
+msgid "Publication content"
+msgstr "Contenido del artículo"
+
+#: templates/generic_edit.tpl:37
+#, fuzzy
+msgid "Publication options"
+msgstr "Opciones de publicación"
+
+#: templates/generic_edit.tpl:47
+#, fuzzy
+msgid "Leave blank if you do not want to schedule the publication"
+msgstr "Dejar en blanco si no quiere programar esta publicación"
+
+#: templates/generic_edit.tpl:53
+#, fuzzy
+msgid "Leave blank if you do not want the plublication expires"
+msgstr "Dejar en blanco si no quiere que la publicación expire"
+
+#: templates/clip_admin_header.tpl:6
+#, fuzzy
+msgid "Switch to the editor context"
+msgstr "Cambiar a carpetas de buzón"
+
+#: templates/clip_admin_header.tpl:7
+msgid "Editor Panel"
+msgstr "Panel de Editor"
+
+#: templates/clip_admin_header.tpl:9
+#, fuzzy
+msgid "Create a new publication type"
+msgstr "¡Hecho! Tipo de publicación creado."
+
+#: templates/clip_admin_header.tpl:10
+#, fuzzy
+msgid "New publication type"
+msgstr "Nuevo tipo de publicación"
+
+#: templates/generic_navbar.tpl:8
+msgid "Home"
+msgstr "Inicio"
+
+#: templates/generic_navbar.tpl:15
+#, fuzzy
+msgid "Administration panel"
+msgstr "Panel de administración"
+
+#: templates/generic_navbar.tpl:23
+msgid "Editor panel"
+msgstr "Panel de editor"
+
+#: templates/generic_navbar.tpl:162
+#, php-format
+msgid "This is a generic template used when <a href=\"%s\">development mode</a> is enabled. You can build your template starting with <a href=\"%s\">the autogenerated code</a>, and reading instructions of where to place it."
+msgstr ""
+
+#: templates/clip_admin_export.tpl:17
+#, fuzzy
+msgid "Publication type to export."
+msgstr "Tipo de control a mostrar"
+
+#: templates/clip_admin_export.tpl:23
+msgid "Include its related publication types and data?"
+msgstr ""
+
+#: templates/clip_admin_export.tpl:29
+#, fuzzy
+msgid "Field for sorting."
+msgstr "Campo para ordenar."
+
+#: templates/clip_admin_export.tpl:34
+msgid "Any filter string to use in the export."
+msgstr ""
+
+#: templates/clip_admin_export.tpl:58
+#, fuzzy
+msgid "Without the extension."
+msgstr "Base de datos de extensiones"
+
+#: templates/clip_block_viewpub_modify.tpl:8
+#, fuzzy
+msgid "Publication ID"
+msgstr "ID-del-Sitio"
+
+#: templates/clip_block_viewpub_modify.tpl:25
+msgid "If the template is not found, Clip will show an error if the development mode is enabled."
+msgstr ""
+
+#: templates/clip_admin_modifyconfig.tpl:11
+msgid "Install 'Blog' and 'Pages' publication types"
+msgstr ""
+
+#: templates/clip_admin_modifyconfig.tpl:22
+#, fuzzy
+msgid "General settings"
+msgstr "Configuración General"
+
+#: templates/clip_admin_modifyconfig.tpl:24
+msgid "Upload path"
+msgstr "Carpeta de carga"
+
+#: templates/clip_admin_modifyconfig.tpl:29
+#, fuzzy
+msgid "The given path doesn't exists"
+msgstr "La ruta proporcionada no existe"
+
+#: templates/clip_admin_modifyconfig.tpl:31
+#, fuzzy
+msgid "The given path is not a directory"
+msgstr "La ruta proporcionada no es una carpeta"
+
+#: templates/clip_admin_modifyconfig.tpl:33
+#, fuzzy
+msgid "The given path is not writeable"
+msgstr "La ruta proporcionada no es escribible"
+
+#: templates/clip_admin_modifyconfig.tpl:37
+#, fuzzy
+msgid "The given path is writeable"
+msgstr "La ruta proporcionada es escribible"
+
+#: templates/clip_admin_modifyconfig.tpl:40
+#, fuzzy, php-format
+msgid "Path where uploaded files will be stored, relative to the site root (%s)"
+msgstr "La carpeta donde se almacenarán los archivos subidos, relativa a la raíz del sitio (%s)"
+
+#: templates/clip_admin_modifyconfig.tpl:45
+#, fuzzy
+msgid "Default template"
+msgstr "Plantilla predeterminada"
+
+#: templates/clip_admin_modifyconfig.tpl:48
+msgid "Default template used in short URLs. Only 'htm' and 'html' are omitted of special processing."
+msgstr ""
+
+#: templates/clip_admin_modifyconfig.tpl:52
+msgid "Max. items per page"
+msgstr "Máximo de elementos mostrados por página"
+
+#: templates/clip_admin_modifyconfig.tpl:55
+msgid "Maximum number of items to display when a pubtype does not have a limit."
+msgstr ""
+
+#: templates/clip_admin_modifyconfig.tpl:59
+msgid "Development mode"
+msgstr "Modo de desarrollo"
+
+#: templates/clip_admin_modifyconfig.tpl:62
+#, fuzzy
+msgid "Enable the development mode to see detailed notices about Clip requirements."
+msgstr "Habilitar el modo de desarrollo para ver avisos detallados acerca de los requerimientos de PageMaster."
+
+#~ msgid "Show in list"
+#~ msgstr "Mostrar en listado"
+
+#, fuzzy
+#~ msgid "Is a User ID"
+#~ msgstr "El registro de usuario es moderado"
+
+#, fuzzy
+#~ msgid "Currently they are as follows:"
+#~ msgstr "Las secciones disponibles son los siguientes:"
+
+#, fuzzy
+#~ msgid "Create / Edit publication type"
+#~ msgstr "Editar este tipo de publicación"
+
+#, fuzzy
+#~ msgid "Title of the publication type, can be a custom gettext string."
+#~ msgstr "Título del tipo de publicación, puede ser una cadena gettext."
+
+#~ msgid "Click here"
+#~ msgstr "Pulse aquí"
+
+#, fuzzy
+#~ msgid "Sort options"
+#~ msgstr "Opciones de ordenamiento"
+
+#, fuzzy
+#~ msgid "Output options"
+#~ msgstr "Opciones de despliegue"
+
+#, fuzzy
+#~ msgid "Output template set"
+#~ msgstr "Nombre del archivo de plantilla"
+
+#, fuzzy
+#~ msgid "Input template set"
+#~ msgstr "Plantilla del formulario de entrada"
+
+#~ msgid "Caching time"
+#~ msgstr "Tiempo de caché"
