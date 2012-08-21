@@ -7,7 +7,7 @@
 
 <div id="footer">
     <div id="footer-top-shadow" class="clearfix">
-        <div class="container">
+        <div class="container"><br />
 
             {* default styles of footer block is float: right *}
             <div id="extrafooter">
